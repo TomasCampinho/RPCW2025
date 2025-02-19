@@ -1,21 +1,23 @@
-# a. Quantos triplos existem na Ontologia?
+# TPC2: Descarregar o dataset sobre a História de Portugal e sobre ele responder às seguintes questões:
 
-## SPARQL Query
+## a. Quantos triplos existem na Ontologia?
+
+### SPARQL Query
 ```sparql
 SELECT (COUNT(*) AS ?totalTriples) WHERE {  
     ?s ?p ?o .  
 }
 ```
 
-## Resultado
-| No. | totalTriples     |
+### Resultado
+|     | totalTriples     |
 |-----|------------------|
 | 1   | 6603             |
 
 
-# b. Que classes estão definidas?
+## b. Que classes estão definidas?
 
-## SPARQL Query
+### SPARQL Query
 ```sparql
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
@@ -25,9 +27,9 @@ SELECT DISTINCT ?prop WHERE {
 }
 ORDER BY ?prop
 ```
-## Resultado
+### Resultado
 
-| No. | class                                                                                              |
+|     | class                                                                                              |
 |-----|----------------------------------------------------------------------------------------------------|
 | 1   | rdf:Property                                                                                       |
 | 2   | rdfs:Class                                                                                        |
@@ -132,9 +134,9 @@ ORDER BY ?prop
 | 101 | _:node20                                                                                          |
 | 102 | _:node22                                                                                          |
 
-# c. Que propriedades tem a classe "Rei"?
+## c. Que propriedades tem a classe "Rei"?
 
-## SPARQL Query
+### SPARQL Query
 ```sparql
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
@@ -145,8 +147,8 @@ SELECT DISTINCT ?prop WHERE {
 ORDER BY ?prop
 ```
 
-## Resultado
-| No. | Propriedade             |
+### Resultado
+|     | Propriedade             |
 |-----|-------------------------|
 | 1   | :ascendente             |
 | 2   | :casa                   |
