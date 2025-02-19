@@ -1,0 +1,163 @@
+{
+  "head" : {
+    "vars" : [
+      "nome",
+      "militantes",
+      "numMilitantes"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Independente"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "José Mendes Cabeçadas Júnior, António Óscar de Fragoso Carmona, António Sebastião Ribeiro de Spínola, Sidónio Bernardino Cardoso da Silva Pais"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "União Nacional"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "António Óscar de Fragoso Carmona, António de Oliveira Salazar, Francisco Higino Craveiro Lopes, Américo Deus Rodrigues Thomaz"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Nacional Republicano"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "Sidónio Bernardino Cardoso da Silva Pais, João do Canto e Castro Silva Antunes Júnior"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Democrático"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "Manuel Teixeira Gomes, Bernardino Luís Machado Guimarães"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Republicano"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "Joaquim Teófilo Fernandes Braga, Manuel José de Arriaga Brum da Silveira e Peyrelongue"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Socialista"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "Mário Alberto Nobre Lopes Soares"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Evolucionista"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "António José de Almeida"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Liberal"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "António José de Almeida"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Nacionalista"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "António José de Almeida"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Social Democrata"
+        },
+        "militantes" : {
+          "type" : "literal",
+          "value" : "Aníbal António Cavaco Silva"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      }
+    ]
+  }
+}
