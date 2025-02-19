@@ -1,0 +1,268 @@
+{
+  "head" : {
+    "vars" : [
+      "nome",
+      "nascimento",
+      "numMandatos"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Américo Deus Rodrigues Thomaz"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "19 de novembro de 1894"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "António José de Almeida"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "17 de julho de 1866"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "António Sebastião Ribeiro de Spínola"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "11 de abril de 1910"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "António de Oliveira Salazar"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "28 de abril de 1889"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "António Óscar de Fragoso Carmona"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "24 de novembro de 1869"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Aníbal António Cavaco Silva"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "15 de julho de 1939"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Bernardino Luís Machado Guimarães"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "28 de março de 1851"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Francisco Higino Craveiro Lopes"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "12 de abril de 1894"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Francisco da Costa Gomes"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "30 de Junho de 1914"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Joaquim Teófilo Fernandes Braga"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "24 de fevereiro de 1843"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "José Mendes Cabeçadas Júnior"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "19 de setembro de 1883"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "João do Canto e Castro Silva Antunes Júnior"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "19 de maio de 1862"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Manuel José de Arriaga Brum da Silveira e Peyrelongue"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "8 de julho de 1840"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Manuel Teixeira Gomes"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "27 de maio de 1860"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Manuel de Oliveira Gomes da Costa"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "14 de janeiro de 1863"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Mário Alberto Nobre Lopes Soares"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "7 de Dezembro de 1924"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Sidónio Bernardino Cardoso da Silva Pais"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "1 de maio de 1872"
+        },
+        "numMandatos" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      }
+    ]
+  }
+}

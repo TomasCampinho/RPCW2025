@@ -417,14 +417,78 @@ ORDER BY ?data
 ## i. Lista as várias conquistas, nome e data, juntamento com o nome que reinava no momento.
 
 ### SPARQL Query
+```sparql
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+SELECT DISTINCT ?nomeConq ?dataConq ?nomeRei WHERE {
+    ?s a :Conquista ;
+   		:nome ?nomeConq ;
+    	:data ?dataConq ;
+        :temReinado ?reinado .
+    
+    ?reinado :temMonarca ?monarca .
+   	?monarca :nome ?nomeRei .
+}
+```
 
 ### Resultado
+|     | nomeConq          | dataConq | nomeRei |
+|-----|-------------------|----------|---------|
+| 1 | Conquista de Beja | 1159 | D. Afonso I |
+| 2 | Conquista do Castelo de Cera | 1159 | D. Afonso I |
+| 3 | Reconquista de Beja | 1162 | D. Afonso I |
+| 4 | Conquista | 1158 | D. Afonso I |
+| 5 | Conquista de Évora | 1165 | D. Afonso I |
+| 6 | Tomada de Serpa | 1166 | D. Afonso I |
+| 7 | Batalha do Salado | 1340 | D. Afonso IV |
+| 8 | Batalha de Sacavém | 1147 | D. Afonso I |
+| 9 | Conquista de Lisboa | 1147 | D. Afonso I |
+| 10 | Tomada do Castelo | 1147 | D. Afonso I |
+| 11 | Conquista de Évoramonte | 1159 | D. Afonso I |
+| 12 | Batalha Navas de Tolosa | 1212 | D. Afonso II |
+| 13 | Tomada de Moura | 1166 | D. Afonso I |
+| 14 | Batalha de Badajoz | 1169 | D. Afonso I |
+| 15 | Conquista de Alvor | 1189 | D. Sancho I |
+| 16 | Cerco de Silves | 1189 | D. Sancho I |
+| 17 | Fundação do Castelo | 1135 | D. Afonso I |
+| 18 | Batalha de Ourique | 1139 | D. Afonso I |
+
 
 ## j. Calcula uma tabela com o nome, data de nascimento e número de mandatos de todos os presidentes portugueses.
 
 ### SPARQL Query
+```sparql
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+SELECT ?nome ?nascimento (COUNT(?mandato) AS ?numMandatos) WHERE {
+    ?s a :Presidente .
+    ?s :mandato ?mandato ;
+		:nome ?nome ;
+		:nascimento ?nascimento .
+}
+GROUP BY ?nome ?nascimento
+ORDER BY ?nome
+```
 
 ### Resultado
+|     | nome                                         | nascimento          | numMandatos |
+|-----|----------------------------------------------|---------------------|-------------|
+| 1 | Américo Deus Rodrigues Thomaz | 19 de novembro de 1894 | 1 |
+| 2 | António José de Almeida | 17 de julho de 1866 | 1 |
+| 3 | António Sebastião Ribeiro de Spínola | 11 de abril de 1910 | 2 |
+| 4 | António de Oliveira Salazar | 28 de abril de 1889 | 1 |
+| 5 | António Óscar de Fragoso Carmona | 24 de novembro de 1869 | 4 |
+| 6 | Aníbal António Cavaco Silva | 15 de julho de 1939 | 1 |
+| 7 | Bernardino Luís Machado Guimarães | 28 de março de 1851 | 2 |
+| 8 | Francisco Higino Craveiro Lopes | 12 de abril de 1894 | 1 |
+| 9 | Francisco da Costa Gomes | 30 de Junho de 1914 | 1 |
+| 10 | Joaquim Teófilo Fernandes Braga | 24 de fevereiro de 1843 | 2 |
+| 11 | José Mendes Cabeçadas Júnior | 19 de setembro de 1883 | 1 |
+| 12 | João do Canto e Castro Silva Antunes Júnior | 19 de maio de 1862 | 2 |
+| 13 | Manuel José de Arriaga Brum da Silveira e Peyrelongue | 8 de julho de 1840 | 1 |
+| 14 | Manuel Teixeira Gomes | 27 de maio de 1860 | 1 |
+| 15 | Manuel de Oliveira Gomes da Costa | 14 de janeiro de 1863 | 2 |
+| 16 | Mário Alberto Nobre Lopes Soares | 7 de Dezembro de 1924 | 1 |
+| 17 | Sidónio Bernardino Cardoso da Silva Pais | 1 de maio de 1872 | 2 |
+
 
 ## k. Quantos mandatos teve o presidente Sidónio Pais? Em que datas iniciaram e terminaram esses mandatos?
 

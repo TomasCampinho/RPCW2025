@@ -1,0 +1,265 @@
+{
+  "head" : {
+    "vars" : [
+      "nomeConq",
+      "dataConq",
+      "nomeRei"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista de Beja"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1159"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista do Castelo de Cera"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1159"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Reconquista de Beja"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1162"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1158"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista de Évora"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1165"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Tomada de Serpa"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1166"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Batalha do Salado"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1340"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso IV"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Batalha de Sacavém"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1147"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista de Lisboa"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1147"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Tomada do Castelo"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1147"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista de Évoramonte"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1159"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Batalha Navas de Tolosa"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1212"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso II"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Tomada de Moura"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1166"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Batalha de Badajoz"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1169"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Conquista de Alvor"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1189"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Sancho I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Cerco de Silves"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1189"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Sancho I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Fundação do Castelo"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1135"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      },
+      {
+        "nomeConq" : {
+          "type" : "literal",
+          "value" : "Batalha de Ourique"
+        },
+        "dataConq" : {
+          "type" : "literal",
+          "value" : "1139"
+        },
+        "nomeRei" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        }
+      }
+    ]
+  }
+}
