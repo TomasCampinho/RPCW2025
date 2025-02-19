@@ -1,0 +1,71 @@
+{
+  "head" : {
+    "vars" : [
+      "nome"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Democrático"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Evolucionista"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Independente"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Liberal"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Nacional Republicano"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Nacionalista"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Republicano"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Social Democrata"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Socialista"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "União Nacional"
+        }
+      }
+    ]
+  }
+}

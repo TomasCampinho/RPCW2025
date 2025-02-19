@@ -1,0 +1,122 @@
+{
+  "head" : {
+    "vars" : [
+      "nomePartido",
+      "numMilitantes"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Socialista"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Evolucionista"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Liberal"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Nacionalista"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Social Democrata"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Nacional Republicano"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Democrático"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Republicano"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "Independente"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4"
+        }
+      },
+      {
+        "nomePartido" : {
+          "type" : "literal",
+          "value" : "União Nacional"
+        },
+        "numMilitantes" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4"
+        }
+      }
+    ]
+  }
+}

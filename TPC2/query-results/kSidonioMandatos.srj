@@ -1,0 +1,32 @@
+{
+  "head" : {
+    "vars" : [
+      "comeco",
+      "fim"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "comeco" : {
+          "type" : "literal",
+          "value" : "12 de dezembro de 1917"
+        },
+        "fim" : {
+          "type" : "literal",
+          "value" : "27 de dezembro de 1917"
+        }
+      },
+      {
+        "comeco" : {
+          "type" : "literal",
+          "value" : "27 de dezembro de 1917"
+        },
+        "fim" : {
+          "type" : "literal",
+          "value" : "14 de dezembro de 1918"
+        }
+      }
+    ]
+  }
+}

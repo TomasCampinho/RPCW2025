@@ -493,23 +493,78 @@ ORDER BY ?nome
 ## k. Quantos mandatos teve o presidente Sidónio Pais? Em que datas iniciaram e terminaram esses mandatos?
 
 ### SPARQL Query
+```sparql
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+SELECT ?comeco ?fim WHERE {
+    ?s a :Presidente .
+    ?s :mandato ?mandato ;
+       :nome ?nome .
+    ?mandato :comeco ?comeco ;
+    		 :fim ?fim .
+    
+    FILTER(?nome = "Sidónio Bernardino Cardoso da Silva Pais")
+}
+GROUP BY ?comeco ?fim
+```
 
 ### Resultado
+|     | comeco                    | fim                       |
+|-----|---------------------------|---------------------------|
+|  1  | "12 de dezembro de 1917"  | "27 de dezembro de 1917"  |
+|  2  | "27 de dezembro de 1917"  | "14 de dezembro de 1918"  |
 
-## l. Quais os nomes dos partidos políticos presentes na ontologia? Qual a distribuição dos militantes por cada partido político? n. Qual o partido com maior número de presidentes militantes?
+
+## l. Quais os nomes dos partidos políticos presentes na ontologia?
 
 ### SPARQL Query
+```sparql
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+SELECT ?nome WHERE {
+    ?p a :Partido .
+    ?p :nome ?nome .
+}
+ORDER BY ?nome
+```
 
 ### Resultado
+|     | nome                   | 
+|-----|------------------------|
+|  1  | "Democrático"          |
+|  2  | "Evolucionista"        |
+|  3  | "Independente"         |
+|  4  | "Liberal"              |
+|  5  | "Nacional Republicano" |
+|  6  | "Nacionalista"         |
+|  7  | "Republicano"          |
+|  8  | "Social Democrata"     |
+|  9  | "Socialista"           | 
+| 10  | "União Nacional"       |
 
-## m. Qual a distribuição dos militantes por cada partido político?
+
+## m&n. Qual a distribuição dos militantes por cada partido político? Qual o partido com maior número de presidentes militantes? 
 
 ### SPARQL Query
+```sparql
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+SELECT ?nome (COUNT(?militante) AS ?numMilitantes) WHERE {
+    ?p a :Partido .
+    ?p :nome ?nome ;
+    	:temMilitante ?militante .
+}
+GROUP BY ?nome
+ORDER BY DESC(?numMilitantes)
+```
 
 ### Resultado
-
-## n. Qual o partido com maior número de presidentes militantes? 
-
-### SPARQL Query
-
-### Resultado
+|     | nomePartido            | numMilitantes |
+|-----|------------------------|---------------|
+|  1  | "Independente"         | 4             |
+|  2  | "União Nacional"       | 4             |
+|  3  | "Nacional Republicano" | 2             |
+|  4  | "Democrático"          | 2             |
+|  5  | "Republicano"          | 2             |
+|  6  | "Socialista"           | 1             |
+|  7  | "Evolucionista"        | 1             |
+|  8  | "Liberal"              | 1             |
+|  9  | "Nacionalista"         | 1             |
+| 10  | "Social Democrata"     | 1             |
