@@ -1,0 +1,461 @@
+{
+  "head" : {
+    "vars" : [
+      "nome",
+      "nascimento",
+      "cognome"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "1109"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Conquistador, O Fundador, O Grande"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "23 de abril de 1185"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Gordo, O Crasso, O Gafo, O Legislador"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso III"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "5 de maio de 1210"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Bolonhês"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso IV"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "8 de fevereiro de 1291"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Bravo"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso V"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "15 de janeiro de 1432"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Africano"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Afonso VI"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "21 de agosto de 1643"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Vitorioso, O Prisioneiro"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Carlos I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "28 de setembro de 1863"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Diplomata, O Martirizado, O Mártir, O Oceanógrafo, O Rei-Pintor"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Dinis I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "9 de outubro de 1261"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Lavrador, O Rei-Trovador, O Rei-Poeta, O Rei-Agricultor"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Duarte I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "31 de outubro de 1391"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Eloquente, O Rei-Filósofo"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Fernando I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "31 de outubro de 1345"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Formoso, O Belo, O Inconstante, O Inconsciente"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Henrique I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "31 de janeiro de 1512"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Casto, O Cardeal-Rei, O Eborense/O de Évora"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. José I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "6 de junho de 1714"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Reformador"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "11 de abril de 1357"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O da Boa Memória"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "3 de março de 1455"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Príncipe Perfeito, O Tirano"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João III"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "7 de junho de 1502"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Piedoso, O Pio"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João IV"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "19 de março de 1604"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Restaurador, O Afortunado"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João V"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "22 de outubro de 1689"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Magnânimo, O Magnífico, O Rei-Sol Português, O Freirático"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. João VI"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "13 de maio de 1767"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Clemente"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Luís I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "31 de outubro de 1838"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Popular, O Bom, O Rei-Marinheiro"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Manuel I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "31 de maio de 1469"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Venturoso, O Bem-Aventurado, O Pomposo"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Manuel II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "15 de novembro de 1889"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Patriota, O Desventurado, O Estudioso, O Bibliófilo, O Rei-Saudade"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Miguel I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "26 de outubro de 1802"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Rei Absoluto, O Absolutista, O Tradicionalista, O Usurpador"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Pedro I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "8 de abril de 1320"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Justiceiro, O Cruel, O Cru, O Vingativo, O Tartamudo, O Até-ao-Fim-do-Mundo-Apaixonado"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Pedro II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "26 de abril de 1648"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Pacífico"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Pedro IV"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "12 de outubro de 1798"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Rei-Soldado, O Rei-Imperador, O Libertador"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Pedro V"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "16 de setembro de 1837"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Esperançoso, O Bem-Amado, O Muito Amado"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Sancho I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "11 de novembro de 1154"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Povoador"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Sancho II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "8 de setembro de 1209"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Capelo, O Piedoso, O Pio"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "D. Sebastião I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "20 de janeiro de 1554"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Desejado, O Encoberto, O Adormecido"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Filipe I"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "21 de maio de 1527"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Prudente"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Filipe II"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "14 de abril de 1578"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Pio, O Piedoso"
+        }
+      },
+      {
+        "nome" : {
+          "type" : "literal",
+          "value" : "Filipe III"
+        },
+        "nascimento" : {
+          "type" : "literal",
+          "value" : "8 de abril de 1605"
+        },
+        "cognome" : {
+          "type" : "literal",
+          "value" : "O Grande"
+        }
+      }
+    ]
+  }
+}
