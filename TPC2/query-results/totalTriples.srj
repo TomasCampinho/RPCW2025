@@ -1,0 +1,18 @@
+{
+  "head" : {
+    "vars" : [
+      "totalTriples"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "totalTriples" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6603"
+        }
+      }
+    ]
+  }
+}

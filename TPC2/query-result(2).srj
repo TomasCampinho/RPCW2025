@@ -1,0 +1,623 @@
+{
+  "head" : {
+    "vars" : [
+      "class"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Class"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#AllDisjointProperties"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#ReflexiveProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Nothing"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#AllDifferent"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Annotation"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Axiom"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#DataRange"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#DeprecatedClass"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#DeprecatedProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#InverseFunctionalProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NegativePropertyAssertion"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Ontology"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#OntologyProperty"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Restriction"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#anyURI"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#base64Binary"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#boolean"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#byte"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#double"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#float"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#hexBinary"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#int"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#language"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#long"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#Name"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#NCName"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#negativeInteger"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#NMTOKEN"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#nonPositiveInteger"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#normalizedString"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#rational"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#real"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#short"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#token"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#unsignedByte"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#unsignedLong"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#unsignedShort"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Rainha"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Monarca"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node1"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node3"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Casa"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Individuo"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Regime"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Batalha"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Acontecimento"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Partido"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Dinastia"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Descobrimento"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Local"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Reinado"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node5"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node6"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node7"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node8"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node9"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node10"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node11"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node12"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node14"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Conquista"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Mandato"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Rei"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node16"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node18"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#Presidente"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node20"
+        }
+      },
+      {
+        "class" : {
+          "type" : "bnode",
+          "value" : "node22"
+        }
+      }
+    ]
+  }
+}

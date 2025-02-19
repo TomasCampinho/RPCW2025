@@ -1,0 +1,107 @@
+{
+  "head" : {
+    "vars" : [
+      "prop"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#ascendente"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#casa"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#cognomes"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#descendente"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#enterro"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#localNascimento"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#morte"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#nascimento"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#nome"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#notas"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#posicao"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#predecessor"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#sucessor"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/andre/ontologies/2015/6/historia#temReinado"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        }
+      },
+      {
+        "prop" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+        }
+      }
+    ]
+  }
+}
