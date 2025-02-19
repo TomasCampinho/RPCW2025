@@ -1,0 +1,832 @@
+{
+  "head" : {
+    "vars" : [
+      "data",
+      "descricao"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1336"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Provável primeira expedição às ilhas Canárias, a que se seguiram expedições adicionais em 1340 e 1341, embora tal seja disputado."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1415"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Tropas portuguesas sob o comando de João I de Portugal conquistam Ceuta. Este acontecimento é geralmente referido como o início da expansão ou descobrimentos Portugueses"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1419"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "João Gonçalves Zarco e Tristão Vaz Teixeira descobrem a Ilha de Porto Santo, na Madeira."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1420"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Os mesmos navegadores, com Bartolomeu Perestrelo, descobrem a Ilha da Madeira, que foi de imediato colonizada."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1422"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Após sucessivas viagens, o cabo Não, considerado o limite navegável a sul por árabes e europeus, é ultrapassado, alcançando-se o Bojador."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1427"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo de Silves descobre (ou redescobre) as ilhas açorianas ocidentais e centrais, que seriam colonizadas em 1431 por Gonçalo Velho Cabral."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1434"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gil Eanes dobra o Cabo Bojador, dissipando o terror que este promontório inspirava."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1435-1436"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gil Eanes e Afonso Gonçalves Baldaia descobrem Angra de Ruivos e este último chegou ao Rio de Ouro, no Saara Ocidental."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1441"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Nuno Tristão chega ao Cabo Branco com Gonçalo Afonso."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1443"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "O regente D. Pedro decreta o monopólio da navegação na costa oeste Africana, reconhecido pela bula Rex regum, que atribui ao irmão Infante D. Henrique “o Navegador”."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1443"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Nuno Tristão entrou no golfo de Arguim."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1444"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Dinis Dias descobriu o cabo Cabo Verde (Dakar) e a Ilha de Palma (Goreia)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1445"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Álvaro Fernandes passou além do Cabo Verde (cabo), Goreia e chegou ao “Cabo dos Mastros” (Cabo Roxo? provavelmente entre o Cabo Verde e o rio Gâmbia)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1446"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Álvaro Fernandes chegou ao norte da Guiné-Bissau."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1452"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo de Teive descobriu as ilhas Flores e Corvo nos Açores."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1455"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Bula Romanus Pontifex do Papa Nicolau V confirma as explorações portuguesas e declara que todas as terras e mares a sul do Cabo Bojador e do Cabo Não são pertença dos reis de Portugal."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1455"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Alvise Cadamosto explora do Rio Gâmbia ao Rio Geba (Guiné-Bissau) e o arquipélago dos Bijagós. Na foz do Gâmbia, ao notar o quase desaparecimento da estrela polar no horizonte, esboçou a primeira representação da constelação Cruzeiro do Sul."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1456 – 1460"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Viagens de Alvise Cadamosto, Diogo Gomes e António da Noli descobriram as primeiras ilhas do arquipélago de Cabo Verde (Boavista, Santiago, Maio e Sal)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1459"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Afonso V encomenda o mapa-múndi que reúne o conhecimento geográfico da época aos venezianos Fra Mauro e Andrea Bianco."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1460"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Morte do Infante D. Henrique. A sua exploração sistemática do Atlântico alcançou em vida os 8º N na costa africana, com a chegada de Pêro de Sintra à que chama Serra Leoa, e os 40º O no oceano Atlântico (Mar dos Sargaços)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1461"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo Gomes e Antonio da Noli descobrem mais ilhas de Cabo Verde."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1462"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo Afonso descobre as cinco ilhas mais ocidentais do arquipélago de Cabo Verde (Brava, São Nicolau, São Vicente, Santo Antão e os ilhéus Branco e Raso)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1469"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Contrato de Fernão Gomes para a exploração da costa da Guiné a sul da Serra Leoa e comércio de Pimenta-da-Guiné que duraria até 1475."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1471"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "João de Santarém e Pêro Escobar encontram a costa da Mina, chegam região do Cabo Três Pontos (Gana) e ao delta do Níger."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1472"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Rui de Sequeira chega a Benim nomeando a área Lagoa de Lagos (actual Lagos (Nigéria))."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1472-1473"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Fernão Pó explora o rio Wouri que nomeia “dos Camarões“ e as ilhas Formosa (Bioko) e Ano Bom."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1472-1474"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "João Vaz Corte-Real e Álvaro Martins Homem poderão ter atingido a Terra Nova. Descoberta não comprovada"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1473"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Lopo Gonçalves descobre o Cabo Lopez , na boca do rio Ogooué e é creditado como o primeiro a cruzar a linha do equador e chegar ao Hemisfério Sul"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1474"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Afonso V consulta o geógrafo Toscanelli, que aconselha a navegação para oeste, para chegar à Índia"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1475"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Antes do contrato de Fernão Gomes terminar, Rui de Sequeira e Lopo Gonçalves chegam ao cabo de St. Catarina, 2º latitude Sul"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1479"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "O Tratado das Alcáçovas estabelece o controlo português dos Açores, Guiné, Elmina, Madeira e Cabo Verde e o controlo castelhano das ilhas Canárias"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1482 – 1484"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo Cão chegou ao estuário do Rio Congo (Congo) onde deixou um Padrão de pedra, substituindo as habituais cruzes de madeira; subiu 150Km a montante do rio até às cataratas de Ielala."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1484-1486"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Afonso de Paiva, Duarte Pacheco Pereira e José Vizinho contactam o Reino de Benim onde a presença de pimenta indicia a proximidade da Índia."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1485-1486"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Segunda viagem de Diogo Cão leva Martin Behaim como cosmógrafo, passa o Cabo Padrão (Cape Cross) e terá chegado a Walvis Bay, na Namíbia."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1487"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Afonso de Paiva e Pêro da Covilhã partiram de Lisboa, viajando por terra em busca do reino do Preste João, na Etiópia."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1487"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gonçalo Eanes e Pêro de Évora sobem o rio Senegal numa expedição ao interior africano até Tucurol e Timbuctu."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1487-1488"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Bartolomeu Dias dobra o Cabo das Tormentas, futuro Cabo da Boa Esperança, coroando 50 anos de esforço e numerosas expedições, entrando pela primeira vez no Oceano Índico. Afonso de Paiva e Pêro da Covilhã chegam a Adém."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1489 – 1492"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Foram feitas várias expedições ao Atlântico Sul para mapear os ventos."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1494"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Assinado o Tratado de Tordesilhas “dividindo” o mundo por descobrir entre Portugal e o recém-formado Reino da Espanha, na sequência da contestação de D. João II às pretensões espanholas após a viagem de Cristovão Colombo."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1495 ou 1500"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Viagem de João Fernandes Lavrador e Pêro de Barcelos à Gronelândia (Terra do Bacalhau). Nesta viagem avistaram a terra que nomearam Labrador (lavrador)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1497 – 1499"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Vasco da Gama comandou a primeira frota a contornar África e chegar a Calecute na Índia, e regressou."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1498"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Duarte Pacheco Pereira terá explorado o Atlântico Sul (e terá alcançado a foz do rio Amazonas e a ilha do Marajó no que terá sido uma expedição secreta - não existem provas)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1500"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "A 10 de Agosto Diogo Dias, navegador da frota de Pedro Álvares Cabral na segunda armada à Índia, descobriu uma ilha a que deu o nome de São Lourenço, mais tarde designada Madagáscar."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1500 – 1501"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gaspar Corte Real e Miguel Corte Real atingiram a Terra Nova, que nomeou Terras de Corte Real (Canadá)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1500-1501"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "A segunda frota para a Índia comandada por Pedro Álvares Cabral atinge o Brasil, aportando em Porto Seguro."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1502"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Vasco da Gama vindo da Índia avistou as então chamadas Ilhas do Almirante (Seychelles)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1502"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Miguel Corte-Real partiu para a Nova Inglaterra em busca do seu irmão Gaspar. João da Nova descobriu a Ilha de Ascensão. Fernão de Noronha descobriu as ilhas que mantêm o seu nome, Fernando Noronha, em Pernambuco."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1503"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "De regresso do Oriente Estêvão da Gama descobriu a Ilha de Santa Helena."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1503"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "A caminho da Índia António de Saldanha foi o primeiro europeu a ancorar na Baía de Saldanha e a ascender à Montanha da Mesa, que nomeou, na atual África do Sul."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1505"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gonçalo Álvares, da frota do primeiro vice-rei, ruma a sul, onde “a água e até o vinho gelavam” descobrindo a Ilha de Gonçalo Álvares (Gough Island)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1505-1506"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Lourenço de Almeida é enviado às Maldivas e chegou ao que chamou Ceilão (Sri Lanka), a “Taprobana” dos registos clássicos gregos."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1506"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Tristão da Cunha descobriu a Ilha de Tristão da Cunha no Atlântico Sul. Navegadores portugueses aportaram em Madagáscar."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1507-1512"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Os portugueses foram os primeiros europeus a aportar nas Ilhas Mascarenhas, no Índico, nomeadas em homenagem a Pedro Mascarenhas"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1509"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo Lopes de Sequeira atravessou o golfo de Bengala e chegou a Sumatra e Malaca (Malásia), com ele viajava Fernão de Magalhães, que viria a fazer a primeira viagem de circum-navegação ao globo, ao serviço de Espanha em 1519-22."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1511"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Duarte Fernandes foi o primeiro europeu a chegar ao Reino do Sião (Tailândia), enviado por Afonso de Albuquerque durante a conquista de Malaca."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1511"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "António de Abreu, Francisco Serrão e Simão Afonso Bisagudo são enviados por Albuquerque em busca das “ilhas das especiarias”. Serrão naufraga em Ternate nas Molucas (Indonésia)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1511"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Rui Nunes da Cunha foi o primeiro europeu a chegar a Pegu (Birmânia, Myanmar), enviado por Albuquerque."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1512"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "António de Abreu chegou à ilha de Timor e às ilhas Banda, Ambão e Seram."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1512"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Pedro Mascarenhas descobriu a ilha Diego Garcia. Chegou também à ilha Maurícia, que poderia já ser conhecida em expedições anteriores de Diogo Dias e Afonso de Albuquerque."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1512-1514"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "João de Lisboa e Estevão Fróis exploram o estuário do Rio da Prata e provavelmente o Golfo de San Matias a 42° Sul na Argentina22 Cristóvão de Haro, financiador da expedição, testemunha a viagem e as notícias que Lisboa e Fróis recolheram do Rei Branco(o imperador Inca), assim como o machado de prata obtido junto dos nativos e que ofereceram ao rei D. Manuel I."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1513"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Jorge Álvares partindo de Malaca é o primeiro europeu a aportar no sul da China, na Ilha de Lintin, no estuário do Rio das Pérolas."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1513"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Afonso de Albuquerque atravessa o estreito de Bab-el-Mandeb no Mar Vermelho liderando a primeira frota europeia a navegar nessas águas."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1516"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Portugueses aportam em Da Nang, no Reino de Champa que nomeiam Cochinchina, (actual Vietname)."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1516-1517"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Rafael Perestrelo comandou o primeiro navio comercial a aportar na China continental, em Cantão. Fernão Pires de Andrade e Tomé Pires foram enviados de D. Manuel I para estabelecer relações oficiais entre o Império Português e a Dinastia Ming, no reinado do imperador Zhengde."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1520"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Francisco Álvares e uma embaixada portuguesa chegam à Etiópia onde encontram Pêro da Covilhã"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1520"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "(Diogo Pacheco terá visitado Kimberley, na Austrália em busca da “Ilha do Ouro” a sul e a sudeste de Sumatra, Java e Sunda, informado por Malaios e Sumatreses, presentes na sua tripulação.- descoberta não reconhecida oficialmente)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1522"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "(Cristovão de Mendonça terá descoberto a Austrália e Nova Zelândia, partindo de Belém em 1521.[carece de fontes]- descoberta não reconhecida oficialmente)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1525"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Aleixo Garcia explora o Rio da Prata ao serviço de Espanha, como membro da expedição de Juan Díaz de Solís e, mais tarde, liderando uma expedição privada de Europeus e indios Guarani, explora o Paraguai e a Bolívia. Aleixo Garcia foi o primeiro europeu a atravessar o Chaco e a conseguir penetrar nas defesas exteriores do Império Inca, já nas colinas dos Andes e na região de Sucre, na atual Bolívia. Aleixo Garcia foi o primeiro europeu a fazê-lo, realizando a façanha oito anos antes de Francisco Pizarro."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1525"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Gomes de Sequeira e Diogo da Rocha foram enviados pelo governador Jorge de Meneses, à descoberta de territórios a norte das Molucas, foram os primeiros europeus a chegar às Ilhas Carolinas, a nordeste da Nova Guiné, que então nomearam “Ilhas de Sequeira”. (A Austrália teria sido descoberta por Cristóvão de Mendonça e Gomes de Sequeira em 1525 – descoberta não reconhecida oficialmente)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1526"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Jorge de Meneses aportou na ilha Waigeo na Papua Ocidental (Nova Guiné)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1528"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Diogo Rodrigues explorou o arquipélago das Mascarenhas, que nomeou em homenagem ao seu companheiro Pedro de Mascarenhas, que compreende a Reunião, Maurícia e Rodrigues."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1529"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "É assinado o Tratado de Saragoça, que estabelece o antimeridiano de Tordesilhas, limite leste das explorações portuguesas e espanholas, para solucionar a chamada “Questão das Molucas“."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1538"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "João Fogaça chega à Papua-Nova Guiné enviado por António Galvão."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1542-1543"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Fernão Mendes Pinto, Diogo Zeimoto e Cristovão Borralho chegaram ao Japão."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1586"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "António da Madalena um frade Capuchinho foi um dos primeiros visitantes ocidentais a chegar a Angkor (actual Camboja)"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1602 – 1606"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Bento de Góis, missionário jesuíta, foi o primeiro europeu a percorrer o caminho terrestre da Índia para a China, através da Ásia Central."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1606"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Pedro Fernandes de Queirós alcançou as Novas Hébridas e aportou numa grande ilha que pensou ser parte do procurado continente a sul, a que chamou Ilha do Espírito Santo, actual Vanuatu."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1606"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Luís Vaz de Torres (nacionalidade incerta) descobriu o que é hoje chamado Estreito de Torres."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1624"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "António de Andrade e Manuel Marques, missionários jesuítas, viajaram de Agra (Índia) a Chaparangue, sendo os primeiros europeus documentados a chegar ao Tibete"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1626"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Estêvão Cacella, missionário jesuíta, viajou através dos Himalaias e foi o primeiro europeu a entrar no Butão34"
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1636 – 1638"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "Pedro Teixeira partiu de Belém do Pará subindo o rio Amazonas e alcançou Quito, no Equador, numa expedição de mais de mil homens."
+        }
+      },
+      {
+        "data" : {
+          "type" : "literal",
+          "value" : "1660 – 1662"
+        },
+        "descricao" : {
+          "type" : "literal",
+          "value" : "(David Melgueiro partindo de Tanegashima poderá ter realizado a primeira travessia da passagem do Nordeste. 35 Viagem pouco documentada, ao serviço da marinha holandesa)"
+        }
+      }
+    ]
+  }
+}

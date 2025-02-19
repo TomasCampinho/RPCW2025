@@ -1,0 +1,56 @@
+{
+  "head" : {
+    "vars" : [
+      "dinastiaNome",
+      "numReis"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "dinastiaNome" : {
+          "type" : "literal",
+          "value" : "Dinastia de Bragança / Dinastia Brigantina"
+        },
+        "numReis" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "12"
+        }
+      },
+      {
+        "dinastiaNome" : {
+          "type" : "literal",
+          "value" : "Dinastia de Avis / Dinastia Joanina"
+        },
+        "numReis" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "dinastiaNome" : {
+          "type" : "literal",
+          "value" : "Dinastia de Borgonha / Dinastia Afonsina"
+        },
+        "numReis" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "dinastiaNome" : {
+          "type" : "literal",
+          "value" : "Dinastia Filipina"
+        },
+        "numReis" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "3"
+        }
+      }
+    ]
+  }
+}
