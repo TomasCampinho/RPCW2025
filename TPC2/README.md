@@ -306,12 +306,12 @@ ORDER BY DESC(?numReis)
 ```
 
 ### Resultado
-|     | dinastiaNome                                 | numReis |
-|-----|----------------------------------------------|---------|
-|  1  | Dinastia de Bragança / Dinastia Brigantina   | 12      |
-|  2  | Dinastia de Avis / Dinastia Joanina          | 10      |
-|  3  | Dinastia de Borgonha / Dinastia Afonsina     | 9       |
-|  4  | Dinastia Filipina                            | 3       |
+|     | dinastiaNome                                 | reis            | numReis |
+|-----|----------------------------------------------|-----------------|---------|
+|  1  | Dinastia de Bragança / Dinastia Brigantina   | "D. João IV, D. Afonso VI, D. Pedro II, D. João V, D. José I, D. João VI, D. Pedro IV, D. Pedro V, D. Miguel I, D. Luís I, D. Carlos I, D. Manuel II"                | 12      |
+|  2  | Dinastia de Avis / Dinastia Joanina          | "D. Manuel I, D. João I, D. Duarte I, D. Afonso V, D. Afonso V, D. João II, D. João II, D. João III, D. Sebastião I, D. Henrique I"                | 10      |
+|  3  | Dinastia de Borgonha / Dinastia Afonsina     | "D. Pedro I, D. Afonso IV, D. Dinis I, D. Afonso III, D. Afonso II, D. Sancho I, D. Afonso I, D. Sancho II, D. Fernando I"                 | 9       |
+|  4  | Dinastia Filipina                            | "Filipe I, Filipe II, Filipe III"               | 3       |
 
 
 ## h. Lista os descobrimentos (sua descrição) por ordem cronológica.
