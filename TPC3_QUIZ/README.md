@@ -1,22 +1,8 @@
-# TPC3: Fazer um Quiz com base no dataset sobre a História de Portugal
+# TPC3: Quiz com base no dataset sobre a História de Portugal
 
 ## Questões
 
 Cada questão tem várias versões geradas a partir do dataset sobre a História de Portugal.
-
-### V/F
-
-1. A [Nome do Acontecimento] aconteceu durante o reinado de [Nome do Rei]?
-   
-    Exemplo:
-
-    ![tf1](images/tf1.png)
-
-1. O presidente [Nome do Presidente] teve [Número de Mandatos] mandato(s)?
-   
-    Exemplo:
-
-    ![tf2](images/tf2.png)
 
 ### Escolha Múltipla
 
@@ -31,6 +17,21 @@ Cada questão tem várias versões geradas a partir do dataset sobre a História
     Exemplo:
 
     ![mult2](images/mult2.png)
+
+
+### V/F
+
+1. A [Nome do Acontecimento] aconteceu durante o reinado de [Nome do Rei]?
+   
+    Exemplo:
+
+    ![tf1](images/tf1.png)
+
+1. O presidente [Nome do Presidente] teve [Número de Mandatos] mandato(s)?
+   
+    Exemplo:
+
+    ![tf2](images/tf2.png)
 
 ### Correspondência
 
