@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Answer Result</title>
+    <style>
+        .incorrect {
+            color: red;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ 'Correct!' if correct else 'Wrong Answer!' }}</h1>
+    <p>The correct answer was:</p>
+    {% set sorted_correct_answer = correct_answer|sort %}
+    {% set sorted_attempted_answer = attempted_answer|sort %}
+    {% if sorted_correct_answer == sorted_attempted_answer %}
+        {% if correct_answer is string %}
+            <p><strong>{{ correct_answer }}</strong></p>
+        {% else %}
+            <ul>
+                {% for item in sorted_correct_answer %}
+                    <li>{{ item[0] }} - {{ item[1] }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% else %}
+        {% if correct_answer is string %}
+            <p><strong>{{ correct_answer }}</strong></p>
+        {% else %}
+            <ul>
+                {% for item in sorted_correct_answer %}
+                    <li>{{ item[0] }} - {{ item[1] }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <p>Your answer:</p>
+        {% if attempted_answer is string %}
+            <p><strong>{{ attempted_answer | safe }}</strong></p>
+        {% else %}
+            <ul>
+                {% for item in sorted_attempted_answer %}
+                    <li class="{% if item in sorted_correct_answer %}correct{% else %}incorrect{% endif %}">{{ item[0] }} - {{ item[1] }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endif %}
+    <p>Your current score: {{ score }} out of {{ total_questions }}</p>
+    {% if final %}
+        <a href="/score">Finish Quiz</a>
+    {% else %}
+        <a href="/quiz">Next Question</a> | <a href="/score">Finish Quiz</a>
+    {% endif %}
+</body>
+</html>

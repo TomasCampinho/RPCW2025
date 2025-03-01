@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - História de Portugal</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin: auto;
+            position: relative;
+        }
+        .column {
+            width: 45%;
+        }
+        .item {
+            padding: 8px;
+            margin: 4px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: relative;
+            user-select: none;
+        }
+        .item.selected {
+            background-color: #d0eaff;
+        }
+        .item.matched {
+            background-color: #a9a9a9;
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .column1 .dot {
+            right: -10px;
+        }
+        .column2 .dot {
+            left: -10px;
+        }
+        .line {
+            position: absolute;
+            background-color: #000;
+            height: 2px;
+            transform-origin: 0 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz - História de Portugal</h1>
+    <p>Score: {{ session.get('score', 0) }}</p>
+    <p>Question {{ question_number }} of {{ total_questions }}</p>
+    <form method="POST" action="/quiz" id="correspond-form">
+        <p><strong>{{ question.question }}</strong></p>
+        <div class="container" id="container">
+            <div class="column column1">
+                {% for pair in question.pairs %}
+                <div class="item" data-value="{{ pair[0] }}">
+                    {{ pair[0] }}
+                    <div class="dot"></div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="column column2">
+                {% set shuffled_column2 = question.pairs | map(attribute=1) | list | shuffle %}
+                {% for item in shuffled_column2 %}
+                <div class="item" data-value="{{ item }}">
+                    {{ item }}
+                    <div class="dot"></div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <input type="hidden" name="question" value="{{ question.question }}">
+        <input type="hidden" name="pairs" id="pairs">
+        <button type="submit" id="submit-button" disabled>Submit Answer</button>
+    </form>
+    <script>
+        const container = document.getElementById('container');
+        const column1Items = document.querySelectorAll('.column1 .item');
+        const column2Items = document.querySelectorAll('.column2 .item');
+        const dots = document.querySelectorAll('.dot');
+        const submitButton = document.getElementById('submit-button');
+        let selectedItem = null;
+        let lines = [];
+        let tempLine = null;
+
+        column1Items.forEach(item => {
+            item.addEventListener('mousedown', () => {
+                if (item.classList.contains('matched')) {
+                    const lineToRemove = lines.find(line => line.item1 === item);
+                    if (lineToRemove) {
+                        container.removeChild(lineToRemove.line);
+                        lineToRemove.item2.classList.remove('matched');
+                        item.classList.remove('matched');
+                        lines = lines.filter(line => line !== lineToRemove);
+                        checkAllMatched();
+                    }
+                } else if (!selectedItem) {
+                    selectedItem = item;
+                    selectedItem.classList.add('selected');
+                    tempLine = document.createElement('div');
+                    tempLine.classList.add('line');
+                    container.appendChild(tempLine);
+                }
+            });
+        });
+
+        column2Items.forEach(item => {
+            item.addEventListener('mousedown', () => {
+                if (item.classList.contains('matched')) {
+                    const lineToRemove = lines.find(line => line.item2 === item);
+                    if (lineToRemove) {
+                        container.removeChild(lineToRemove.line);
+                        lineToRemove.item1.classList.remove('matched');
+                        item.classList.remove('matched');
+                        lines = lines.filter(line => line !== lineToRemove);
+                        checkAllMatched();
+                    }
+                }
+            });
+        });
+
+        dots.forEach(dot => {
+            dot.addEventListener('mousedown', (event) => {
+                const parentItem = dot.parentElement;
+                if (parentItem.classList.contains('matched')) {
+                    const lineToRemove = lines.find(line => line.item1 === parentItem || line.item2 === parentItem);
+                    if (lineToRemove) {
+                        container.removeChild(lineToRemove.line);
+                        lineToRemove.item1.classList.remove('matched');
+                        lineToRemove.item2.classList.remove('matched');
+                        lines = lines.filter(line => line !== lineToRemove);
+                        checkAllMatched();
+                    }
+                } else if (!selectedItem) {
+                    selectedItem = parentItem;
+                    selectedItem.classList.add('selected');
+                    tempLine = document.createElement('div');
+                    tempLine.classList.add('line');
+                    container.appendChild(tempLine);
+                }
+                event.stopPropagation();
+            });
+        });
+
+        document.addEventListener('mousemove', (event) => {
+            if (selectedItem && tempLine) {
+                const rect1 = selectedItem.getBoundingClientRect();
+                const containerRect = container.getBoundingClientRect();
+                const x1 = rect1.left + rect1.width - containerRect.left;
+                const y1 = rect1.top + rect1.height / 2 - containerRect.top;
+                const x2 = event.clientX - containerRect.left;
+                const y2 = event.clientY - containerRect.top;
+                const length = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+                const angle = Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI;
+
+                tempLine.style.width = `${length}px`;
+                tempLine.style.transform = `rotate(${angle}deg)`;
+                tempLine.style.left = `${x1}px`;
+                tempLine.style.top = `${y1}px`;
+            }
+        });
+
+        document.addEventListener('mouseup', (event) => {
+            if (selectedItem && tempLine) {
+                const targetItem = document.elementFromPoint(event.clientX, event.clientY);
+                if (targetItem && targetItem.classList.contains('item') && targetItem.parentElement.classList.contains('column2') && !targetItem.classList.contains('matched')) {
+                    drawLine(selectedItem, targetItem);
+                    selectedItem.classList.add('matched');
+                    targetItem.classList.add('matched');
+                } else {
+                    // Check if the target is a dot within the item
+                    const targetDot = document.elementFromPoint(event.clientX, event.clientY);
+                    if (targetDot && targetDot.classList.contains('dot')) {
+                        const parentItem = targetDot.parentElement;
+                        if (parentItem.classList.contains('item') && parentItem.parentElement.classList.contains('column2') && !parentItem.classList.contains('matched')) {
+                            drawLine(selectedItem, parentItem);
+                            selectedItem.classList.add('matched');
+                            parentItem.classList.add('matched');
+                        }
+                    }
+                }
+                container.removeChild(tempLine);
+                tempLine = null;
+                selectedItem.classList.remove('selected');
+                selectedItem = null;
+                checkAllMatched();
+            }
+        });
+
+        function drawLine(item1, item2) {
+            const rect1 = item1.getBoundingClientRect();
+            const rect2 = item2.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            const x1 = rect1.left + rect1.width - containerRect.left;
+            const y1 = rect1.top + rect1.height / 2 - containerRect.top;
+            const x2 = rect2.left - containerRect.left;
+            const y2 = rect2.top + rect2.height / 2 - containerRect.top;
+            const length = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+            const angle = Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI;
+
+            const line = document.createElement('div');
+            line.classList.add('line');
+            line.style.width = `${length}px`;
+            line.style.transform = `rotate(${angle}deg)`;
+            line.style.left = `${x1}px`;
+            line.style.top = `${y1}px`;
+            container.appendChild(line);
+            lines.push({ item1, item2, line });
+            updatePairs();
+        }
+
+        function updatePairs() {
+            const pairs = lines.map(({ item1, item2 }) => [item1.dataset.value, item2.dataset.value]);
+            document.getElementById('pairs').value = JSON.stringify(pairs);
+        }
+
+        function checkAllMatched() {
+            const allMatched = column1Items.length === lines.length;
+            submitButton.disabled = !allMatched;
+        }
+    </script>
+</body>
+</html>
