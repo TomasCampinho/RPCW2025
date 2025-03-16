@@ -1,8 +1,9 @@
-# DBPedia Cinema Data Harvester
+# DBPedia Movie Data Harvester
 
-## 1. Faz o fetch da informação sobre filmes e atores (SPARQL Queries): 
+## 1. SPARQL QUERIES
 
-### Filmes:
+### Faz o fetch da informação sobre filmes: 
+
 ```sparql
 SELECT DISTINCT ?film ?title ?abstract ?countryName ?directorName ?genreName WHERE {
     ?film a dbo:Film .
@@ -15,57 +16,57 @@ SELECT DISTINCT ?film ?title ?abstract ?countryName ?directorName ?genreName WHE
     FILTER (lang(?abstract) = 'en') .
 }
 ORDER by ?title
+LIMIT 100
 ```
-### Atores:
+
+### Faz o fetch da informação sobre atores para um filme específico:
+
 ```sparql
 SELECT DISTINCT ?actor ?name ?birthDate ?birthPlaceName WHERE {
-    ?actor a dbo:Actor .
+    <FILM_ID> dbo:starring ?actor .
     ?actor rdfs:label ?name .
     OPTIONAL { ?actor dbo:birthDate ?birthDate . }
     OPTIONAL { ?actor dbo:birthPlace ?birthPlace . ?birthPlace rdfs:label ?birthPlaceName . FILTER (lang(?birthPlaceName) = 'en') }
 }
 ORDER by ?name
+LIMIT 20
 ```
+É possivel ajustar os limites (LIMIT) para obter maiores/menores resultados
 
-## 2. Escreve essa informação em ficheiros JSON com as seguintes estruturas:
+## 2. JSON FILE
+Escreve a informação num ficheiro JSON com a seguinte estrutura:
 
 ### movies.json:
 ```json
 [
     { "id": "http://dbpedia.org/resource/Film_ID",
       "titulo": "Film Title",
+      "sinopsis/abs": "Abstract",
       "pais": "Country",
       "realizador": "Director",
       "genero": "Genre",
-      "sinopsis/abs": "Abstract"
+      "elenco": [
+          { "id": "http://dbpedia.org/resource/Actor_ID",
+            "nome": "Actor Name",
+            "dataNas": "Birth Date",
+            "origem": "Birth Place"
+          }
+      ]
     }
 ]
 ```
 
-### actors.json:
-```json
-[
-    { "id": "http://dbpedia.org/resource/Actor_ID",
-      "nome": "Actor Name",
-      "dataNas": "Birth Date",
-      "origem": "Birth Place"
-    }
-]
-```
+## 3. DEBUGGING
 
-## 3. Debugging
-
-Por fim, imprime para o terminal o número total de filmes e atores fetched da DBPedia e escritos nos ficheiros JSON:
+Imprime para o terminal o número total de filmes e atores fetched da DBPedia e escritos no ficheiro JSON:
 
 ```
-INFO:root:Total movies fetched: 10000
-INFO:root:Total movies written: 9476
-INFO:root:Total actors fetched: 10000
-INFO:root:Total actors written: 4433
+INFO:root:Total movies fetched: 100
+INFO:root:Total movies written: 86
+INFO:root:Total actors fetched: 1023
+INFO:root:Total actors written: 629
 ```
 
 A discrepância entre o número de entradas fetched e written pode ser atribuída a vários fatores:
-- Dados incompletos: Algumas entradas podem não ter todos os campos necessários (por exemplo, título ou abstract para filmes, nome para atores).
-- Dados duplicados: Entradas duplicadas são removidas durante o processamento.
-
-Embora as queries não tenham um limite explícito, os resultados são limitados a 10000 entradas devido a possíveis restrições de desempenho e limitações impostas pelo endpoint da DBPedia.
+- Dados incompletos: Algumas entradas podem não ter todos os campos necessários (por exemplo, título ou sinopse para filmes).
+- Dados duplicados: Entradas duplicadas são removidas.

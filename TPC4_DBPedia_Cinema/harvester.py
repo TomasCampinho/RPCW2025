@@ -19,17 +19,7 @@ movies_query = """
         FILTER (lang(?abstract) = 'en') .
     }
     ORDER by ?title
-"""
-
-# Query to get actors
-actors_query = """
-    SELECT DISTINCT ?actor ?name ?birthDate ?birthPlaceName WHERE {
-        ?actor a dbo:Actor .
-        ?actor rdfs:label ?name .
-        OPTIONAL { ?actor dbo:birthDate ?birthDate . }
-        OPTIONAL { ?actor dbo:birthPlace ?birthPlace . ?birthPlace rdfs:label ?birthPlaceName . FILTER (lang(?birthPlaceName) = 'en') }
-    }
-    ORDER by ?name
+    LIMIT 100
 """
 
 # Fetch movies data
@@ -49,36 +39,47 @@ for m in movies_result["results"]["bindings"]:
             "sinopsis/abs": m["abstract"]["value"],
             "pais": m.get("countryName", {}).get("value", "Unknown"),
             "realizador": m.get("directorName", {}).get("value", "Unknown"),
-            "genero": m.get("genreName", {}).get("value", "Unknown")
+            "genero": m.get("genreName", {}).get("value", "Unknown"),
+            "elenco": []
         }
         movies.append(movie_data)
 
 logging.info(f"Total movies written: {len(movies)}")
 
-# Fetch actors data
-actors_result = query_graphdb(endpoint, actors_query)
-actors = []
-actor_ids = set()
+total_actors_fetched = 0
 
-logging.info(f"Total actors fetched: {len(actors_result['results']['bindings'])}")
+# Query actors for each movie individually
+for movie in movies:
+    actors_query = f"""
+        SELECT DISTINCT ?actor ?name ?birthDate ?birthPlaceName WHERE {{
+            <{movie['id']}> dbo:starring ?actor .
+            ?actor rdfs:label ?name .
+            OPTIONAL {{ ?actor dbo:birthDate ?birthDate . }}
+            OPTIONAL {{ ?actor dbo:birthPlace ?birthPlace . ?birthPlace rdfs:label ?birthPlaceName . FILTER (lang(?birthPlaceName) = 'en') }}
+        }}
+        ORDER by ?name
+        LIMIT 20
+    """
 
-for a in actors_result["results"]["bindings"]:
-    actor_id = a["actor"]["value"]
-    if actor_id not in actor_ids:
-        actor_ids.add(actor_id)
+    actors_result = query_graphdb(endpoint, actors_query)
+    total_actors_fetched += len(actors_result['results']['bindings'])
+    
+    for a in actors_result["results"]["bindings"]:
+        actor_id = a["actor"]["value"]
         actor_data = {
             "id": actor_id,
             "nome": a["name"]["value"],
             "dataNas": a.get("birthDate", {}).get("value", "Unknown"),
             "origem": a.get("birthPlaceName", {}).get("value", "Unknown")
         }
-        actors.append(actor_data)
+        if actor_data not in movie["elenco"]:
+            movie["elenco"].append(actor_data)
 
-logging.info(f"Total actors written: {len(actors)}")
 
-# Save movies and actors data to JSON files
+total_actors = sum(len(movie["elenco"]) for movie in movies)
+logging.info(f"Total actors fetched: {total_actors_fetched}")
+logging.info(f"Total actors written: {total_actors}")
+
+# Save movies data with cast to JSON file
 with open('movies.json', 'w') as fout:
     json.dump(movies, fout, indent=4, ensure_ascii=False)
-
-with open('actors.json', 'w') as fout:
-    json.dump(actors, fout, indent=4, ensure_ascii=False)
