@@ -1,4 +1,4 @@
-# Harvester sobre a DBPedia sob o tema Cinema:
+# DBPedia Cinema Data Harvester
 
 ## 1. Faz o fetch da informação sobre filmes e atores (SPARQL Queries): 
 
@@ -39,7 +39,6 @@ ORDER by ?name
       "genero": "Genre",
       "sinopsis/abs": "Abstract"
     }
-    ...
 ]
 ```
 
@@ -51,7 +50,6 @@ ORDER by ?name
       "dataNas": "Birth Date",
       "origem": "Birth Place"
     }
-    ...
 ]
 ```
 
