@@ -28,7 +28,6 @@ SELECT DISTINCT ?actor ?name ?birthDate ?birthPlaceName WHERE {
     OPTIONAL { ?actor dbo:birthDate ?birthDate . }
     OPTIONAL { ?actor dbo:birthPlace ?birthPlace . ?birthPlace rdfs:label ?birthPlaceName . FILTER (lang(?birthPlaceName) = 'en') }
 }
-ORDER by ?name
 LIMIT 20
 ```
 É possivel ajustar os limites (LIMIT) para obter maiores/menores resultados
@@ -64,9 +63,9 @@ Imprime para o terminal o número total de filmes e atores fetched da DBPedia e 
 INFO:root:Total movies fetched: 100
 INFO:root:Total movies written: 86
 INFO:root:Total actors fetched: 1023
-INFO:root:Total actors written: 629
+INFO:root:Total actors written: 128
 ```
 
 A discrepância entre o número de entradas fetched e written pode ser atribuída a vários fatores:
-- Dados incompletos: Algumas entradas podem não ter todos os campos necessários (por exemplo, título ou sinopse para filmes).
+- Dados incompletos: Algumas entradas podem não ter todos os campos necessários (por exemplo, título para filmes ou nome para atores).
 - Dados duplicados: Entradas duplicadas são removidas.

@@ -8,78 +8,6 @@
         "genero": "Horror fiction",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Alessandra_De_Rossi",
-                "nome": "أليساندرا دي روسي",
-                "dataNas": "1984-07-19",
-                "origem": "England"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Angelika_Dela_Cruz",
-                "nome": "Angelika dela Cruz",
-                "dataNas": "1981-10-29",
-                "origem": "Quezon City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Agot_Isidro",
-                "nome": "Agot Isidro",
-                "dataNas": "1966-07-20",
-                "origem": "Marikina"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alessandra_De_Rossi",
-                "nome": "Alessandra De Rossi",
-                "dataNas": "1984-07-19",
-                "origem": "England"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ang_TV",
-                "nome": "Ang TV",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Angelika_Dela_Cruz",
-                "nome": "Angelika Dela Cruz",
-                "dataNas": "1981-10-29",
-                "origem": "Quezon City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Carmina_Villaroel",
-                "nome": "Carmina Villaroel",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Diether_Ocampo",
-                "nome": "Diether Ocampo",
-                "dataNas": "1974-07-19",
-                "origem": "Bacoor"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Diether_Ocampo",
-                "nome": "Diether Ocampo",
-                "dataNas": "1974-07-19",
-                "origem": "Cavite"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jericho_Rosales",
-                "nome": "Jericho Rosales",
-                "dataNas": "1979-09-21",
-                "origem": "Philippines"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jericho_Rosales",
-                "nome": "Jericho Rosales",
-                "dataNas": "1979-09-21",
-                "origem": "Quezon City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Paolo_Contis",
-                "nome": "Paolo Contis",
-                "dataNas": "1984-03-14",
-                "origem": "Manila"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Rica_Peralejo",
                 "nome": "Rica Peralejo",
                 "dataNas": "1981-03-07",
@@ -95,6 +23,30 @@
                 "id": "http://dbpedia.org/resource/Angelika_Dela_Cruz",
                 "nome": "Angelika de la Cruz",
                 "dataNas": "1981-10-29",
+                "origem": "Quezon City"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Agot_Isidro",
+                "nome": "Agot Isidro",
+                "dataNas": "1966-07-20",
+                "origem": "Marikina"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Alessandra_De_Rossi",
+                "nome": "أليساندرا دي روسي",
+                "dataNas": "1984-07-19",
+                "origem": "England"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Paolo_Contis",
+                "nome": "Paolo Contis",
+                "dataNas": "1984-03-14",
+                "origem": "Manila"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Jericho_Rosales",
+                "nome": "Jericho Rosales",
+                "dataNas": "1979-09-21",
                 "origem": "Quezon City"
             }
         ]
@@ -117,106 +69,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Bobby_Solo",
-                "nome": "بوبي سولو (مغني إيطالي)",
-                "dataNas": "1945-03-18",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gigi_Proietti",
-                "nome": "جيجي برويتي",
-                "dataNas": "1940-11-02",
-                "origem": "Rome"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gigi_Proietti",
-                "nome": "جيجي برويتي",
-                "dataNas": "1940-11-02",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Roberto_Benigni",
-                "nome": "روبيرتو بينيني",
-                "dataNas": "1952-10-27",
-                "origem": "Castiglion Fiorentino"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Roberto_Benigni",
-                "nome": "روبيرتو بينيني",
-                "dataNas": "1952-10-27",
-                "origem": "Tuscany"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Roberto_Benigni",
-                "nome": "روبيرتو بينيني",
-                "dataNas": "1952-10-27",
-                "origem": "Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Nino_Frassica",
-                "nome": "نينو فراسيكا",
-                "dataNas": "1950-12-11",
-                "origem": "Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Nino_Frassica",
-                "nome": "نينو فراسيكا",
-                "dataNas": "1950-12-11",
-                "origem": "Messina"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gigi_Proietti",
-                "nome": "Gigi Proietti",
-                "dataNas": "1940-11-02",
-                "origem": "Rome"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gigi_Proietti",
-                "nome": "Gigi Proietti",
-                "dataNas": "1940-11-02",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Luciano_De_Crescenzo",
-                "nome": "Luciano De Crescenzo",
-                "dataNas": "1928-08-18",
-                "origem": "Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Luciano_De_Crescenzo",
-                "nome": "Luciano De Crescenzo",
-                "dataNas": "1928-08-18",
-                "origem": "Naples"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Renzo_Arbore",
-                "nome": "Renzo Arbore",
-                "dataNas": "1937-06-24",
-                "origem": "Foggia"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Roberto_Benigni",
                 "nome": "Roberto Benigni",
                 "dataNas": "1952-10-27",
                 "origem": "Castiglion Fiorentino"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Roberto_Benigni",
-                "nome": "Roberto Benigni",
-                "dataNas": "1952-10-27",
-                "origem": "Tuscany"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Roberto_Benigni",
-                "nome": "Roberto Benigni",
-                "dataNas": "1952-10-27",
-                "origem": "Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bobby_Solo",
-                "nome": "Bobby Solo",
-                "dataNas": "1945-03-18",
-                "origem": "Unknown"
             }
         ]
     },
@@ -238,64 +94,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
-                "nome": "ليزلي هوارد",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Mary_Morris",
-                "nome": "ماري موريس (ممثلة)",
-                "dataNas": "1915-12-13",
-                "origem": "Lautoka"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
-                "nome": "Leslie Howard",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Francis_L._Sullivan",
-                "nome": "Francis L. Sullivan",
-                "dataNas": "1903-01-06",
-                "origem": "London"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Francis_L._Sullivan",
-                "nome": "Francis L. Sullivan",
-                "dataNas": "1903-01-06",
-                "origem": "Wandsworth"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Francis_L._Sullivan",
-                "nome": "Francis L. Sullivan",
-                "dataNas": "1903-01-06",
-                "origem": "England"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
-                "nome": "Leslie Howard (Schauspieler)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
-                "nome": "Λέσλι Χάουαρντ",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
-                "nome": "Leslie Howard (actor)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Mary_Morris",
                 "nome": "Mary Morris",
                 "dataNas": "1915-12-13",
                 "origem": "Lautoka"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Francis_L._Sullivan",
+                "nome": "프란시스 L. 설리번",
+                "dataNas": "1903-01-06",
+                "origem": "London"
             }
         ]
     },
@@ -312,54 +120,6 @@
                 "nome": "ويرد أل يانكوفيك",
                 "dataNas": "1959-10-23",
                 "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "Weird Al Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "\"Weird Al\" Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "«Weird Al» Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "アル・ヤンコビック",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "위어드 알 얀코빅",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "Странный Эл Янкович",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "«Дивний Ел» Янковик",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "「怪人奧爾」揚科維奇",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
             }
         ]
     },
@@ -374,54 +134,6 @@
             {
                 "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
                 "nome": "ويرد أل يانكوفيك",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "Weird Al Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "\"Weird Al\" Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "«Weird Al» Yankovic",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "アル・ヤンコビック",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "위어드 알 얀코빅",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "Странный Эл Янкович",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "«Дивний Ел» Янковик",
-                "dataNas": "1959-10-23",
-                "origem": "Downey, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
-                "nome": "「怪人奧爾」揚科維奇",
                 "dataNas": "1959-10-23",
                 "origem": "Downey, California"
             }
@@ -458,64 +170,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Joe_E._Brown",
-                "nome": "جو إي براون",
-                "dataNas": "1891-07-28",
-                "origem": "Holgate, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Susan_Hayward",
-                "nome": "سوزان هيوارد",
-                "dataNas": "1917-06-30",
-                "origem": "Brooklyn, New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Martha_Raye",
-                "nome": "مارثا راي",
-                "dataNas": "1916-08-27",
-                "origem": "Butte, Montana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Susan_Hayward",
-                "nome": "Susan Hayward",
-                "dataNas": "1917-06-30",
-                "origem": "Brooklyn, New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Susan_Hayward",
-                "nome": "Susan Haywardová",
-                "dataNas": "1917-06-30",
-                "origem": "Brooklyn, New York"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Eric_Blore",
                 "nome": "Eric Blore",
                 "dataNas": "1887-12-23",
                 "origem": "Finchley"
             },
             {
-                "id": "http://dbpedia.org/resource/Eric_Blore",
-                "nome": "Eric Blore",
-                "dataNas": "1887-12-23",
-                "origem": "Middlesex"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Joe_E._Brown",
                 "nome": "Joe E. Brown",
                 "dataNas": "1891-07-28",
                 "origem": "Holgate, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Martha_Raye",
-                "nome": "Martha Raye",
-                "dataNas": "1916-08-27",
-                "origem": "Butte, Montana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Susan_Hayward",
-                "nome": "Σούζαν Χέιγουορντ",
-                "dataNas": "1917-06-30",
-                "origem": "Brooklyn, New York"
             }
         ]
     },
@@ -528,76 +192,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Alan_Dinehart",
-                "nome": "آلان دينهارت",
-                "dataNas": "1889-10-03",
-                "origem": "St. Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Edward_Everett_Horton",
-                "nome": "إدوارد إيفرت هورتون",
-                "dataNas": "1886-03-18",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Berton_Churchill",
-                "nome": "بيرتون تشيرشل",
-                "dataNas": "1876-12-09",
-                "origem": "Toronto"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Rosina_Lawrence",
                 "nome": "روزينا لورانس",
                 "dataNas": "1912-12-30",
                 "origem": "Westboro, Ottawa"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rosina_Lawrence",
-                "nome": "روزينا لورانس",
-                "dataNas": "1912-12-30",
-                "origem": "Nepean Township"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Karen_Morley",
-                "nome": "كارين مورلي",
-                "dataNas": "1909-12-12",
-                "origem": "Ottumwa, Iowa"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alan_Dinehart",
-                "nome": "Alan Dinehart",
-                "dataNas": "1889-10-03",
-                "origem": "St. Paul, Minnesota"
             },
             {
                 "id": "http://dbpedia.org/resource/Berton_Churchill",
                 "nome": "Berton Churchill",
                 "dataNas": "1876-12-09",
                 "origem": "Toronto"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Edward_Everett_Horton",
-                "nome": "Edward Everett Horton",
-                "dataNas": "1886-03-18",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Karen_Morley",
-                "nome": "Karen Morley",
-                "dataNas": "1909-12-12",
-                "origem": "Ottumwa, Iowa"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rosina_Lawrence",
-                "nome": "Rosina Lawrence",
-                "dataNas": "1912-12-30",
-                "origem": "Westboro, Ottawa"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rosina_Lawrence",
-                "nome": "Rosina Lawrence",
-                "dataNas": "1912-12-30",
-                "origem": "Nepean Township"
             }
         ]
     },
@@ -610,24 +214,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Pauline_Starke",
-                "nome": "بولين ستارك",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/James_Murray_(American_actor)",
-                "nome": "جيمس موراي (ممثل)",
-                "dataNas": "1901-02-09",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gwen_Lee",
-                "nome": "غوين لي",
-                "dataNas": "1904-11-12",
-                "origem": "Hastings, Nebraska"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Gwen_Lee",
                 "nome": "Gwen Lee",
                 "dataNas": "1904-11-12",
@@ -635,43 +221,13 @@
             },
             {
                 "id": "http://dbpedia.org/resource/James_Murray_(American_actor)",
-                "nome": "James Murray (Schauspieler, 1901)",
+                "nome": "James Murray (pemeran Amerika Serikat)",
                 "dataNas": "1901-02-09",
                 "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/Pauline_Starke",
                 "nome": "Pauline Starke",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/James_Murray_(American_actor)",
-                "nome": "James Murray (American actor)",
-                "dataNas": "1901-02-09",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/James_Murray_(American_actor)",
-                "nome": "James Murray (acteur américain)",
-                "dataNas": "1901-02-09",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Pauline_Starke",
-                "nome": "ポーリン・スターク",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gwen_Lee",
-                "nome": "그웬 리",
-                "dataNas": "1904-11-12",
-                "origem": "Hastings, Nebraska"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Pauline_Starke",
-                "nome": "폴린 스타크",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -685,12 +241,6 @@
         "realizador": "Ernest C. Warde",
         "genero": "Unknown",
         "elenco": [
-            {
-                "id": "http://dbpedia.org/resource/Carl_Stockdale",
-                "nome": "كارل ستوكديل",
-                "dataNas": "1874-02-18",
-                "origem": "Worthington, Minnesota"
-            },
             {
                 "id": "http://dbpedia.org/resource/Carl_Stockdale",
                 "nome": "Carl Stockdale",
@@ -708,42 +258,6 @@
                 "nome": "J. Warren Kerrigan",
                 "dataNas": "1879-07-28",
                 "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/J._Warren_Kerrigan",
-                "nome": "J・ウォーレン・ケリガン",
-                "dataNas": "1879-07-28",
-                "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Fritzi_Brunette",
-                "nome": "フリッツィー・ブルネット",
-                "dataNas": "1890-05-27",
-                "origem": "Savannah, Georgia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Carl_Stockdale",
-                "nome": "칼 스톡데일",
-                "dataNas": "1874-02-18",
-                "origem": "Worthington, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Fritzi_Brunette",
-                "nome": "Брюнетт, Фритци",
-                "dataNas": "1890-05-27",
-                "origem": "Savannah, Georgia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/J._Warren_Kerrigan",
-                "nome": "Керриган, Джордж Уоррен",
-                "dataNas": "1879-07-28",
-                "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Carl_Stockdale",
-                "nome": "Стокдейл, Карл",
-                "dataNas": "1874-02-18",
-                "origem": "Worthington, Minnesota"
             }
         ]
     },
@@ -763,39 +277,9 @@
             },
             {
                 "id": "http://dbpedia.org/resource/Ken_Maynard",
-                "nome": "كين ماينارد",
-                "dataNas": "1895-07-21",
-                "origem": "Indiana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ken_Maynard",
-                "nome": "كين ماينارد",
-                "dataNas": "1895-07-21",
-                "origem": "Vevay, Indiana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Esther_Ralston",
-                "nome": "Esther Ralston",
-                "dataNas": "1902-09-17",
-                "origem": "Bar Harbor, Maine"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ken_Maynard",
-                "nome": "Ken Maynard",
-                "dataNas": "1895-07-21",
-                "origem": "Indiana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ken_Maynard",
                 "nome": "Ken Maynard",
                 "dataNas": "1895-07-21",
                 "origem": "Vevay, Indiana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Esther_Ralston",
-                "nome": "에스터 랠스턴",
-                "dataNas": "1902-09-17",
-                "origem": "Bar Harbor, Maine"
             }
         ]
     },
@@ -808,64 +292,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Anthony_LaPaglia",
-                "nome": "أنتوني لاباليا",
-                "dataNas": "1959-01-31",
-                "origem": "Adelaide"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anthony_LaPaglia",
-                "nome": "أنتوني لاباليا",
-                "dataNas": "1959-01-31",
-                "origem": "South Australia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Geoffrey_Rush",
-                "nome": "جيوفري راش",
-                "dataNas": "1951-07-06",
-                "origem": "Queensland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Geoffrey_Rush",
-                "nome": "جيوفري راش",
-                "dataNas": "1951-07-06",
-                "origem": "Toowoomba"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Geoffrey_Rush",
                 "nome": "Geoffrey Rush",
                 "dataNas": "1951-07-06",
                 "origem": "Queensland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Geoffrey_Rush",
-                "nome": "Geoffrey Rush",
-                "dataNas": "1951-07-06",
-                "origem": "Toowoomba"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anthony_LaPaglia",
-                "nome": "Anthony LaPaglia",
-                "dataNas": "1959-01-31",
-                "origem": "Adelaide"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anthony_LaPaglia",
-                "nome": "Anthony LaPaglia",
-                "dataNas": "1959-01-31",
-                "origem": "South Australia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Geoffrey_Rush",
-                "nome": "Τζέφρεϊ Ρας",
-                "dataNas": "1951-07-06",
-                "origem": "Queensland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Geoffrey_Rush",
-                "nome": "Τζέφρεϊ Ρας",
-                "dataNas": "1951-07-06",
-                "origem": "Toowoomba"
             }
         ]
     },
@@ -888,27 +318,9 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Jason_London",
-                "nome": "جاسون لندن",
+                "nome": "ジェイソン・ロンドン",
                 "dataNas": "1972-11-07",
                 "origem": "San Diego, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Phill_Lewis",
-                "nome": "فيل لويس",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jason_London",
-                "nome": "Jason London",
-                "dataNas": "1972-11-07",
-                "origem": "San Diego, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Phill_Lewis",
-                "nome": "Phill Lewis",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/Charlie_Spradling",
@@ -917,26 +329,8 @@
                 "origem": "Fort Worth, Texas"
             },
             {
-                "id": "http://dbpedia.org/resource/Jason_London",
-                "nome": "ジェイソン・ロンドン",
-                "dataNas": "1972-11-07",
-                "origem": "San Diego, California"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Phill_Lewis",
-                "nome": "フィル・ルイス",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jason_London",
-                "nome": "제이슨 런던",
-                "dataNas": "1972-11-07",
-                "origem": "San Diego, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Phill_Lewis",
-                "nome": "필 루이스",
+                "nome": "فيل لويس",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -952,75 +346,15 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Rossy_de_Palma",
-                "nome": "روسي دي بالما",
-                "dataNas": "1964-09-16",
-                "origem": "Balearic Islands"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rossy_de_Palma",
-                "nome": "روسي دي بالما",
-                "dataNas": "1964-09-16",
-                "origem": "Palma, Majorca"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Verónica_Echegui",
-                "nome": "فيرونيكا إيشيغوي",
-                "dataNas": "1983-06-16",
-                "origem": "Madrid"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Mark_Waschke",
-                "nome": "مارك واشكي",
-                "dataNas": "1972-03-10",
-                "origem": "Bochum"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Mark_Waschke",
-                "nome": "مارك واشكي",
-                "dataNas": "1972-03-10",
-                "origem": "West Germany"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rossy_de_Palma",
                 "nome": "Rossy de Palma",
                 "dataNas": "1964-09-16",
                 "origem": "Balearic Islands"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rossy_de_Palma",
-                "nome": "Rossy de Palma",
-                "dataNas": "1964-09-16",
-                "origem": "Palma, Majorca"
             },
             {
                 "id": "http://dbpedia.org/resource/Verónica_Echegui",
                 "nome": "Verónica Echegui",
                 "dataNas": "1983-06-16",
                 "origem": "Madrid"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Mark_Waschke",
-                "nome": "Mark Waschke",
-                "dataNas": "1972-03-10",
-                "origem": "Bochum"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Mark_Waschke",
-                "nome": "Mark Waschke",
-                "dataNas": "1972-03-10",
-                "origem": "West Germany"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rossy_de_Palma",
-                "nome": "Ρόσι ντε Πάλμα",
-                "dataNas": "1964-09-16",
-                "origem": "Balearic Islands"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rossy_de_Palma",
-                "nome": "Ρόσι ντε Πάλμα",
-                "dataNas": "1964-09-16",
-                "origem": "Palma, Majorca"
             }
         ]
     },
@@ -1043,21 +377,9 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Joseph_W._Girard",
-                "nome": "جوزيف دبليو جيرارد",
-                "dataNas": "1871-04-02",
-                "origem": "Williamsport, Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joseph_W._Girard",
                 "nome": "Joseph W. Girard",
                 "dataNas": "1871-04-02",
                 "origem": "Williamsport, Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leo_Pierson",
-                "nome": "Leo Pierson",
-                "dataNas": "1888-12-25",
-                "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/William_J._Dyer",
@@ -1066,16 +388,10 @@
                 "origem": "Atlanta, Georgia"
             },
             {
-                "id": "http://dbpedia.org/resource/Joseph_W._Girard",
-                "nome": "조셉 W. 지라르",
-                "dataNas": "1871-04-02",
-                "origem": "Williamsport, Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_J._Dyer",
-                "nome": "William Dyer",
-                "dataNas": "1881-03-11",
-                "origem": "Atlanta, Georgia"
+                "id": "http://dbpedia.org/resource/Leo_Pierson",
+                "nome": "Leo Pierson",
+                "dataNas": "1888-12-25",
+                "origem": "Unknown"
             }
         ]
     },
@@ -1106,118 +422,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Paul_Anderson_(actor)",
-                "nome": "بول أندرسون (ممثل)",
-                "dataNas": "1978-11-19",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "تشارلز ميرفي",
-                "dataNas": "1988-04-19",
-                "origem": "County Wexford"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "تشارلز ميرفي",
-                "dataNas": "1988-04-19",
-                "origem": "Enniscorthy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "تشارلي ميرفي",
-                "dataNas": "1988-04-19",
-                "origem": "County Wexford"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "تشارلي ميرفي",
-                "dataNas": "1988-04-19",
-                "origem": "Enniscorthy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_O'Connell_(actor)",
-                "nome": "جاك أوكونيل",
-                "dataNas": "1990-08-01",
-                "origem": "Derbyshire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_O'Connell_(actor)",
-                "nome": "جاك أوكونيل",
-                "dataNas": "1990-08-01",
-                "origem": "Alvaston, Derbyshire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/David_Wilmot_(actor)",
-                "nome": "ديفيد ويلموت (ممثل)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Richard_Dormer",
-                "nome": "ريتشارد دورمير",
-                "dataNas": "1969-11-11",
-                "origem": "County Armagh"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Richard_Dormer",
-                "nome": "ريتشارد دورمير",
-                "dataNas": "1969-11-11",
-                "origem": "Portadown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Sam_Reid_(actor)",
                 "nome": "سام ريد",
                 "dataNas": "1987-02-19",
                 "origem": "New South Wales"
             },
             {
-                "id": "http://dbpedia.org/resource/Sean_Harris",
-                "nome": "شون هاريس",
-                "dataNas": "Unknown",
-                "origem": "Suffolk"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sean_Harris",
-                "nome": "شون هاريس",
-                "dataNas": "Unknown",
-                "origem": "Woodbridge, Suffolk"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_O'Connell_(actor)",
-                "nome": "Jack O'Connell",
-                "dataNas": "1990-08-01",
-                "origem": "Derbyshire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_O'Connell_(actor)",
-                "nome": "Jack O'Connell",
-                "dataNas": "1990-08-01",
-                "origem": "Alvaston, Derbyshire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Killian_Scott",
-                "nome": "Killian Scott",
-                "dataNas": "1985-07-06",
-                "origem": "Limerick"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Killian_Scott",
-                "nome": "Killian Scott",
-                "dataNas": "1985-07-06",
-                "origem": "Kilmallock"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "Charlie Murphy",
-                "dataNas": "1988-04-19",
-                "origem": "County Wexford"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlie_Murphy_(actress)",
-                "nome": "Charlie Murphy",
-                "dataNas": "1988-04-19",
-                "origem": "Enniscorthy"
+                "id": "http://dbpedia.org/resource/Richard_Dormer",
+                "nome": "Richard Dormer",
+                "dataNas": "1969-11-11",
+                "origem": "County Armagh"
             }
         ]
     },
@@ -1230,26 +444,20 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Agun",
-                "nome": "Agun",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Chitralekha_Guho",
                 "nome": "Chitralekha Guho",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             },
             {
-                "id": "http://dbpedia.org/resource/Nipun_Akter",
-                "nome": "Nipun Akter",
+                "id": "http://dbpedia.org/resource/Agun",
+                "nome": "Agun",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/Nipun_Akter",
-                "nome": "니푼 아크테르",
+                "nome": "Nipun Akter",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -1273,110 +481,14 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "تريشا كريشنان",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "تريشا كريشنان",
-                "dataNas": "1983-05-04",
-                "origem": "Tamil Nadu"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
                 "nome": "فيجاي سيثيباثي",
                 "dataNas": "1978-01-16",
                 "origem": "India"
             },
             {
-                "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
-                "nome": "فيجاي سيثيباثي",
-                "dataNas": "1978-01-16",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
-                "nome": "فيجاي سيثيباثي",
-                "dataNas": "1978-01-16",
-                "origem": "Rajapalayam"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Trisha (actress)",
-                "dataNas": "1983-05-04",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Trisha (actress)",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
-                "nome": "Vijay Sethupathi",
-                "dataNas": "1978-01-16",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
-                "nome": "Vijay Sethupathi",
-                "dataNas": "1978-01-16",
-                "origem": "India"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vijay_Sethupathi",
-                "nome": "Vijay Sethupathi",
-                "dataNas": "1978-01-16",
-                "origem": "Rajapalayam"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Trisha_(actress)",
                 "nome": "Trisha Krishnan",
-                "dataNas": "1983-05-04",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Trisha Krishnan",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "트리샤 크리슈난",
-                "dataNas": "1983-05-04",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "트리샤 크리슈난",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Триша Кришнан",
-                "dataNas": "1983-05-04",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Триша Кришнан",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Тріша Крішнан",
-                "dataNas": "1983-05-04",
-                "origem": "Madras"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Trisha_(actress)",
-                "nome": "Тріша Крішнан",
                 "dataNas": "1983-05-04",
                 "origem": "Tamil Nadu"
             }
@@ -1391,124 +503,28 @@
         "genero": "Sitcom",
         "elenco": [
             {
+                "id": "http://dbpedia.org/resource/Robin_Parkinson",
+                "nome": "Robin Parkinson",
+                "dataNas": "1929-10-25",
+                "origem": "Coventry"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Roger_Kitter",
+                "nome": "Roger Kitter",
+                "dataNas": "1949-10-20",
+                "origem": "Hampshire"
+            },
+            {
                 "id": "http://dbpedia.org/resource/Rose_Hill_(actress)",
                 "nome": "روز هيل (ممثلة)",
                 "dataNas": "1914-06-05",
                 "origem": "London"
             },
             {
-                "id": "http://dbpedia.org/resource/Richard_Gibson",
-                "nome": "ريتشارد جيبسون (ممثل)",
-                "dataNas": "1954-01-01",
-                "origem": "Uganda Protectorate"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Richard_Gibson",
-                "nome": "ريتشارد جيبسون (ممثل)",
-                "dataNas": "1954-01-01",
-                "origem": "Kampala"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Sam_Kelly",
-                "nome": "سام كيلي",
+                "nome": "Sam Kelly",
                 "dataNas": "1943-12-19",
                 "origem": "Salford"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sam_Kelly",
-                "nome": "سام كيلي",
-                "dataNas": "1943-12-19",
-                "origem": "Lancashire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sue_Hodge",
-                "nome": "سو هودج",
-                "dataNas": "1957-06-04",
-                "origem": "Orsett"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gavin_Richards",
-                "nome": "غافين ريتشاردز",
-                "dataNas": "1946-07-03",
-                "origem": "London"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gavin_Richards",
-                "nome": "غافين ريتشاردز",
-                "dataNas": "1946-07-03",
-                "origem": "Tufnell Park"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vicki_Michelle",
-                "nome": "فيكي ميشيل",
-                "dataNas": "1950-12-14",
-                "origem": "Essex"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vicki_Michelle",
-                "nome": "فيكي ميشيل",
-                "dataNas": "1950-12-14",
-                "origem": "Chigwell"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kirsten_Cooke",
-                "nome": "كريستين كوكي",
-                "dataNas": "1952-10-04",
-                "origem": "Cuckfield"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kirsten_Cooke",
-                "nome": "كريستين كوكي",
-                "dataNas": "1952-10-04",
-                "origem": "Sussex"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Hartman",
-                "nome": "كيم هارتمان",
-                "dataNas": "1952-01-11",
-                "origem": "London"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Hartman",
-                "nome": "كيم هارتمان",
-                "dataNas": "1952-01-11",
-                "origem": "Hammersmith"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kenneth_Connor",
-                "nome": "كينيث كونور",
-                "dataNas": "1918-06-06",
-                "origem": "Highbury"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kenneth_Connor",
-                "nome": "Kenneth Connor",
-                "dataNas": "1918-06-06",
-                "origem": "Highbury"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Carmen_Silvera",
-                "nome": "Carmen Silvera",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gorden_Kaye",
-                "nome": "Gorden Kaye",
-                "dataNas": "1941-04-07",
-                "origem": "Huddersfield"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gorden_Kaye",
-                "nome": "Gorden Kaye",
-                "dataNas": "1941-04-07",
-                "origem": "West Riding of Yorkshire"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Richard_Marner",
-                "nome": "Richard Marner",
-                "dataNas": "1921-03-27",
-                "origem": "Russian Soviet Federative Socialist Republic"
             }
         ]
     },
@@ -1521,106 +537,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Jack_Hoxie",
-                "nome": "جاك هوكسي",
-                "dataNas": "1885-01-11",
-                "origem": "Indian Territory"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Hoxie",
-                "nome": "جاك هوكسي",
-                "dataNas": "1885-01-11",
-                "origem": "Oklahoma"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gertrude_Claire",
-                "nome": "جرترود كلير",
-                "dataNas": "1852-07-16",
-                "origem": "Chicago"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gertrude_Claire",
-                "nome": "جرترود كلير",
-                "dataNas": "1852-07-16",
-                "origem": "Illinois"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robert_Gordon_(actor)",
-                "nome": "روبرت جوردون (ممثل)",
-                "dataNas": "1895-03-03",
-                "origem": "Belleville, Kansas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robert_Gordon_(actor)",
-                "nome": "روبرت جوردون (ممثل)",
-                "dataNas": "1895-03-03",
-                "origem": "Kansas"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Maude_George",
                 "nome": "مود جورج",
                 "dataNas": "1888-08-15",
                 "origem": "Riverside, California"
             },
             {
-                "id": "http://dbpedia.org/resource/William_S._Hart",
-                "nome": "ويليام هارت",
-                "dataNas": "1864-12-06",
-                "origem": "Newburgh (town), New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_S._Hart",
-                "nome": "William S. Hart",
-                "dataNas": "1864-12-06",
-                "origem": "Newburgh (town), New York"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Gertrude_Claire",
-                "nome": "Gertrude Claire",
+                "nome": "جرترود كلير",
                 "dataNas": "1852-07-16",
                 "origem": "Chicago"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gertrude_Claire",
-                "nome": "Gertrude Claire",
-                "dataNas": "1852-07-16",
-                "origem": "Illinois"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Hoxie",
-                "nome": "Jack Hoxie",
-                "dataNas": "1885-01-11",
-                "origem": "Indian Territory"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Hoxie",
-                "nome": "Jack Hoxie",
-                "dataNas": "1885-01-11",
-                "origem": "Oklahoma"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Maude_George",
-                "nome": "Maude George",
-                "dataNas": "1888-08-15",
-                "origem": "Riverside, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robert_Gordon_(actor)",
-                "nome": "Robert Gordon (actor)",
-                "dataNas": "1895-03-03",
-                "origem": "Belleville, Kansas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robert_Gordon_(actor)",
-                "nome": "Robert Gordon (actor)",
-                "dataNas": "1895-03-03",
-                "origem": "Kansas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robert_McKim_(actor)",
-                "nome": "Robert McKim (actor)",
-                "dataNas": "Unknown",
-                "origem": "San Jacinto, California"
             }
         ]
     },
@@ -1639,100 +565,10 @@
                 "origem": "Davis, West Virginia"
             },
             {
-                "id": "http://dbpedia.org/resource/Tom_Kennedy_(actor)",
-                "nome": "توم كينيدي",
-                "dataNas": "1885-07-15",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joe_Palma",
-                "nome": "جو بالما",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joe_Besser",
-                "nome": "جو بيسر",
-                "dataNas": "1907-08-12",
-                "origem": "St. Louis"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joe_Besser",
-                "nome": "جو بيسر",
-                "dataNas": "1907-08-12",
-                "origem": "Missouri"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ray_%22Crash%22_Corrigan",
-                "nome": "راي كراش كوريغان",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joe_Besser",
-                "nome": "Joe Besser",
-                "dataNas": "1907-08-12",
-                "origem": "St. Louis"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Joe_Besser",
                 "nome": "Joe Besser",
                 "dataNas": "1907-08-12",
                 "origem": "Missouri"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ray_%22Crash%22_Corrigan",
-                "nome": "Ray Corrigan",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Tom_Kennedy_(actor)",
-                "nome": "Tom Kennedy (Schauspieler)",
-                "dataNas": "1885-07-15",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Eddie_Baker",
-                "nome": "Eddie Baker",
-                "dataNas": "1897-11-17",
-                "origem": "Davis, West Virginia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jim_Hawthorne_(DJ)",
-                "nome": "Jim Hawthorne (DJ)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Joe_Palma",
-                "nome": "Joe Palma",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ray_%22Crash%22_Corrigan",
-                "nome": "Ray \"Crash\" Corrigan",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Steve_Calvert",
-                "nome": "Steve Calvert",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Tom_Kennedy_(actor)",
-                "nome": "Tom Kennedy (actor)",
-                "dataNas": "1885-07-15",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Eddie_Baker",
-                "nome": "Eddie Baker (actor)",
-                "dataNas": "1897-11-17",
-                "origem": "Davis, West Virginia"
             }
         ]
     },
@@ -1746,37 +582,7 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Claudia_Jennings",
-                "nome": "كلوديا جينينغز",
-                "dataNas": "1949-12-20",
-                "origem": "Saint Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Claudia_Jennings",
-                "nome": "Claudia Jenningsová",
-                "dataNas": "1949-12-20",
-                "origem": "Saint Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Claudia_Jennings",
                 "nome": "Claudia Jennings",
-                "dataNas": "1949-12-20",
-                "origem": "Saint Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Claudia_Jennings",
-                "nome": "클로디아 제닝스",
-                "dataNas": "1949-12-20",
-                "origem": "Saint Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Claudia_Jennings",
-                "nome": "Клаудия Дженнингс",
-                "dataNas": "1949-12-20",
-                "origem": "Saint Paul, Minnesota"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Claudia_Jennings",
-                "nome": "Клаудія Дженнінгс",
                 "dataNas": "1949-12-20",
                 "origem": "Saint Paul, Minnesota"
             }
@@ -1817,18 +623,6 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Hoot_Gibson",
-                "nome": "Hoot Gibson",
-                "dataNas": "1892-08-06",
-                "origem": "Tekamah, Nebraska"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Hoot_Gibson",
-                "nome": "Hoot Gibson (attore)",
-                "dataNas": "1892-08-06",
-                "origem": "Tekamah, Nebraska"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Hoot_Gibson",
                 "nome": "후트 깁슨",
                 "dataNas": "1892-08-06",
                 "origem": "Tekamah, Nebraska"
@@ -1857,24 +651,6 @@
                 "nome": "Lottie Lyell",
                 "dataNas": "1890-02-23",
                 "origem": "Balmain, New South Wales"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lottie_Lyell",
-                "nome": "Lottie Lyell",
-                "dataNas": "1890-02-23",
-                "origem": "Australia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lottie_Lyell",
-                "nome": "Лотти Лайелл",
-                "dataNas": "1890-02-23",
-                "origem": "Balmain, New South Wales"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lottie_Lyell",
-                "nome": "Лотти Лайелл",
-                "dataNas": "1890-02-23",
-                "origem": "Australia"
             }
         ]
     },
@@ -1893,34 +669,10 @@
                 "origem": "Harrison, New York"
             },
             {
-                "id": "http://dbpedia.org/resource/Leo_Gorcey",
-                "nome": "ليو غورسي",
-                "dataNas": "1917-06-03",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Huntz_Hall",
-                "nome": "Huntz Hall",
-                "dataNas": "1920-08-15",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bobby_Jordan",
-                "nome": "Bobby Jordan",
-                "dataNas": "1923-04-01",
-                "origem": "Harrison, New York"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Gabriel_Dell",
                 "nome": "Gabriel Dell",
                 "dataNas": "1919-10-08",
                 "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gabriel_Dell",
-                "nome": "Gabriel Dell",
-                "dataNas": "1919-10-08",
-                "origem": "New York City, New York"
             },
             {
                 "id": "http://dbpedia.org/resource/Leo_Gorcey",
@@ -1929,28 +681,10 @@
                 "origem": "New York City"
             },
             {
-                "id": "http://dbpedia.org/resource/Leo_Gorcey",
-                "nome": "레오 고시",
-                "dataNas": "1917-06-03",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bobby_Jordan",
-                "nome": "바비 조던",
-                "dataNas": "1923-04-01",
-                "origem": "Harrison, New York"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Huntz_Hall",
-                "nome": "헌츠 홀",
+                "nome": "Huntz Hall",
                 "dataNas": "1920-08-15",
                 "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leo_Gorcey",
-                "nome": "Горси, Лео",
-                "dataNas": "1917-06-03",
-                "origem": "New York City"
             }
         ]
     },
@@ -1973,43 +707,7 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/John_Wayne",
-                "nome": "جون واين",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Wayne",
                 "nome": "John Wayne",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Wayne",
-                "nome": "Τζον Γουέιν",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sheila_Terry_(actor)",
-                "nome": "Sheila Terry (actor)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Wayne",
-                "nome": "ジョン・ウェイン",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Wayne",
-                "nome": "존 웨인",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Wayne",
-                "nome": "Джон Уэйн",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -2024,88 +722,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Ice-T",
-                "nome": "آيس-تي",
-                "dataNas": "1958-02-16",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Andrew_Fiscella",
-                "nome": "أندرو فيسيلا",
-                "dataNas": "1966-05-25",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Drea_de_Matteo",
-                "nome": "دريا دي ماتو",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Victor_Argo",
-                "nome": "فيكتور أرجو",
-                "dataNas": "1934-11-05",
-                "origem": "The Bronx"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Victor_Argo",
-                "nome": "فيكتور أرجو",
-                "dataNas": "1934-11-05",
-                "origem": "New York (state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lillo_Brancato",
-                "nome": "ليلو برانكاتو جونيور",
-                "dataNas": "1976-08-30",
-                "origem": "Bogotá"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lillo_Brancato",
-                "nome": "ليلو برانكاتو جونيور",
-                "dataNas": "1976-08-30",
-                "origem": "Colombia"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Victor_Argo",
                 "nome": "Victor Argo",
                 "dataNas": "1934-11-05",
                 "origem": "The Bronx"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Victor_Argo",
-                "nome": "Victor Argo",
-                "dataNas": "1934-11-05",
-                "origem": "New York (state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Drea_de_Matteo",
-                "nome": "Drea de Matteo",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ice-T",
-                "nome": "Ice-T",
-                "dataNas": "1958-02-16",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Andrew_Fiscella",
-                "nome": "Andrew Fiscella",
-                "dataNas": "1966-05-25",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lillo_Brancato",
-                "nome": "Lillo Brancato",
-                "dataNas": "1976-08-30",
-                "origem": "Bogotá"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lillo_Brancato",
-                "nome": "Lillo Brancato",
-                "dataNas": "1976-08-30",
-                "origem": "Colombia"
             }
         ]
     },
@@ -2118,72 +738,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Annie_Ilonzeh",
-                "nome": "آني إيلونزيه",
-                "dataNas": "1983-08-23",
-                "origem": "Grapevine, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "إيمي هنتر",
-                "dataNas": "1966-05-06",
-                "origem": "Boston"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "إيمي هنتر",
-                "dataNas": "1966-05-06",
-                "origem": "Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "إيمي هنتر",
-                "dataNas": "1966-05-06",
-                "origem": "US"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Taye_Diggs",
-                "nome": "تاي ديغز",
-                "dataNas": "1971-01-02",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robinne_Lee",
-                "nome": "روبين لي",
-                "dataNas": "1974-07-16",
-                "origem": "Mount Vernon, New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Bishop_(actor)",
-                "nome": "ستيفن بيشوب",
-                "dataNas": "1970-09-14",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Malik_Yoba",
-                "nome": "مالك يوبا",
-                "dataNas": "1967-09-17",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter",
-                "dataNas": "1966-05-06",
-                "origem": "Boston"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter",
-                "dataNas": "1966-05-06",
-                "origem": "Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter",
-                "dataNas": "1966-05-06",
-                "origem": "US"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Robinne_Lee",
                 "nome": "Robinne Lee",
                 "dataNas": "1974-07-16",
@@ -2194,42 +748,6 @@
                 "nome": "Annie Ilonzeh",
                 "dataNas": "1983-08-23",
                 "origem": "Grapevine, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Malik_Yoba",
-                "nome": "Malik Yoba",
-                "dataNas": "1967-09-17",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Bishop_(actor)",
-                "nome": "Stephen Bishop (Schauspieler)",
-                "dataNas": "1970-09-14",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Taye_Diggs",
-                "nome": "Taye Diggs",
-                "dataNas": "1971-01-02",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter (actress)",
-                "dataNas": "1966-05-06",
-                "origem": "Boston"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter (actress)",
-                "dataNas": "1966-05-06",
-                "origem": "Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amy_Hunter_(actress)",
-                "nome": "Amy Hunter (actress)",
-                "dataNas": "1966-05-06",
-                "origem": "US"
             }
         ]
     },
@@ -2260,44 +778,8 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Jeanne_Tripplehorn",
-                "nome": "جياني تريبلهورن",
-                "dataNas": "1963-06-10",
-                "origem": "Tulsa, Oklahoma"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dylan_McDermott",
-                "nome": "ديلان ماكديرموت",
-                "dataNas": "1961-10-26",
-                "origem": "Waterbury, Connecticut"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sarah_Jessica_Parker",
-                "nome": "سارة جيسيكا باركر",
-                "dataNas": "1965-03-25",
-                "origem": "Nelsonville, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeanne_Tripplehorn",
-                "nome": "Jeanne Tripplehorn",
-                "dataNas": "1963-06-10",
-                "origem": "Tulsa, Oklahoma"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Sarah_Jessica_Parker",
                 "nome": "Sarah Jessica Parker",
-                "dataNas": "1965-03-25",
-                "origem": "Nelsonville, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dylan_McDermott",
-                "nome": "Dylan McDermott",
-                "dataNas": "1961-10-26",
-                "origem": "Waterbury, Connecticut"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sarah_Jessica_Parker",
-                "nome": "Σάρα Τζέσικα Πάρκερ",
                 "dataNas": "1965-03-25",
                 "origem": "Nelsonville, Ohio"
             }
@@ -2312,88 +794,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Pat_O'Brien_(actor)",
-                "nome": "بات أوبراين (ممثل)",
-                "dataNas": "1899-11-11",
-                "origem": "Milwaukee, Wisconsin"
-            },
-            {
-                "id": "http://dbpedia.org/resource/George_Brent",
-                "nome": "جورج برنت",
-                "dataNas": "1904-03-15",
-                "origem": "Ballinasloe"
-            },
-            {
-                "id": "http://dbpedia.org/resource/George_Brent",
-                "nome": "جورج برنت",
-                "dataNas": "1904-03-15",
-                "origem": "Ireland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Merle_Oberon",
-                "nome": "ميرل أوبيرون",
-                "dataNas": "1911-02-19",
-                "origem": "Bombay"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Merle_Oberon",
-                "nome": "ميرل أوبيرون",
-                "dataNas": "1911-02-19",
-                "origem": "British Raj"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Merle_Oberon",
-                "nome": "Merle Oberon",
-                "dataNas": "1911-02-19",
-                "origem": "Bombay"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Merle_Oberon",
-                "nome": "Merle Oberon",
-                "dataNas": "1911-02-19",
-                "origem": "British Raj"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Pat_O'Brien_(actor)",
-                "nome": "Pat O'Brien",
-                "dataNas": "1899-11-11",
-                "origem": "Milwaukee, Wisconsin"
-            },
-            {
                 "id": "http://dbpedia.org/resource/George_Brent",
                 "nome": "George Brent",
                 "dataNas": "1904-03-15",
                 "origem": "Ballinasloe"
-            },
-            {
-                "id": "http://dbpedia.org/resource/George_Brent",
-                "nome": "George Brent",
-                "dataNas": "1904-03-15",
-                "origem": "Ireland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Pat_O'Brien_(actor)",
-                "nome": "Pat O’Brien (Schauspieler)",
-                "dataNas": "1899-11-11",
-                "origem": "Milwaukee, Wisconsin"
-            },
-            {
-                "id": "http://dbpedia.org/resource/George_Brent",
-                "nome": "Τζορτζ Μπρεντ",
-                "dataNas": "1904-03-15",
-                "origem": "Ballinasloe"
-            },
-            {
-                "id": "http://dbpedia.org/resource/George_Brent",
-                "nome": "Τζορτζ Μπρεντ",
-                "dataNas": "1904-03-15",
-                "origem": "Ireland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Pat_O'Brien_(actor)",
-                "nome": "Pat O'Brien (actor)",
-                "dataNas": "1899-11-11",
-                "origem": "Milwaukee, Wisconsin"
             }
         ]
     },
@@ -2406,18 +810,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Oliver_Tobias",
-                "nome": "أوليفر توبياس",
-                "dataNas": "1947-08-06",
-                "origem": "Zürich"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlotte_Rampling",
-                "nome": "شارلوت رامبلينغ",
-                "dataNas": "1946-02-05",
-                "origem": "Sturmer, Essex"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Fabio_Testi",
                 "nome": "فابيو تيستي",
                 "dataNas": "1941-08-02",
@@ -2426,24 +818,6 @@
             {
                 "id": "http://dbpedia.org/resource/Charlotte_Rampling",
                 "nome": "Charlotte Rampling",
-                "dataNas": "1946-02-05",
-                "origem": "Sturmer, Essex"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Fabio_Testi",
-                "nome": "Fabio Testi",
-                "dataNas": "1941-08-02",
-                "origem": "Peschiera del Garda"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Oliver_Tobias",
-                "nome": "Oliver Tobias",
-                "dataNas": "1947-08-06",
-                "origem": "Zürich"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Charlotte_Rampling",
-                "nome": "Σάρλοτ Ράμπλινγκ",
                 "dataNas": "1946-02-05",
                 "origem": "Sturmer, Essex"
             }
@@ -2458,64 +832,22 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Owen_Moore",
-                "nome": "أوين مور",
-                "dataNas": "1886-12-12",
-                "origem": "County Meath"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Owen_Moore",
-                "nome": "أوين مور",
-                "dataNas": "1886-12-12",
-                "origem": "Ireland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Harry_Ham",
-                "nome": "هاري هام",
-                "dataNas": "1886-05-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Hobart_Bosworth",
-                "nome": "هوبارت بوسورث",
-                "dataNas": "1867-08-11",
-                "origem": "Marietta, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Owen_Moore",
-                "nome": "Owen Moore",
-                "dataNas": "1886-12-12",
-                "origem": "County Meath"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Owen_Moore",
-                "nome": "Owen Moore",
-                "dataNas": "1886-12-12",
-                "origem": "Ireland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Elsie_Janis",
-                "nome": "Elsie Janis",
-                "dataNas": "1889-03-16",
-                "origem": "Marion, Ohio"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Hobart_Bosworth",
                 "nome": "Hobart Bosworth",
                 "dataNas": "1867-08-11",
                 "origem": "Marietta, Ohio"
             },
             {
-                "id": "http://dbpedia.org/resource/Harry_Ham",
-                "nome": "Harry Ham",
-                "dataNas": "1886-05-25",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Myrtle_Stedman",
                 "nome": "Myrtle Stedman",
                 "dataNas": "1883-03-03",
                 "origem": "Chicago, Illinois"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Owen_Moore",
+                "nome": "Owen Moore",
+                "dataNas": "1886-12-12",
+                "origem": "County Meath"
             }
         ]
     },
@@ -2528,30 +860,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "براين كرانستون",
-                "dataNas": "1956-03-07",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "براين كرانستون",
-                "dataNas": "1956-03-07",
-                "origem": "Los Angeles"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "Bryan Cranston",
-                "dataNas": "1956-03-07",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "Bryan Cranston",
-                "dataNas": "1956-03-07",
-                "origem": "Los Angeles"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Josh_Zuckerman",
                 "nome": "Josh Zuckerman",
                 "dataNas": "1985-04-01",
@@ -2559,15 +867,9 @@
             },
             {
                 "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "Μπράιαν Κράνστον",
+                "nome": "Bryan Cranston",
                 "dataNas": "1956-03-07",
                 "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bryan_Cranston",
-                "nome": "Μπράιαν Κράνστον",
-                "dataNas": "1956-03-07",
-                "origem": "Los Angeles"
             }
         ]
     },
@@ -2580,64 +882,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Anne_Meara",
-                "nome": "آن ميارا",
-                "dataNas": "1929-09-20",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alice_Ghostley",
-                "nome": "أليس غوستلي",
-                "dataNas": "1923-08-14",
-                "origem": "Vernon County, Missouri"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alice_Ghostley",
-                "nome": "أليس غوستلي",
-                "dataNas": "1923-08-14",
-                "origem": "Eve, Missouri"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Paul_Lynde",
-                "nome": "بول ليند",
+                "nome": "Paul Lynde",
                 "dataNas": "1926-06-13",
                 "origem": "Mount Vernon, Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Martha_Raye",
-                "nome": "مارثا راي",
-                "dataNas": "1916-08-27",
-                "origem": "Butte, Montana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alice_Ghostley",
-                "nome": "Alice Ghostley",
-                "dataNas": "1923-08-14",
-                "origem": "Vernon County, Missouri"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alice_Ghostley",
-                "nome": "Alice Ghostley",
-                "dataNas": "1923-08-14",
-                "origem": "Eve, Missouri"
             },
             {
                 "id": "http://dbpedia.org/resource/Anne_Meara",
                 "nome": "Anne Meara",
                 "dataNas": "1929-09-20",
                 "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Martha_Raye",
-                "nome": "Martha Raye",
-                "dataNas": "1916-08-27",
-                "origem": "Butte, Montana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Paul_Lynde",
-                "nome": "Paul Lynde",
-                "dataNas": "1926-06-13",
-                "origem": "Mount Vernon, Ohio"
             }
         ]
     },
@@ -2651,7 +905,7 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Yes-R",
-                "nome": "يس-ر",
+                "nome": "Yes-R",
                 "dataNas": "1986-11-02",
                 "origem": "Unknown"
             },
@@ -2659,12 +913,6 @@
                 "id": "http://dbpedia.org/resource/Ad_van_Kempen",
                 "nome": "Ad van Kempen",
                 "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Yes-R",
-                "nome": "Yes-R",
-                "dataNas": "1986-11-02",
                 "origem": "Unknown"
             }
         ]
@@ -2679,19 +927,13 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Robbie_Wessels",
-                "nome": "روبي ويسليس",
+                "nome": "Robbie Wessels",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/Niekie_van_den_Berg",
                 "nome": "Niekie van den Berg",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Robbie_Wessels",
-                "nome": "Robbie Wessels",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -2706,64 +948,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Anne_Bancroft",
-                "nome": "آن بانكروفت",
-                "dataNas": "1931-09-17",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sissy_Spacek",
-                "nome": "سيسي سبيسك",
-                "dataNas": "1949-12-25",
-                "origem": "Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sissy_Spacek",
-                "nome": "سيسي سبيسك",
-                "dataNas": "1949-12-25",
-                "origem": "Quitman, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anne_Bancroft",
-                "nome": "Anne Bancroft",
-                "dataNas": "1931-09-17",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Sissy_Spacek",
                 "nome": "Sissy Spacek",
                 "dataNas": "1949-12-25",
                 "origem": "Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sissy_Spacek",
-                "nome": "Sissy Spacek",
-                "dataNas": "1949-12-25",
-                "origem": "Quitman, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anne_Bancroft",
-                "nome": "Anne Bancroftová",
-                "dataNas": "1931-09-17",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Anne_Bancroft",
-                "nome": "Αν Μπάνκροφτ",
-                "dataNas": "1931-09-17",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sissy_Spacek",
-                "nome": "Σίσι Σπέισεκ",
-                "dataNas": "1949-12-25",
-                "origem": "Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sissy_Spacek",
-                "nome": "Σίσι Σπέισεκ",
-                "dataNas": "1949-12-25",
-                "origem": "Quitman, Texas"
             }
         ]
     },
@@ -2794,88 +982,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "جيف بيرجمان",
-                "dataNas": "1960-07-10",
-                "origem": "Philadelphia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "جيف بيرجمان",
-                "dataNas": "1960-07-10",
-                "origem": "Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
-                "nome": "غوردون هنت",
-                "dataNas": "1929-04-26",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
-                "nome": "غوردون هنت",
-                "dataNas": "1929-04-26",
-                "origem": "Pasadena, California"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
                 "nome": "Gordon Hunt (director)",
                 "dataNas": "1929-04-26",
                 "origem": "California"
             },
             {
-                "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
-                "nome": "Gordon Hunt (director)",
-                "dataNas": "1929-04-26",
-                "origem": "Pasadena, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "Jeff Bergman",
-                "dataNas": "1960-07-10",
-                "origem": "Philadelphia"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Jeff_Bergman",
                 "nome": "Jeff Bergman",
                 "dataNas": "1960-07-10",
                 "origem": "Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
-                "nome": "Gordon Hunt",
-                "dataNas": "1929-04-26",
-                "origem": "Pasadena, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gordon_Hunt_(director)",
-                "nome": "Gordon Hunt",
-                "dataNas": "1929-04-26",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "ジェフ・バーグマン",
-                "dataNas": "1960-07-10",
-                "origem": "Philadelphia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "ジェフ・バーグマン",
-                "dataNas": "1960-07-10",
-                "origem": "Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "제프 버그먼",
-                "dataNas": "1960-07-10",
-                "origem": "Pennsylvania"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Bergman",
-                "nome": "제프 버그먼",
-                "dataNas": "1960-07-10",
-                "origem": "Philadelphia"
             }
         ]
     },
@@ -2889,55 +1005,7 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "دان أرئيلي",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "Dan Ariely",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "Douglas Bernheim",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
                 "nome": "ダン・アリエリー",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "댄 애리얼리",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "Ариели, Дэн",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "Бернхайм, Дуглас",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "Ден Аріелі",
-                "dataNas": "1967-04-29",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Dan_Ariely",
-                "nome": "丹·艾瑞里",
                 "dataNas": "1967-04-29",
                 "origem": "New York City"
             }
@@ -2989,24 +1057,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Amber_Kuo",
-                "nome": "أمبير قو",
-                "dataNas": "1986-02-19",
-                "origem": "Taipei"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vivian_Hsu",
-                "nome": "فيفيان هسو",
-                "dataNas": "1975-03-19",
-                "origem": "Taichung"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leon_Dai",
-                "nome": "ليون داي",
-                "dataNas": "1966-07-27",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Vivian_Hsu",
                 "nome": "Vivian Hsu",
                 "dataNas": "1975-03-19",
@@ -3014,45 +1064,9 @@
             },
             {
                 "id": "http://dbpedia.org/resource/Alyssa_Chia",
-                "nome": "Alyssa Chia",
+                "nome": "가정문",
                 "dataNas": "1974-10-07",
                 "origem": "Taiwan"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alyssa_Chia",
-                "nome": "Alyssa Chia",
-                "dataNas": "1974-10-07",
-                "origem": "Taipei"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Amber_Kuo",
-                "nome": "Amber Kuo",
-                "dataNas": "1986-02-19",
-                "origem": "Taipei"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leon_Dai",
-                "nome": "Leon Dai",
-                "dataNas": "1966-07-27",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alyssa_Chia",
-                "nome": "アリッサ・チア",
-                "dataNas": "1974-10-07",
-                "origem": "Taipei"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Alyssa_Chia",
-                "nome": "アリッサ・チア",
-                "dataNas": "1974-10-07",
-                "origem": "Taiwan"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vivian_Hsu",
-                "nome": "ビビアン・スー",
-                "dataNas": "1975-03-19",
-                "origem": "Taichung"
             }
         ]
     },
@@ -3074,76 +1088,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Adam_Goldberg",
-                "nome": "آدم غولدبرغ",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Eion_Bailey",
-                "nome": "إيون بيلي",
-                "dataNas": "1976-06-08",
-                "origem": "Santa Monica, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vinnie_Jones",
-                "nome": "فيني جونز",
-                "dataNas": "1965-01-05",
-                "origem": "Watford"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "مارلي شيلتن",
-                "dataNas": "1974-04-12",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "مارلي شيلتن",
-                "dataNas": "1974-04-12",
-                "origem": "Los Angeles"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "Marley Sheltonová",
-                "dataNas": "1974-04-12",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "Marley Sheltonová",
-                "dataNas": "1974-04-12",
-                "origem": "Los Angeles"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Vinnie_Jones",
                 "nome": "Vinnie Jones",
                 "dataNas": "1965-01-05",
                 "origem": "Watford"
             },
             {
-                "id": "http://dbpedia.org/resource/Adam_Goldberg",
-                "nome": "Adam Goldberg",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Eion_Bailey",
                 "nome": "Eion Bailey",
                 "dataNas": "1976-06-08",
                 "origem": "Santa Monica, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "Marley Shelton",
-                "dataNas": "1974-04-12",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Marley_Shelton",
-                "nome": "Marley Shelton",
-                "dataNas": "1974-04-12",
-                "origem": "Los Angeles"
             }
         ]
     },
@@ -3160,36 +1114,6 @@
                 "nome": "جاكلين أندرسون",
                 "dataNas": "Unknown",
                 "origem": "Cleveland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jacqueline_Anderson",
-                "nome": "جاكلين أندرسون",
-                "dataNas": "Unknown",
-                "origem": "Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jacqueline_Anderson",
-                "nome": "Jacqueline Anderson",
-                "dataNas": "Unknown",
-                "origem": "Cleveland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jacqueline_Anderson",
-                "nome": "Jacqueline Anderson",
-                "dataNas": "Unknown",
-                "origem": "Ohio"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jacqueline_Anderson",
-                "nome": "재클린 앤더슨",
-                "dataNas": "Unknown",
-                "origem": "Cleveland"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jacqueline_Anderson",
-                "nome": "재클린 앤더슨",
-                "dataNas": "Unknown",
-                "origem": "Ohio"
             }
         ]
     },
@@ -3211,64 +1135,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Jack_Webb",
-                "nome": "جاك ويب",
-                "dataNas": "1920-04-02",
-                "origem": "Santa Monica, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "وليام كونراد",
-                "dataNas": "1920-09-27",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "وليام كونراد",
-                "dataNas": "1920-09-27",
-                "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Whitney_Blake",
-                "nome": "ويتني بليك",
-                "dataNas": "1926-02-20",
-                "origem": "Eagle Rock, Los Angeles"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "William Conrad",
-                "dataNas": "1920-09-27",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "William Conrad",
-                "dataNas": "1920-09-27",
-                "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Webb",
-                "nome": "Jack Webb",
-                "dataNas": "1920-04-02",
-                "origem": "Santa Monica, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "Ουίλιαμ Κόνραντ",
-                "dataNas": "1920-09-27",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/William_Conrad",
-                "nome": "Ουίλιαμ Κόνραντ",
-                "dataNas": "1920-09-27",
-                "origem": "Louisville, Kentucky"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Whitney_Blake",
                 "nome": "Whitney Blake",
                 "dataNas": "1926-02-20",
                 "origem": "Eagle Rock, Los Angeles"
+            },
+            {
+                "id": "http://dbpedia.org/resource/William_Conrad",
+                "nome": "William Conrad",
+                "dataNas": "1920-09-27",
+                "origem": "United States"
             }
         ]
     },
@@ -3281,54 +1157,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "بود سبنسر",
-                "dataNas": "1929-10-31",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "بود سبنسر",
-                "dataNas": "1929-10-31",
-                "origem": "Naples"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Terence_Hill",
-                "nome": "تيرينس هيل",
-                "dataNas": "1939-03-29",
-                "origem": "Venice"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Terence_Hill",
-                "nome": "تيرينس هيل",
-                "dataNas": "1939-03-29",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "Bud Spencer",
-                "dataNas": "1929-10-31",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "Bud Spencer",
-                "dataNas": "1929-10-31",
-                "origem": "Naples"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Terence_Hill",
-                "nome": "Terence Hill",
-                "dataNas": "1939-03-29",
-                "origem": "Venice"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Terence_Hill",
-                "nome": "Terence Hill",
-                "dataNas": "1939-03-29",
-                "origem": "Kingdom of Italy"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Reinhard_Kolldehoff",
                 "nome": "Reinhard Kolldehoff",
                 "dataNas": "1914-04-29",
@@ -3336,21 +1164,9 @@
             },
             {
                 "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "Μπαντ Σπένσερ",
+                "nome": "Bud Spencer",
                 "dataNas": "1929-10-31",
                 "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bud_Spencer",
-                "nome": "Μπαντ Σπένσερ",
-                "dataNas": "1929-10-31",
-                "origem": "Naples"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Terence_Hill",
-                "nome": "Τέρενς Χιλλ",
-                "dataNas": "1939-03-29",
-                "origem": "Venice"
             }
         ]
     },
@@ -3381,76 +1197,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Peter_Falk",
-                "nome": "بيتر فالك",
-                "dataNas": "1927-09-16",
-                "origem": "The Bronx, New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Burt_Young",
-                "nome": "بيرت يونج",
-                "dataNas": "1940-04-30",
-                "origem": "Queens"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Burt_Young",
-                "nome": "بيرت يونج",
-                "dataNas": "1940-04-30",
-                "origem": "New York (state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Burt_Young",
-                "nome": "بيرت يونج",
-                "dataNas": "1940-04-30",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Tracy_Reed_(American_actress)",
-                "nome": "تريسي ريد (ممثلة)",
-                "dataNas": "Unknown",
-                "origem": "Fort Benning, Georgia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vicki_Frederick",
-                "nome": "فيكي فريدريك",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laurene_Landon",
-                "nome": "لاورين لاندون",
-                "dataNas": "1957-03-17",
-                "origem": "Toronto"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Burt_Young",
                 "nome": "Burt Young",
                 "dataNas": "1940-04-30",
                 "origem": "Queens"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Burt_Young",
-                "nome": "Burt Young",
-                "dataNas": "1940-04-30",
-                "origem": "New York (state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Burt_Young",
-                "nome": "Burt Young",
-                "dataNas": "1940-04-30",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Peter_Falk",
-                "nome": "Peter Falk",
-                "dataNas": "1927-09-16",
-                "origem": "The Bronx, New York"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laurene_Landon",
-                "nome": "Laurene Landon",
-                "dataNas": "1957-03-17",
-                "origem": "Toronto"
             }
         ]
     },
@@ -3463,118 +1213,22 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "باربرا ري",
-                "dataNas": "1950-02-02",
-                "origem": "Murcia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "باربرا ري",
-                "dataNas": "1950-02-02",
-                "origem": "Totana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "باربرا ري",
-                "dataNas": "1950-02-02",
-                "origem": "Spain"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gabriele_Tinti_(actor)",
-                "nome": "جابرييل تينتي",
-                "dataNas": "1932-08-22",
-                "origem": "Molinella"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gabriele_Tinti_(actor)",
-                "nome": "جابرييل تينتي",
-                "dataNas": "1932-08-22",
-                "origem": "Kingdom of Italy"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "لاورا غيمسر",
-                "dataNas": "1950-10-05",
-                "origem": "Surabaya"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "لاورا غيمسر",
-                "dataNas": "1950-10-05",
-                "origem": "Indonesia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "Bárbara Rey",
-                "dataNas": "1950-02-02",
-                "origem": "Murcia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "Bárbara Rey",
-                "dataNas": "1950-02-02",
-                "origem": "Totana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bárbara_Rey",
-                "nome": "Bárbara Rey",
-                "dataNas": "1950-02-02",
-                "origem": "Spain"
-            },
-            {
                 "id": "http://dbpedia.org/resource/José_Sazatornil",
                 "nome": "Josep Sazatornil i Buendía",
                 "dataNas": "1925-08-13",
                 "origem": "Barcelona"
             },
             {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "Laura Gemser",
-                "dataNas": "1950-10-05",
-                "origem": "Surabaya"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "Laura Gemser",
-                "dataNas": "1950-10-05",
-                "origem": "Indonesia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "Laura Gemserová",
-                "dataNas": "1950-10-05",
-                "origem": "Surabaya"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Laura_Gemser",
-                "nome": "Laura Gemserová",
-                "dataNas": "1950-10-05",
-                "origem": "Indonesia"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Daniele_Vargas",
-                "nome": "Daniele Vargas",
-                "dataNas": "1922-04-20",
-                "origem": "Bologna"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Daniele_Vargas",
-                "nome": "Daniele Vargas",
-                "dataNas": "1922-04-20",
-                "origem": "Italy"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Gabriele_Tinti_(actor)",
-                "nome": "Gabriele Tinti",
+                "nome": "جابرييل تينتي",
                 "dataNas": "1932-08-22",
                 "origem": "Molinella"
             },
             {
-                "id": "http://dbpedia.org/resource/Gabriele_Tinti_(actor)",
-                "nome": "Gabriele Tinti",
-                "dataNas": "1932-08-22",
-                "origem": "Kingdom of Italy"
+                "id": "http://dbpedia.org/resource/Bárbara_Rey",
+                "nome": "Bárbara Rey",
+                "dataNas": "1950-02-02",
+                "origem": "Murcia"
             }
         ]
     },
@@ -3603,82 +1257,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Al_Pacino",
-                "nome": "آل باتشينو",
-                "dataNas": "1940-04-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Warden",
-                "nome": "جاك واردن",
-                "dataNas": "1920-09-18",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Forsythe",
-                "nome": "جون فورسيذي",
-                "dataNas": "1918-01-29",
-                "origem": "Penns Grove, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lee_Strasberg",
-                "nome": "لي ستراسبرغ",
-                "dataNas": "1901-11-17",
-                "origem": "Budaniv"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lee_Strasberg",
-                "nome": "لي ستراسبرغ",
-                "dataNas": "1901-11-17",
-                "origem": "Kingdom of Galicia and Lodomeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Al_Pacino",
-                "nome": "Al Pacino",
-                "dataNas": "1940-04-25",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Lee_Strasberg",
                 "nome": "Lee Strasberg",
                 "dataNas": "1901-11-17",
                 "origem": "Budaniv"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lee_Strasberg",
-                "nome": "Lee Strasberg",
-                "dataNas": "1901-11-17",
-                "origem": "Kingdom of Galicia and Lodomeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Warden",
-                "nome": "Jack Warden",
-                "dataNas": "1920-09-18",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Forsythe",
-                "nome": "John Forsythe",
-                "dataNas": "1918-01-29",
-                "origem": "Penns Grove, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Al_Pacino",
-                "nome": "Αλ Πατσίνο",
-                "dataNas": "1940-04-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jack_Warden",
-                "nome": "Τζακ Γουόρντεν",
-                "dataNas": "1920-09-18",
-                "origem": "Newark, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/John_Forsythe",
-                "nome": "Τζον Φορσάιθ",
-                "dataNas": "1918-01-29",
-                "origem": "Penns Grove, New Jersey"
             }
         ]
     },
@@ -3691,52 +1273,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Antara_Mali",
-                "nome": "أنتارا مالي",
-                "dataNas": "Unknown",
-                "origem": "Bombay"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Antara_Mali",
-                "nome": "أنتارا مالي",
-                "dataNas": "Unknown",
-                "origem": "Maharashtra"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rajat_Kapoor",
-                "nome": "راجات كابور",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rajat_Kapoor",
-                "nome": "Rajat Kapoor",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Antara_Mali",
-                "nome": "Antara Mali",
-                "dataNas": "Unknown",
-                "origem": "Bombay"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Antara_Mali",
-                "nome": "Antara Mali",
-                "dataNas": "Unknown",
-                "origem": "Maharashtra"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Rituparna_Sengupta",
-                "nome": "Rituparna Sengupta",
-                "dataNas": "1970-11-07",
-                "origem": "Kolkata, West Bengal"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Rituparna_Sengupta",
                 "nome": "리투파르나 셍굽타",
                 "dataNas": "1970-11-07",
                 "origem": "Kolkata, West Bengal"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Antara_Mali",
+                "nome": "Antara Mali",
+                "dataNas": "Unknown",
+                "origem": "Bombay"
             }
         ]
     },
@@ -3750,105 +1296,15 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lew Konstantinowitsch Durow",
+                "nome": "Lev Dourov",
                 "dataNas": "1931-12-23",
                 "origem": "Soviet Union"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lew Konstantinowitsch Durow",
-                "dataNas": "1931-12-23",
-                "origem": "Russian SFSR"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lew Konstantinowitsch Durow",
-                "dataNas": "1931-12-23",
-                "origem": "Moscow"
             },
             {
                 "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
                 "nome": "Aleksandr Galibin",
                 "dataNas": "1955-09-27",
                 "origem": "Saint Petersburg"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
-                "nome": "Aleksandr Galibin",
-                "dataNas": "1955-09-27",
-                "origem": "Russian Soviet Federative Socialist Republic"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
-                "nome": "Aleksandr Galibin",
-                "dataNas": "1955-09-27",
-                "origem": "Soviet Union"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gunnar_Kilgas",
-                "nome": "Gunnar Kilgas",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Durov",
-                "dataNas": "1931-12-23",
-                "origem": "Soviet Union"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Durov",
-                "dataNas": "1931-12-23",
-                "origem": "Moscow"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Durov",
-                "dataNas": "1931-12-23",
-                "origem": "Russian SFSR"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
-                "nome": "Alexandre Galibine",
-                "dataNas": "1955-09-27",
-                "origem": "Saint Petersburg"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
-                "nome": "Alexandre Galibine",
-                "dataNas": "1955-09-27",
-                "origem": "Soviet Union"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aleksandr_Galibin",
-                "nome": "Alexandre Galibine",
-                "dataNas": "1955-09-27",
-                "origem": "Russian Soviet Federative Socialist Republic"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Dourov",
-                "dataNas": "1931-12-23",
-                "origem": "Soviet Union"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Dourov",
-                "dataNas": "1931-12-23",
-                "origem": "Russian SFSR"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lev Dourov",
-                "dataNas": "1931-12-23",
-                "origem": "Moscow"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Lev_Durov",
-                "nome": "Lew Durow",
-                "dataNas": "1931-12-23",
-                "origem": "Moscow"
             }
         ]
     },
@@ -3861,28 +1317,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/A._V._M._Rajan",
-                "nome": "A. V. M. Rajan",
-                "dataNas": "1935-07-26",
-                "origem": "Pudukottai"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Sasikumar_(actor,_born_1944)",
                 "nome": "Sasikumar (actor, born 1944)",
                 "dataNas": "1944-12-08",
                 "origem": "Kumbakonam"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sasikumar_(actor,_born_1944)",
-                "nome": "Sasikumar (actor, born 1944)",
-                "dataNas": "1944-12-08",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Srikanth_(Tamil_actor,_born_1940)",
-                "nome": "Srikanth (Tamil actor, born 1940)",
-                "dataNas": "1940-03-19",
-                "origem": "Erode"
             },
             {
                 "id": "http://dbpedia.org/resource/Vennira_Aadai_Nirmala",
@@ -3891,20 +1329,14 @@
                 "origem": "Thanjavur District"
             },
             {
-                "id": "http://dbpedia.org/resource/Vennira_Aadai_Nirmala",
-                "nome": "Vennira Aadai Nirmala",
-                "dataNas": "1948-06-28",
-                "origem": "Madras presidency"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vennira_Aadai_Nirmala",
-                "nome": "Vennira Aadai Nirmala",
-                "dataNas": "1948-06-28",
-                "origem": "Kumbakonam"
+                "id": "http://dbpedia.org/resource/A._V._M._Rajan",
+                "nome": "A. V. M. Rajan",
+                "dataNas": "1935-07-26",
+                "origem": "Pudukottai"
             },
             {
                 "id": "http://dbpedia.org/resource/Srikanth_(Tamil_actor,_born_1940)",
-                "nome": "Шрикант (актёр)",
+                "nome": "Srikanth (Tamil actor, born 1940)",
                 "dataNas": "1940-03-19",
                 "origem": "Erode"
             }
@@ -3919,20 +1351,14 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Sverre_Holm",
-                "nome": "سفيري هولم",
+                "id": "http://dbpedia.org/resource/Aud_Schønemann",
+                "nome": "Aud Schønemann",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             },
             {
                 "id": "http://dbpedia.org/resource/Arve_Opsahl",
                 "nome": "Arve Opsahl",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aud_Schønemann",
-                "nome": "Aud Schønemann",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             },
@@ -3959,84 +1385,6 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Allison_Janney",
-                "nome": "أليسون جاني",
-                "dataNas": "1959-11-19",
-                "origem": "Boston"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Allison_Janney",
-                "nome": "أليسون جاني",
-                "dataNas": "1959-11-19",
-                "origem": "Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Tom_Butler_(actor)",
-                "nome": "توم باتلر",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Seth_Adkins",
-                "nome": "سيث أدكنز",
-                "dataNas": "1989-10-30",
-                "origem": "Albuquerque, New Mexico"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Fred_Ward",
-                "nome": "فرد وارد",
-                "dataNas": "1942-12-30",
-                "origem": "San Diego, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leo_Burmester",
-                "nome": "ليو بورمستر",
-                "dataNas": "1945-02-01",
-                "origem": "Louisville, Kentucky"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Margo_Martindale",
-                "nome": "مارجو مارتينديل",
-                "dataNas": "1951-07-18",
-                "origem": "Jacksonville, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Meryl_Streep",
-                "nome": "ميريل ستريب",
-                "dataNas": "1949-06-22",
-                "origem": "Summit, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Margo_Martindale",
-                "nome": "Margo Martindale",
-                "dataNas": "1951-07-18",
-                "origem": "Jacksonville, Texas"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Meryl_Streep",
-                "nome": "Meryl Streep",
-                "dataNas": "1949-06-22",
-                "origem": "Summit, New Jersey"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Allison_Janney",
-                "nome": "Allison Janney",
-                "dataNas": "1959-11-19",
-                "origem": "Boston"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Allison_Janney",
-                "nome": "Allison Janney",
-                "dataNas": "1959-11-19",
-                "origem": "Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Meryl_Streep",
-                "nome": "Meryl Streepová",
-                "dataNas": "1949-06-22",
-                "origem": "Summit, New Jersey"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Fred_Ward",
                 "nome": "Fred Ward",
                 "dataNas": "1942-12-30",
@@ -4044,7 +1392,7 @@
             },
             {
                 "id": "http://dbpedia.org/resource/Leo_Burmester",
-                "nome": "Leo Burmester",
+                "nome": "ليو بورمستر",
                 "dataNas": "1945-02-01",
                 "origem": "Louisville, Kentucky"
             }
@@ -4068,76 +1416,22 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Hiram_Sherman",
-                "nome": "حيرام شيرمان",
-                "dataNas": "1908-02-11",
-                "origem": "Boston, Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sidney_Lumet",
-                "nome": "سيدني لوميت",
-                "dataNas": "1924-06-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sylvia_Sidney",
-                "nome": "سيلفيا سيدني",
-                "dataNas": "1910-08-08",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leif_Erickson_(actor)",
-                "nome": "ليف إريكسون (ممثل)",
-                "dataNas": "1911-10-27",
-                "origem": "Alameda, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Myron_McCormick",
-                "nome": "مايرون ماكورميك",
-                "dataNas": "1908-02-08",
-                "origem": "Albany, Indiana"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sidney_Lumet",
-                "nome": "Sidney Lumet",
-                "dataNas": "1924-06-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sylvia_Sidney",
-                "nome": "Sylvia Sidney",
-                "dataNas": "1910-08-08",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leif_Erickson_(actor)",
-                "nome": "Leif Erickson",
-                "dataNas": "1911-10-27",
-                "origem": "Alameda, California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sidney_Lumet",
-                "nome": "Σίντνεϊ Λουμέτ",
-                "dataNas": "1924-06-25",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Hiram_Sherman",
-                "nome": "Hiram Sherman",
-                "dataNas": "1908-02-11",
-                "origem": "Boston, Massachusetts"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Leif_Erickson_(actor)",
-                "nome": "Leif Erickson (actor)",
-                "dataNas": "1911-10-27",
-                "origem": "Alameda, California"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Myron_McCormick",
                 "nome": "Myron McCormick",
                 "dataNas": "1908-02-08",
                 "origem": "Albany, Indiana"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Leif_Erickson_(actor)",
+                "nome": "リーフ・エリクソン",
+                "dataNas": "1911-10-27",
+                "origem": "Alameda, California"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Hiram_Sherman",
+                "nome": "حيرام شيرمان",
+                "dataNas": "1908-02-11",
+                "origem": "Boston, Massachusetts"
             }
         ]
     },
@@ -4150,28 +1444,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Anant_Nag",
-                "nome": "Anant Nag",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Harshika_Poonacha",
                 "nome": "Harshika Poonacha",
                 "dataNas": "1993-05-01",
                 "origem": "Karnataka"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Harshika_Poonacha",
-                "nome": "Harshika Poonacha",
-                "dataNas": "1993-05-01",
-                "origem": "Ammathi"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Harshika_Poonacha",
-                "nome": "Harshika Poonacha",
-                "dataNas": "1993-05-01",
-                "origem": "Kodagu District"
             },
             {
                 "id": "http://dbpedia.org/resource/Ramesh_Aravind",
@@ -4180,20 +1456,14 @@
                 "origem": "Kumbakonam"
             },
             {
-                "id": "http://dbpedia.org/resource/Ramesh_Aravind",
-                "nome": "Ramesh Aravind",
-                "dataNas": "1964-09-10",
-                "origem": "Tamil Nadu"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Ramesh_Aravind",
-                "nome": "Ramesh Aravind",
-                "dataNas": "1964-09-10",
-                "origem": "India"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Suman_Nagarkar",
                 "nome": "Suman Nagarkar",
+                "dataNas": "Unknown",
+                "origem": "Unknown"
+            },
+            {
+                "id": "http://dbpedia.org/resource/Anant_Nag",
+                "nome": "Anant Nag",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -4217,106 +1487,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/OC_Ukeje",
-                "nome": "أوه. سي. أوكيجي",
-                "dataNas": "1981-07-15",
-                "origem": "Lagos State"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Enyinna_Nwigwe",
-                "nome": "إينيينا نويغوي",
-                "dataNas": "Unknown",
-                "origem": "Ngor Okpala"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bukky_Wright",
-                "nome": "باكي رايت",
-                "dataNas": "1967-03-31",
-                "origem": "Ogun State, Nigeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bukky_Wright",
-                "nome": "باكي رايت",
-                "dataNas": "1967-03-31",
-                "origem": "Abeokuta"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bukky_Wright",
-                "nome": "باكي رايت",
-                "dataNas": "1967-03-31",
-                "origem": "Western Region, Nigeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Beverly_Naya",
-                "nome": "بيفرلي نايا",
-                "dataNas": "1989-04-17",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Desmond_Elliot",
-                "nome": "ديزموند أليوت",
-                "dataNas": "1974-02-04",
-                "origem": "Lagos State"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Desmond_Elliot",
-                "nome": "ديزموند أليوت",
-                "dataNas": "1974-02-04",
-                "origem": "Nigeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Desmond_Elliot",
-                "nome": "ديزموند أليوت",
-                "dataNas": "1974-02-04",
-                "origem": "Lagos"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Gideon_Okeke",
-                "nome": "غيديون أوكيكي",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Desmond_Elliot",
                 "nome": "Desmond Elliot",
                 "dataNas": "1974-02-04",
                 "origem": "Lagos"
             },
             {
-                "id": "http://dbpedia.org/resource/Desmond_Elliot",
-                "nome": "Desmond Elliot",
-                "dataNas": "1974-02-04",
-                "origem": "Nigeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Desmond_Elliot",
-                "nome": "Desmond Elliot",
-                "dataNas": "1974-02-04",
-                "origem": "Lagos State"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Beverly_Naya",
-                "nome": "Beverly Naya",
-                "dataNas": "1989-04-17",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Bukky_Wright",
                 "nome": "Bukky Wright",
                 "dataNas": "1967-03-31",
                 "origem": "Western Region, Nigeria"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bukky_Wright",
-                "nome": "Bukky Wright",
-                "dataNas": "1967-03-31",
-                "origem": "Abeokuta"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Bukky_Wright",
-                "nome": "Bukky Wright",
-                "dataNas": "1967-03-31",
-                "origem": "Ogun State, Nigeria"
             }
         ]
     },
@@ -4348,19 +1528,7 @@
         "elenco": [
             {
                 "id": "http://dbpedia.org/resource/Jeff_Cameron",
-                "nome": "جيف كاميرون (ممثل)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Cameron",
                 "nome": "Jeff Cameron",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Jeff_Cameron",
-                "nome": "ジュヴァニ・スカリチオフォーロ",
                 "dataNas": "Unknown",
                 "origem": "Unknown"
             }
@@ -4375,58 +1543,16 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "كم راي وون",
-                "dataNas": "1981-03-19",
-                "origem": "Gangneung"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "كم راي وون",
-                "dataNas": "1981-03-19",
-                "origem": "Gangwon Province (South Korea)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "كم راي وون",
-                "dataNas": "1981-03-19",
-                "origem": "South Korea"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "Kim Rae-won",
-                "dataNas": "1981-03-19",
-                "origem": "Gangneung"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "Kim Rae-won",
-                "dataNas": "1981-03-19",
-                "origem": "Gangwon Province (South Korea)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Kim_Rae-won",
-                "nome": "Kim Rae-won",
-                "dataNas": "1981-03-19",
-                "origem": "South Korea"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Im_Soo-jung_(actress)",
-                "nome": "Im Soo-jung (actress)",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Lee_Mi-sook",
                 "nome": "Lee Mi-sook",
                 "dataNas": "1960-04-02",
                 "origem": "North Chungcheong Province"
             },
             {
-                "id": "http://dbpedia.org/resource/Lee_Mi-sook",
-                "nome": "Lee Mi-sook",
-                "dataNas": "1960-04-02",
-                "origem": "South Korea"
+                "id": "http://dbpedia.org/resource/Kim_Rae-won",
+                "nome": "Kim Rae-won",
+                "dataNas": "1981-03-19",
+                "origem": "Gangneung"
             }
         ]
     },
@@ -4439,44 +1565,8 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Judith_Henry_(actress)",
-                "nome": "جوديث هنري",
-                "dataNas": "1968-05-16",
-                "origem": "Paris"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Judith_Henry_(actress)",
-                "nome": "Judith Henry",
-                "dataNas": "1968-05-16",
-                "origem": "Paris"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Benoît_Régent",
                 "nome": "Benoît Régent",
-                "dataNas": "1953-08-19",
-                "origem": "France"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Benoît_Régent",
-                "nome": "Benoît Régent",
-                "dataNas": "1953-08-19",
-                "origem": "Nantes"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Judith_Henry_(actress)",
-                "nome": "Judith Henry (actress)",
-                "dataNas": "1968-05-16",
-                "origem": "Paris"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Benoît_Régent",
-                "nome": "ブノワ・レジャン",
-                "dataNas": "1953-08-19",
-                "origem": "France"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Benoît_Régent",
-                "nome": "ブノワ・レジャン",
                 "dataNas": "1953-08-19",
                 "origem": "Nantes"
             },
@@ -4506,106 +1596,10 @@
         "genero": "Unknown",
         "elenco": [
             {
-                "id": "http://dbpedia.org/resource/Angus_Macfadyen",
-                "nome": "أنجوس ماكفادين",
-                "dataNas": "1963-09-21",
-                "origem": "Edinburgh"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Sarah_Strange",
-                "nome": "سارة سترينج",
-                "dataNas": "Unknown",
-                "origem": "Unknown"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Dorff",
-                "nome": "ستيفن دورف",
-                "dataNas": "1973-07-29",
-                "origem": "Georgia (U.S. state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Dorff",
-                "nome": "ستيفن دورف",
-                "dataNas": "1973-07-29",
-                "origem": "Atlanta"
-            },
-            {
                 "id": "http://dbpedia.org/resource/Aisha_Tyler",
                 "nome": "عايشة تايلور",
                 "dataNas": "1970-09-18",
                 "origem": "San Francisco"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aisha_Tyler",
-                "nome": "عايشة تايلور",
-                "dataNas": "1970-09-18",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vincent_Laresca",
-                "nome": "فنسنت لاريسسا",
-                "dataNas": "1974-01-21",
-                "origem": "United States"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vincent_Laresca",
-                "nome": "فنسنت لاريسسا",
-                "dataNas": "1974-01-21",
-                "origem": "New York (state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Vincent_Laresca",
-                "nome": "فنسنت لاريسسا",
-                "dataNas": "1974-01-21",
-                "origem": "New York City"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Milla_Jovovich",
-                "nome": "ميلا جوفوفيتش",
-                "dataNas": "1975-12-17",
-                "origem": "Ukrainian Soviet Socialist Republic"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Milla_Jovovich",
-                "nome": "ميلا جوفوفيتش",
-                "dataNas": "1975-12-17",
-                "origem": "Kyiv"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aisha_Tyler",
-                "nome": "Aisha Tyler",
-                "dataNas": "1970-09-18",
-                "origem": "California"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Aisha_Tyler",
-                "nome": "Aisha Tyler",
-                "dataNas": "1970-09-18",
-                "origem": "San Francisco"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Milla_Jovovich",
-                "nome": "Milla Jovovich",
-                "dataNas": "1975-12-17",
-                "origem": "Ukrainian Soviet Socialist Republic"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Milla_Jovovich",
-                "nome": "Milla Jovovich",
-                "dataNas": "1975-12-17",
-                "origem": "Kyiv"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Dorff",
-                "nome": "Stephen Dorff",
-                "dataNas": "1973-07-29",
-                "origem": "Georgia (U.S. state)"
-            },
-            {
-                "id": "http://dbpedia.org/resource/Stephen_Dorff",
-                "nome": "Stephen Dorff",
-                "dataNas": "1973-07-29",
-                "origem": "Atlanta"
             }
         ]
     }

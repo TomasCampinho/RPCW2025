@@ -57,22 +57,23 @@ for movie in movies:
             OPTIONAL {{ ?actor dbo:birthDate ?birthDate . }}
             OPTIONAL {{ ?actor dbo:birthPlace ?birthPlace . ?birthPlace rdfs:label ?birthPlaceName . FILTER (lang(?birthPlaceName) = 'en') }}
         }}
-        ORDER by ?name
         LIMIT 20
     """
 
     actors_result = query_graphdb(endpoint, actors_query)
     total_actors_fetched += len(actors_result['results']['bindings'])
     
+    actor_ids = set()
     for a in actors_result["results"]["bindings"]:
         actor_id = a["actor"]["value"]
-        actor_data = {
-            "id": actor_id,
-            "nome": a["name"]["value"],
-            "dataNas": a.get("birthDate", {}).get("value", "Unknown"),
-            "origem": a.get("birthPlaceName", {}).get("value", "Unknown")
-        }
-        if actor_data not in movie["elenco"]:
+        if actor_id not in actor_ids:
+            actor_ids.add(actor_id)
+            actor_data = {
+                "id": actor_id,
+                "nome": a["name"]["value"],
+                "dataNas": a.get("birthDate", {}).get("value", "Unknown"),
+                "origem": a.get("birthPlaceName", {}).get("value", "Unknown")
+            }
             movie["elenco"].append(actor_data)
 
 
