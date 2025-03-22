@@ -1,0 +1,2782 @@
+@prefix : <http://www.semanticweb.org/tomas/ontologies/2025/2/cinema/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/tomas/ontologies/2025/2/cinema/> .
+
+<http://www.semanticweb.org/tomas/ontologies/2025/2/cinema> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#atuou
+:atuou rdf:type owl:ObjectProperty ;
+       owl:inverseOf :temAtor .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#compos
+:compos rdf:type owl:ObjectProperty ;
+        owl:inverseOf :foiComposta ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#ePersonagem
+:ePersonagem rdf:type owl:ObjectProperty ;
+             owl:inverseOf :temPersonagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#escreveu
+:escreveu rdf:type owl:ObjectProperty ;
+          owl:inverseOf :foiEscrita ;
+          rdfs:domain :Pessoa ;
+          rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#foiComposta
+:foiComposta rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#foiEscrita
+:foiEscrita rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#realizou
+:realizou rdf:type owl:ObjectProperty ;
+          owl:inverseOf :temRealizador .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temArgumento
+:temArgumento rdf:type owl:ObjectProperty ;
+              rdfs:domain :Filme ;
+              rdfs:range :Argumento .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temAtor
+:temAtor rdf:type owl:ObjectProperty ;
+         rdfs:domain :Filme ;
+         rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temGenero
+:temGenero rdf:type owl:ObjectProperty ;
+           rdfs:domain :Filme ;
+           rdfs:range :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temLingua
+:temLingua rdf:type owl:ObjectProperty ;
+           rdfs:domain :Filme ;
+           rdfs:range :Lingua .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temPaisOrigem
+:temPaisOrigem rdf:type owl:ObjectProperty ;
+               rdfs:domain :Filme ;
+               rdfs:range :Pais .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temPecaMusical
+:temPecaMusical rdf:type owl:ObjectProperty ;
+                rdfs:domain :Filme ;
+                rdfs:range :PecaMusical .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temPersonagem
+:temPersonagem rdf:type owl:ObjectProperty ;
+               rdfs:domain :Ator ;
+               rdfs:range :Personagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temRealizador
+:temRealizador rdf:type owl:ObjectProperty ;
+               rdfs:domain :Filme ;
+               rdfs:range :Pessoa .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#data
+:data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Filme ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#duracao
+:duracao rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Filme ;
+         rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#temSexo
+:temSexo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Pessoa ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Filme ;
+        rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Argumento
+:Argumento rdf:type owl:Class ;
+           rdfs:subClassOf :Obra .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Ator
+:Ator rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :atuou ;
+                                                   owl:someValuesFrom :Filme
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#AtorFeminino
+:AtorFeminino rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Ator
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :temSexo ;
+                                                           owl:hasValue "F"
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#AtorMasculino
+:AtorMasculino rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :Ator
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :temSexo ;
+                                                            owl:hasValue "M"
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Escritor
+:Escritor rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :escreveu ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:unionOf ( :Argumento
+                                                                                          :Livro
+                                                                                        )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Filme
+:Filme rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#FilmeAmericano
+:FilmeAmericano rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( :Filme
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :temPaisOrigem ;
+                                                             owl:hasValue :Estados_Unidos
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#FilmeAventura
+:FilmeAventura rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :Filme
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :temGenero ;
+                                                            owl:hasValue :Aventura
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#FilmeDramatico
+:FilmeDramatico rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( :Filme
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :temGenero ;
+                                                             owl:hasValue :Drama
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#FilmeInfantil
+:FilmeInfantil rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :Filme
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :temGenero ;
+                                                            owl:hasValue :Infantil
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#FilmeRomantico
+:FilmeRomantico rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( :Filme
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :temGenero ;
+                                                             owl:hasValue :Romance
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Genero
+:Genero rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Lingua
+:Lingua rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Livro
+:Livro rdf:type owl:Class ;
+       rdfs:subClassOf :Obra .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Musica
+:Musica rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Musico
+:Musico rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :compos ;
+                                                     owl:someValuesFrom :PecaMusical
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Pais
+:Pais rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#PecaMusical
+:PecaMusical rdf:type owl:Class ;
+             rdfs:subClassOf :Obra .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Personagem
+:Personagem rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Realizador
+:Realizador rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :realizou ;
+                                                         owl:someValuesFrom :Filme
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Acao
+:Acao rdf:type owl:NamedIndividual ,
+               :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Alex
+:Alex rdf:type owl:NamedIndividual ,
+               :Personagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#ArgumentoTwilight
+:ArgumentoTwilight rdf:type owl:NamedIndividual ,
+                            :Argumento .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Aventura
+:Aventura rdf:type owl:NamedIndividual ,
+                   :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Ben_Stiller
+:Ben_Stiller rdf:type owl:NamedIndividual ,
+                      :Pessoa ;
+             :atuou :Madagascar2 ;
+             :temPersonagem :Alex ;
+             :temSexo "M" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Billy_Burke
+:Billy_Burke rdf:type owl:NamedIndividual ,
+                      :Pessoa ;
+             :atuou :Twilight ;
+             :temSexo "M" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Catherine_Hardwicke
+:Catherine_Hardwicke rdf:type owl:NamedIndividual ,
+                              :Pessoa ;
+                     :realizou :Twilight .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Chris_Rock
+:Chris_Rock rdf:type owl:NamedIndividual ,
+                     :Pessoa ;
+            :atuou :Madagascar2 ;
+            :temPersonagem :Marty ;
+            :temSexo "M" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Comedia
+:Comedia rdf:type owl:NamedIndividual ,
+                  :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Drama
+:Drama rdf:type owl:NamedIndividual ,
+                :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Estados_Unidos
+:Estados_Unidos rdf:type owl:NamedIndividual ,
+                         :Pais .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Ficcao
+:Ficcao rdf:type owl:NamedIndividual ,
+                 :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Franca
+:Franca rdf:type owl:NamedIndividual ,
+                 :Pais .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Frances
+:Frances rdf:type owl:NamedIndividual ,
+                  :Lingua .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Gloria
+:Gloria rdf:type owl:NamedIndividual ,
+                 :Personagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Infantil
+:Infantil rdf:type owl:NamedIndividual ,
+                   :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Inglaterra
+:Inglaterra rdf:type owl:NamedIndividual ,
+                     :Pais .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Ingles
+:Ingles rdf:type owl:NamedIndividual ,
+                 :Lingua .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Kristen_Stewart
+:Kristen_Stewart rdf:type owl:NamedIndividual ,
+                          :Pessoa ;
+                 :atuou :Twilight ;
+                 :temSexo "F" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Madagascar2
+:Madagascar2 rdf:type owl:NamedIndividual ,
+                      :Filme ;
+             :temGenero :Aventura ,
+                        :Infantil ;
+             :data "2008-11-07" ;
+             :duracao 89 ;
+             :titulo "Madagascar: Escape 2 Africa" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Marty
+:Marty rdf:type owl:NamedIndividual ,
+                :Personagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Melissa_Rosenberg
+:Melissa_Rosenberg rdf:type owl:NamedIndividual ,
+                            :Pessoa ;
+                   :escreveu :ArgumentoTwilight .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Melman
+:Melman rdf:type owl:NamedIndividual ,
+                 :Personagem .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Portugal
+:Portugal rdf:type owl:NamedIndividual ,
+                   :Pais .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Portugues
+:Portugues rdf:type owl:NamedIndividual ,
+                    :Lingua .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Robert_Pattinson
+:Robert_Pattinson rdf:type owl:NamedIndividual ,
+                           :Pessoa ;
+                  :atuou :Twilight ;
+                  :temSexo "M" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Romance
+:Romance rdf:type owl:NamedIndividual ,
+                  :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Sarah_Clarke
+:Sarah_Clarke rdf:type owl:NamedIndividual ,
+                       :Pessoa ;
+              :atuou :Twilight ;
+              :temSexo "F" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Taylor_Lautner
+:Taylor_Lautner rdf:type owl:NamedIndividual ,
+                         :Pessoa ;
+                :atuou :Twilight ;
+                :temSexo "M" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Terror
+:Terror rdf:type owl:NamedIndividual ,
+                 :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Thriller
+:Thriller rdf:type owl:NamedIndividual ,
+                   :Genero .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/2/cinema#Twilight
+:Twilight rdf:type owl:NamedIndividual ,
+                   :Filme ;
+          :temArgumento :ArgumentoTwilight ;
+          :temGenero :Drama ,
+                     :Romance ,
+                     :Thriller ;
+          :temLingua :Ingles ;
+          :temPaisOrigem :Estados_Unidos ;
+          :data "2008-12-04" ;
+          :duracao 122 .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+:1917_(1970_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "1917 (1970 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:David_Leland rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :1917_(1970_film) ;
+    :temSexo "Unknown" .
+
+:1929_in_film rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "1929 in film" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:20_-_Venti rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "20 - Venti" ;
+    :data "Unknown" ;
+    :duracao 5460.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:200_Cartas rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Cartas" ;
+    :data "Unknown" ;
+    :duracao 5940.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Puerto_Rico ;
+    :temLingua :Unknown .
+
+:Mayra_Matos_Pérez rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :200_Cartas ;
+    :temSexo "Unknown" .
+
+:200_Cigarettes rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Cigarettes" ;
+    :data "Unknown" ;
+    :duracao 6060.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Casey_Affleck rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :200_Cigarettes ;
+    :temSexo "Unknown" .
+
+:200_Halla_Ho rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Halla Ho" ;
+    :data "Unknown" ;
+    :duracao 6900.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:200_Meters rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Meters" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Palestinian_territories ;
+    :temLingua :Palestinian_Arabic .
+
+:Ameen_Nayfeh rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :200_Meters ;
+    :temSexo "Unknown" .
+
+:200_Motels rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Motels" ;
+    :data "Unknown" ;
+    :duracao 5880.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:The_Mothers_of_Invention rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :200_Motels ;
+    :temSexo "Unknown" .
+
+:Frank_Zappa rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :200_Motels ;
+    :temSexo "Unknown" .
+
+:200_Pounds_Beauty rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 Pounds Beauty" ;
+    :data "Unknown" ;
+    :duracao 7200.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Korean_language .
+
+:Joo_Jin-mo rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :200_Pounds_Beauty ;
+    :temSexo "Unknown" .
+
+:Kim_Yong-hwa rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :200_Pounds_Beauty ;
+    :temSexo "Unknown" .
+
+:200_mph rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "200 mph" ;
+    :data "Unknown" ;
+    :duracao 5520.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Paul_Logan_(actor) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :200_mph ;
+    :temSexo "Unknown" .
+
+:2009:_Lost_Memories rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2009: Lost Memories" ;
+    :data "Unknown" ;
+    :duracao 8160.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Jang_Dong-gun rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :2009:_Lost_Memories ;
+    :temSexo "Unknown" .
+
+:2010:_The_Year_We_Make_Contact rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2010: The Year We Make Contact" ;
+    :data "Unknown" ;
+    :duracao 6960.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:John_Lithgow rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :2010:_The_Year_We_Make_Contact ;
+    :temSexo "Unknown" .
+
+:Peter_Hyams rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :2010:_The_Year_We_Make_Contact ;
+    :temSexo "Unknown" .
+
+:2012_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2012 (film)" ;
+    :data "Unknown" ;
+    :duracao 9480.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :United_States ;
+    :temLingua :Unknown .
+
+:John_Cusack rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :2012_(film) ;
+    :temSexo "Unknown" .
+
+:Roland_Emmerich rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :2012_(film) ;
+    :temSexo "Unknown" .
+
+:2012:_Kurse_a_di_Xtabai rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2012: Kurse a di Xtabai" ;
+    :data "Unknown" ;
+    :duracao 4800.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Belizean_Creole .
+
+:Matthiew_Klinck rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :2012:_Kurse_a_di_Xtabai ;
+    :temSexo "Unknown" .
+
+:2012:_Supernova rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2012: Supernova" ;
+    :data "Unknown" ;
+    :duracao 5220.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Brian_Krause rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :2012:_Supernova ;
+    :temSexo "Unknown" .
+
+:2012:_Time_for_Change rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2012: Time for Change" ;
+    :data "Unknown" ;
+    :duracao 5100.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:João_G._Amorim rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :2012:_Time_for_Change ;
+    :temSexo "Unknown" .
+
+:2022_Russian_debt_default rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "2022 Russian debt default" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:20va_Sathabdam rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "20va Sathabdam" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:Devaraj rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :20va_Sathabdam ;
+    :temSexo "Unknown" .
+
+:Kodi_Ramakrishna rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :20va_Sathabdam ;
+    :temSexo "Unknown" .
+
+:21_Months_of_Hell rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "21 Months of Hell" ;
+    :data "Unknown" ;
+    :duracao 4680.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alfred_Heuß rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alfred Heuß" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alfred_Kropp:_The_Thirteenth_Skull rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alfred Kropp: The Thirteenth Skull" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alfredo_De_Quesada rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alfredo De Quesada" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alfredo,_Alfredo rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alfredo, Alfredo" ;
+    :data "1973-12-17" ;
+    :duracao 6600.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Italian_language .
+
+:Dustin_Hoffman rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alfredo,_Alfredo ;
+    :temSexo "Unknown" .
+
+:Pietro_Germi rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alfredo,_Alfredo ;
+    :temSexo "Unknown" .
+
+:Algie's_Romance rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Algie's Romance" ;
+    :data "1918-04-20" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Algo_habrán_hecho_por_la_historia_argentina rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Algo habrán hecho por la historia argentina" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Documentary ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Mario_Pergolini rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Algo_habrán_hecho_por_la_historia_argentina ;
+    :temSexo "Unknown" .
+
+:Algo_habrán_hecho_por_la_historia_de_Chile rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Algo habrán hecho por la historia de Chile" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Documentary ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Francisco_Melo rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Algo_habrán_hecho_por_la_historia_de_Chile ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_(1940_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba (1940 film)" ;
+    :data "Unknown" ;
+    :duracao 9360.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Sardar_Akhtar rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Baba_(1940_film) ;
+    :temSexo "Unknown" .
+
+:Mehboob_Khan rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Baba_(1940_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_(1973_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba (1973 film)" ;
+    :data "Unknown" ;
+    :duracao 780.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :India ;
+    :temLingua :Bengali_language .
+
+:Aparna_Sen rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Baba_(1973_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_and_the_Forty_Thieves_(1902_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba and the Forty Thieves (1902 film)" ;
+    :data "Unknown" ;
+    :duracao 540.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :France ;
+    :temLingua :French_language .
+
+:Ferdinand_Zecca rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Baba_and_the_Forty_Thieves_(1902_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_and_the_Forty_Thieves_(1918_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba and the Forty Thieves (1918 film)" ;
+    :data "1918-11-24" ;
+    :duracao 3000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Gertrude_Messinger rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Baba_and_the_Forty_Thieves_(1918_film) ;
+    :temSexo "Unknown" .
+
+:Sidney_Franklin_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Baba_and_the_Forty_Thieves_(1918_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_and_the_Forty_Thieves_(1944_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba and the Forty Thieves (1944 film)" ;
+    :data "1944-01-14" ;
+    :duracao 5220.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Maria_Montez rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Baba_and_the_Forty_Thieves_(1944_film) ;
+    :temSexo "Unknown" .
+
+:Arthur_Lubin rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Baba_and_the_Forty_Thieves_(1944_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Baba_and_the_Forty_Thieves_(1954_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Baba and the Forty Thieves (1954 film)" ;
+    :data "1954-12-21" ;
+    :duracao 5520.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Fernandel rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Baba_and_the_Forty_Thieves_(1954_film) ;
+    :temSexo "Unknown" .
+
+:Jacques_Becker rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Baba_and_the_Forty_Thieves_(1954_film) ;
+    :temSexo "Unknown" .
+
+:Ali_Cengiz_Oyunu rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ali Cengiz Oyunu" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Izzet_Günay rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ali_Cengiz_Oyunu ;
+    :temSexo "Unknown" .
+
+:Halit_Refiğ rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ali_Cengiz_Oyunu ;
+    :temSexo "Unknown" .
+
+:Alias_Big_Shot rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Big Shot" ;
+    :data "Unknown" ;
+    :duracao 5400.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Argentina ;
+    :temLingua :Unknown .
+
+:Virginia_Lago rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Big_Shot ;
+    :temSexo "Unknown" .
+
+:Lautaro_Murúa rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alias_Big_Shot ;
+    :temSexo "Unknown" .
+
+:Alias_Billy_Sargent rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Billy Sargent" ;
+    :data "1912-01-25" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Francis_X._Bushman rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Billy_Sargent ;
+    :temSexo "Unknown" .
+
+:Alias_Flequillo rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Flequillo" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Spanish_language .
+
+:José_Marrone rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Flequillo ;
+    :temSexo "Unknown" .
+
+:Julio_Saraceni rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alias_Flequillo ;
+    :temSexo "Unknown" .
+
+:Alias_Jimmy_Valentine_(1915_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Jimmy Valentine (1915 film)" ;
+    :data "1915-02-22" ;
+    :duracao 3000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Alec_B._Francis rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Jimmy_Valentine_(1915_film) ;
+    :temSexo "Unknown" .
+
+:Maurice_Tourneur rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alias_Jimmy_Valentine_(1915_film) ;
+    :temSexo "Unknown" .
+
+:Alias_John_Preston rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias John Preston" ;
+    :data "Unknown" ;
+    :duracao 3960.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Betta_St._John rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_John_Preston ;
+    :temSexo "Unknown" .
+
+:Alias_Mary_Brown rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Mary Brown" ;
+    :data "1918-08-04" ;
+    :duracao 3000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Casson_Ferguson rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Mary_Brown ;
+    :temSexo "Unknown" .
+
+:Alias_Mary_Smith rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alias Mary Smith" ;
+    :data "1932-07-15" ;
+    :duracao 3660.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :English_language .
+
+:Blanche_Mehaffey rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alias_Mary_Smith ;
+    :temSexo "Unknown" .
+
+:E._Mason_Hopper rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alias_Mary_Smith ;
+    :temSexo "Unknown" .
+
+:Alibaba_Aur_40_Chor_(1954_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alibaba Aur 40 Chor (1954 film)" ;
+    :data "Unknown" ;
+    :duracao 8700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :India ;
+    :temLingua :Hindi .
+
+:Mahipal_(actor) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alibaba_Aur_40_Chor_(1954_film) ;
+    :temSexo "Unknown" .
+
+:Homi_Wadia rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alibaba_Aur_40_Chor_(1954_film) ;
+    :temSexo "Unknown" .
+
+:Alibaba_Aur_40_Chor_(1966_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alibaba Aur 40 Chor (1966 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :India ;
+    :temLingua :Hindi .
+
+:Sanjeev_Kumar rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alibaba_Aur_40_Chor_(1966_film) ;
+    :temSexo "Unknown" .
+
+:Alibaba_Marjinaa rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alibaba Marjinaa" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :India ;
+    :temLingua :Hindi_language .
+
+:Urmila_Bhatt rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alibaba_Marjinaa ;
+    :temSexo "Unknown" .
+
+:Alibhabha rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alibhabha" ;
+    :data "2008-09-05" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Tamil_language .
+
+:Thilakan rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alibhabha ;
+    :temSexo "Unknown" .
+
+:Neelan_K._Sekar rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alibhabha ;
+    :temSexo "Unknown" .
+
+:Alibi_(1955_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alibi (1955 film)" ;
+    :data "1955-12-30" ;
+    :duracao 6180.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :German_language .
+
+:Martin_Held rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alibi_(1955_film) ;
+    :temSexo "Unknown" .
+
+:Alfred_Weidenmann rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alibi_(1955_film) ;
+    :temSexo "Unknown" .
+
+:Alice_Adams_(1923_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice Adams (1923 film)" ;
+    :data "1923-04-08" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Florence_Vidor rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alice_Adams_(1923_film) ;
+    :temSexo "Unknown" .
+
+:Rowland_V._Lee rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alice_Adams_(1923_film) ;
+    :temSexo "Unknown" .
+
+:Alice_Gets_Stung rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice Gets Stung" ;
+    :data "1925-02-01" ;
+    :duracao 480.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Walt_Disney rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alice_Gets_Stung ;
+    :temSexo "Unknown" .
+
+:Alice_Walker:_Beauty_in_Truth rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice Walker: Beauty in Truth" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Pratibha_Parmar rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alice_Walker:_Beauty_in_Truth ;
+    :temSexo "Unknown" .
+
+:Alice_de_Sousa rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice de Sousa" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice_in_Murderland_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice in Murderland (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice_in_Wonderland_(Kalabis) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice in Wonderland (Kalabis)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice_in_Wonderland_(opera) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice in Wonderland (opera)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice_in_Wondertown rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice in Wondertown" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice_the_Toreador rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice the Toreador" ;
+    :data "1925-01-15" ;
+    :duracao 452.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alice's_Orphan rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alice's Orphan" ;
+    :data "1926-01-15" ;
+    :duracao 396.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alicia_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alicia (film)" ;
+    :data "Unknown" ;
+    :duracao 6240.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Wim_Verstappen rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alicia_(film) ;
+    :temSexo "Unknown" .
+
+:Alicinte_Anveshanam rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alicinte Anveshanam" ;
+    :data "Unknown" ;
+    :duracao 7320.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Malayalam .
+
+:Nilambur_Balan rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alicinte_Anveshanam ;
+    :temSexo "Unknown" .
+
+:T._V._Chandran rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alicinte_Anveshanam ;
+    :temSexo "Unknown" .
+
+:Alien_Abduction:_Answers rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alien Abduction: Answers" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alien_Adventure rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alien Adventure" ;
+    :data "2000-07-01" ;
+    :duracao 2100.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Belgium ;
+    :temLingua :Unknown .
+
+:Bouli_Lanners rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alien_Adventure ;
+    :temSexo "Unknown" .
+
+:Ben_Stassen rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alien_Adventure ;
+    :temSexo "Unknown" .
+
+:Alien_Thunder rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alien Thunder" ;
+    :data "1974-02-22" ;
+    :duracao 5580.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Donald_Sutherland rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alien_Thunder ;
+    :temSexo "Unknown" .
+
+:Claude_Fournier_(filmmaker) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alien_Thunder ;
+    :temSexo "Unknown" .
+
+:Aliens_Ate_My_Homework_(2018_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aliens Ate My Homework (2018 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :United_States ;
+    :temLingua :Unknown .
+
+:Jayden_Greig rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Aliens_Ate_My_Homework_(2018_film) ;
+    :temSexo "Unknown" .
+
+:Sean_McNamara_(filmmaker) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Aliens_Ate_My_Homework_(2018_film) ;
+    :temSexo "Unknown" .
+
+:Aliens_Stole_My_Body_(2020_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aliens Stole My Body (2020 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :United_States ;
+    :temLingua :Unknown .
+
+:Aliens_are_to_Blame_for_Everything rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aliens are to Blame for Everything" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alifa rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alifa" ;
+    :data "2018-03-30" ;
+    :duracao 6540.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :India ;
+    :temLingua :Bengali_language .
+
+:Victor_Banerjee rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alifa ;
+    :temSexo "Unknown" .
+
+:Aliff_Dalam_7_Dimensi rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aliff Dalam 7 Dimensi" ;
+    :data "2016-09-08" ;
+    :duracao 6420.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Malay_language .
+
+:Juliana_Evans rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Aliff_Dalam_7_Dimensi ;
+    :temSexo "Unknown" .
+
+:Alimayya rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alimayya" ;
+    :data "1993-06-23" ;
+    :duracao 7380.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Kannada .
+
+:Shruti_(actress) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alimayya ;
+    :temSexo "Unknown" .
+
+:Kishore_Sarja rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alimayya ;
+    :temSexo "Unknown" .
+
+:Alisher_Navoi_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alisher Navoi (film)" ;
+    :data "Unknown" ;
+    :duracao 6000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Razzoq_Hamroyev rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alisher_Navoi_(film) ;
+    :temSexo "Unknown" .
+
+:Kamil_Yarmatov rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alisher_Navoi_(film) ;
+    :temSexo "Unknown" .
+
+:Alitet_Leaves_for_the_Hills rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alitet Leaves for the Hills" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Boris_Tenin rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alitet_Leaves_for_the_Hills ;
+    :temSexo "Unknown" .
+
+:Mark_Donskoy rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alitet_Leaves_for_the_Hills ;
+    :temSexo "Unknown" .
+
+:Alive_in_the_Nineties rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alive in the Nineties" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Aliya_Alla_Magala_Ganda rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aliya Alla Magala Ganda" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Pramila_Joshai rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Aliya_Alla_Magala_Ganda ;
+    :temSexo "Unknown" .
+
+:All_About_Love_(2001_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All About Love (2001 film)" ;
+    :data "2001-04-11" ;
+    :duracao 5400.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Virginie_Ledoyen rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_About_Love_(2001_film) ;
+    :temSexo "Unknown" .
+
+:Jean-François_Richet rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_About_Love_(2001_film) ;
+    :temSexo "Unknown" .
+
+:All_About_Women_(1969_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All About Women (1969 film)" ;
+    :data "1969-06-03" ;
+    :duracao 4920.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Astrid_Frank rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_About_Women_(1969_film) ;
+    :temSexo "Unknown" .
+
+:Claude_Pierson rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_About_Women_(1969_film) ;
+    :temSexo "Unknown" .
+
+:All_About_the_Money rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All About the Money" ;
+    :data "2017-06-02" ;
+    :duracao 5400.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Casper_Van_Dien rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_About_the_Money ;
+    :temSexo "Unknown" .
+
+:All_Alone_(film_series) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Alone (film series)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_Clues_Lead_to_Berlin rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Clues Lead to Berlin" ;
+    :data "1952-11-28" ;
+    :duracao 5340.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :German_language .
+
+:Kurt_Meisel rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Clues_Lead_to_Berlin ;
+    :temSexo "Unknown" .
+
+:František_Čáp rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Clues_Lead_to_Berlin ;
+    :temSexo "Unknown" .
+
+:All_Dolled_Up_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Dolled Up (film)" ;
+    :data "Unknown" ;
+    :duracao 3000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Edward_Hearn_(actor) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Dolled_Up_(film) ;
+    :temSexo "Unknown" .
+
+:Rollin_S._Sturgeon rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Dolled_Up_(film) ;
+    :temSexo "Unknown" .
+
+:All_Dressed_Up rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Dressed Up" ;
+    :data "1918-05-22" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Betty_Compson rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Dressed_Up ;
+    :temSexo "Unknown" .
+
+:Al_Christie rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Dressed_Up ;
+    :temSexo "Unknown" .
+
+:All_Faces_West rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Faces West" ;
+    :data "1929-03-02" ;
+    :duracao 4260.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Sound_film .
+
+:Marie_Prevost rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Faces_West ;
+    :temSexo "Unknown" .
+
+:Raymond_K._Johnson rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Faces_West ;
+    :temSexo "Unknown" .
+
+:All_Fowled_Up rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Fowled Up" ;
+    :data "1955-02-19" ;
+    :duracao 360.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Mel_Blanc rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Fowled_Up ;
+    :temSexo "Unknown" .
+
+:Robert_McKimson rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Fowled_Up ;
+    :temSexo "Unknown" .
+
+:All_Hallows'_Eve_2 rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Hallows' Eve 2" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Antonio_Padovan rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Hallows'_Eve_2 ;
+    :temSexo "Unknown" .
+
+:All_I_Want_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All I Want (film)" ;
+    :data "2002-09-10" ;
+    :duracao 5760.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Elijah_Wood rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_I_Want_(film) ;
+    :temSexo "Unknown" .
+
+:All_I_Wish rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All I Wish" ;
+    :data "2017-05-03" ;
+    :duracao 5640.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Ellen_Burstyn rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_I_Wish ;
+    :temSexo "Unknown" .
+
+:All_In_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All In (film)" ;
+    :data "Unknown" ;
+    :duracao 4260.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Ralph_Lynn rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_In_(film) ;
+    :temSexo "Unknown" .
+
+:Marcel_Varnel rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_In_(film) ;
+    :temSexo "Unknown" .
+
+:All_Jacked_Up_and_Full_of_Worms rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Jacked Up and Full of Worms" ;
+    :data "2022-07-16" ;
+    :duracao 4320.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_Mad_About_Him rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Mad About Him" ;
+    :data "1967-05-24" ;
+    :duracao 6000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Sophie_Desmarets rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Mad_About_Him ;
+    :temSexo "Unknown" .
+
+:Norbert_Carbonnaux rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Mad_About_Him ;
+    :temSexo "Unknown" .
+
+:All_Men_Are_Liars_(1919_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Men Are Liars (1919 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Intertitles .
+
+:Bruce_Gordon_(actor/director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Men_Are_Liars_(1919_film) ;
+    :temSexo "Unknown" .
+
+:Sidney_Morgan rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Men_Are_Liars_(1919_film) ;
+    :temSexo "Unknown" .
+
+:All_My_Loved_Ones rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All My Loved Ones" ;
+    :data "1999-10-21" ;
+    :duracao 5460.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Slovakia ;
+    :temLingua :Unknown .
+
+:Rupert_Graves rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_My_Loved_Ones ;
+    :temSexo "Unknown" .
+
+:Matej_Mináč rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_My_Loved_Ones ;
+    :temSexo "Unknown" .
+
+:All_My_Relations rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All My Relations" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_Night_Long_(1962_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Night Long (1962 film)" ;
+    :data "1963-04-17" ;
+    :duracao 5460.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Richard_Attenborough rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Night_Long_(1962_film) ;
+    :temSexo "Unknown" .
+
+:Basil_Dearden rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Night_Long_(1962_film) ;
+    :temSexo "Unknown" .
+
+:All_Nothing rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Nothing" ;
+    :data "Unknown" ;
+    :duracao 660.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Frédéric_Back rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Nothing ;
+    :temSexo "Unknown" .
+
+:All_Roads_Lead_to_Calvary_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Roads Lead to Calvary (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Bertram_Burleigh rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Roads_Lead_to_Calvary_(film) ;
+    :temSexo "Unknown" .
+
+:Kenelm_Foss rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Roads_Lead_to_Calvary_(film) ;
+    :temSexo "Unknown" .
+
+:All_Roads_Lead_to_Rome_(1949_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Roads Lead to Rome (1949 film)" ;
+    :data "1949-09-16" ;
+    :duracao 5340.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Micheline_Presle rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Roads_Lead_to_Rome_(1949_film) ;
+    :temSexo "Unknown" .
+
+:Jean_Boyer_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Roads_Lead_to_Rome_(1949_film) ;
+    :temSexo "Unknown" .
+
+:All_Rounder_(1984_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Rounder (1984 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Hindi .
+
+:Vinod_Mehra rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Rounder_(1984_film) ;
+    :temSexo "Unknown" .
+
+:Mohan_Kumar_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Rounder_(1984_film) ;
+    :temSexo "Unknown" .
+
+:All_Screwed_Up rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Screwed Up" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Isa_Danieli rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Screwed_Up ;
+    :temSexo "Unknown" .
+
+:Lina_Wertmüller rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Screwed_Up ;
+    :temSexo "Unknown" .
+
+:All_Sorts_and_Conditions_of_Men rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Sorts and Conditions of Men" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Rex_Davis rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Sorts_and_Conditions_of_Men ;
+    :temSexo "Unknown" .
+
+:Georges_Tréville rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Sorts_and_Conditions_of_Men ;
+    :temSexo "Unknown" .
+
+:All_Souls'_Day_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Souls' Day (film)" ;
+    :data "Unknown" ;
+    :duracao 5580.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Polish_language .
+
+:Edmund_Fetting rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_Souls'_Day_(film) ;
+    :temSexo "Unknown" .
+
+:Tadeusz_Konwicki rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Souls'_Day_(film) ;
+    :temSexo "Unknown" .
+
+:All_That_Glitters_(1936_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All That Glitters (1936 film)" ;
+    :data "Unknown" ;
+    :duracao 4320.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Moira_Lynd rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_That_Glitters_(1936_film) ;
+    :temSexo "Unknown" .
+
+:Maclean_Rogers rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_That_Glitters_(1936_film) ;
+    :temSexo "Unknown" .
+
+:All_That's_Not_Worth_Love rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All That's Not Worth Love" ;
+    :data "1931-10-16" ;
+    :duracao 5220.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Josseline_Gaël rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_That's_Not_Worth_Love ;
+    :temSexo "Unknown" .
+
+:Jacques_Tourneur rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_That's_Not_Worth_Love ;
+    :temSexo "Unknown" .
+
+:All_Things_Pass rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Things Pass" ;
+    :data "Unknown" ;
+    :duracao 3900.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Netherlands ;
+    :temLingua :Dutch_language .
+
+:Paul_Verhoeven rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Things_Pass ;
+    :temSexo "Unknown" .
+
+:All_Work_All_Play rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Work All Play" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Patrick_Creadon rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_Work_All_Play ;
+    :temSexo "Unknown" .
+
+:All_Wrong_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All Wrong (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_at_Sea_(1929_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All at Sea (1929 film)" ;
+    :data "1929-02-09" ;
+    :duracao 3540.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Karl_Dane rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_at_Sea_(1929_film) ;
+    :temSexo "Unknown" .
+
+:Alfred_J._Goulding rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_at_Sea_(1929_film) ;
+    :temSexo "Unknown" .
+
+:All_at_Sea_(1977_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All at Sea (1977 film)" ;
+    :data "1977-07-08" ;
+    :duracao 4500.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Johnny_Pace rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_at_Sea_(1977_film) ;
+    :temSexo "Unknown" .
+
+:Igor_Auzins rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_at_Sea_(1977_film) ;
+    :temSexo "Unknown" .
+
+:All_for_Gold,_or_Jumping_the_Claim rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All for Gold, or Jumping the Claim" ;
+    :data "1911-10-09" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Franklyn_Barrett rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_for_Gold,_or_Jumping_the_Claim ;
+    :temSexo "Unknown" .
+
+:All_for_a_Girl_(1912_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All for a Girl (1912 film)" ;
+    :data "1912-12-14" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :English_language .
+
+:Leah_Baird rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_for_a_Girl_(1912_film) ;
+    :temSexo "Unknown" .
+
+:Frederick_A._Thomson rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_for_a_Girl_(1912_film) ;
+    :temSexo "Unknown" .
+
+:All_for_a_Girl_(1915_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All for a Girl (1915 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Roy_Applegate rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_for_a_Girl_(1915_film) ;
+    :temSexo "Unknown" .
+
+:All_of_Life_in_One_Night rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All of Life in One Night" ;
+    :data "Unknown" ;
+    :duracao 4200.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Italian_language .
+
+:Camillo_Pilotto rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_of_Life_in_One_Night ;
+    :temSexo "Unknown" .
+
+:Corrado_D'Errico rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_of_Life_in_One_Night ;
+    :temSexo "Unknown" .
+
+:All_of_Me_(2014_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All of Me (2014 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_the_Fault_of_Paradise rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Fault of Paradise" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Francesco_Nuti rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_the_Fault_of_Paradise ;
+    :temSexo "Unknown" .
+
+:All_the_Fun_of_the_Fair rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Fun of the Fair" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:All_the_Rage_(2016_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Rage (2016 film)" ;
+    :data "2016-11-12" ;
+    :duracao 5640.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Suki_Hawley rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_the_Rage_(2016_film) ;
+    :temSexo "Unknown" .
+
+:All_the_Sad_World_Needs rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Sad World Needs" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Lauri_de_Frece rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_the_Sad_World_Needs ;
+    :temSexo "Unknown" .
+
+:All_the_Vermeers_in_New_York rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Vermeers in New York" ;
+    :data "Unknown" ;
+    :duracao 5220.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Stephen_Lack rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_the_Vermeers_in_New_York ;
+    :temSexo "Unknown" .
+
+:Jon_Jost rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_the_Vermeers_in_New_York ;
+    :temSexo "Unknown" .
+
+:All_the_Way_Up_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Way Up (film)" ;
+    :data "Unknown" ;
+    :duracao 5700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Warren_Mitchell rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_the_Way_Up_(film) ;
+    :temSexo "Unknown" .
+
+:James_MacTaggart rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_the_Way_Up_(film) ;
+    :temSexo "Unknown" .
+
+:All_the_Winners rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Winners" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Intertitles .
+
+:Sam_Livesey rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_the_Winners ;
+    :temSexo "Unknown" .
+
+:Geoffrey_Malins rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All_the_Winners ;
+    :temSexo "Unknown" .
+
+:All_the_Wrong_Places_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All the Wrong Places (film)" ;
+    :data "Unknown" ;
+    :duracao 5700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Ali_Hillis rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All_the_Wrong_Places_(film) ;
+    :temSexo "Unknown" .
+
+:All's_Fair_in_Love rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All's Fair in Love" ;
+    :data "Unknown" ;
+    :duracao 3000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Silent_film .
+
+:Richard_Dix rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All's_Fair_in_Love ;
+    :temSexo "Unknown" .
+
+:All-American_Murder rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All-American Murder" ;
+    :data "1991-12-01" ;
+    :duracao 5640.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Josie_Bissett rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All-American_Murder ;
+    :temSexo "Unknown" .
+
+:Anson_Williams rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :All-American_Murder ;
+    :temSexo "Unknown" .
+
+:All-Star_Weekend_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "All-Star Weekend (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Jamie_Foxx rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :All-Star_Weekend_(film) ;
+    :temSexo "Unknown" .
+
+:Alla_luce_del_sole rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alla luce del sole" ;
+    :data "Unknown" ;
+    :duracao 5340.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Roberto_Faenza rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alla_luce_del_sole ;
+    :temSexo "Unknown" .
+
+:Alla_mia_cara_mamma_nel_giorno_del_suo_compleanno rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alla mia cara mamma nel giorno del suo compleanno" ;
+    :data "Unknown" ;
+    :duracao 6300.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Italy ;
+    :temLingua :Italian_language .
+
+:Paolo_Villaggio rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alla_mia_cara_mamma_nel_giorno_del_suo_compleanno ;
+    :temSexo "Unknown" .
+
+:Luciano_Salce rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alla_mia_cara_mamma_nel_giorno_del_suo_compleanno ;
+    :temSexo "Unknown" .
+
+:Alladin_Ka_Beta rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alladin Ka Beta" ;
+    :data "1955-01-01" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allan_Knee rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allan Knee" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allan_Kroeker rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allan Kroeker" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allare_Allari rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allare Allari" ;
+    :data "2006-12-20" ;
+    :duracao 8700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:Venu_Thottempudi rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allare_Allari ;
+    :temSexo "Unknown" .
+
+:Muppalaneni_Shiva rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allare_Allari ;
+    :temSexo "Unknown" .
+
+:Allari_Bullodu rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allari Bullodu" ;
+    :data "2005-09-15" ;
+    :duracao 10500.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:Krishna_Bhagavan rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allari_Bullodu ;
+    :temSexo "Unknown" .
+
+:K._Raghavendra_Rao rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allari_Bullodu ;
+    :temSexo "Unknown" .
+
+:Allari_Pilla rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allari Pilla" ;
+    :data "1992-04-23" ;
+    :duracao 8160.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Suresh_(actor) rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allari_Pilla ;
+    :temSexo "Unknown" .
+
+:Allari_Ramudu rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allari Ramudu" ;
+    :data "2002-07-19" ;
+    :duracao 9360.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:N._T._Rama_Rao_Jr. rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allari_Ramudu ;
+    :temSexo "Unknown" .
+
+:B._Gopal rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allari_Ramudu ;
+    :temSexo "Unknown" .
+
+:Allegoria rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allegoria" ;
+    :data "2022-08-02" ;
+    :duracao 4200.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Bryce_Johnson rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allegoria ;
+    :temSexo "Unknown" .
+
+:Spider_One rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allegoria ;
+    :temSexo "Unknown" .
+
+:Allegory:_A_Tapestry_of_Guru_Nanak's_Travels rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allegory: A Tapestry of Guru Nanak's Travels" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Amardeep_Singh_(writer) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allegory:_A_Tapestry_of_Guru_Nanak's_Travels ;
+    :temSexo "Unknown" .
+
+:Allemaal_naar_Bed rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allemaal naar Bed" ;
+    :data "Unknown" ;
+    :duracao 6120.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Dutch_language .
+
+:Allemaal_tuig! rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allemaal tuig!" ;
+    :data "Unknown" ;
+    :duracao 5640.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Dutch_language .
+
+:Ben_Sombogaart rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allemaal_tuig! ;
+    :temSexo "Unknown" .
+
+:Allen_Ginsberg_Live_in_London rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allen Ginsberg Live in London" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allende_en_su_laberinto rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allende en su laberinto" ;
+    :data "Unknown" ;
+    :duracao 5400.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Roque_Valero rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allende_en_su_laberinto ;
+    :temSexo "Unknown" .
+
+:Miguel_Littín rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allende_en_su_laberinto ;
+    :temSexo "Unknown" .
+
+:Alles_Leben_ist_Kampf rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alles Leben ist Kampf" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allez_Hopp rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allez Hopp" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :East_Germany ;
+    :temLingua :German_language .
+
+:Hans_Fritz_Köllner rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allez_Hopp ;
+    :temSexo "Unknown" .
+
+:Allez,_Eddy rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allez, Eddy" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Barbara_Sarafian rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allez,_Eddy ;
+    :temSexo "Unknown" .
+
+:Allgemeines_Deutsches_Handelsgesetzbuch rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allgemeines Deutsches Handelsgesetzbuch" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Allgemeines_bürgerliches_Gesetzbuch rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allgemeines bürgerliches Gesetzbuch" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alli_Arjuna rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alli Arjuna" ;
+    :data "2002-01-14" ;
+    :duracao 8880.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Tamil_language .
+
+:Dhamu rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alli_Arjuna ;
+    :temSexo "Unknown" .
+
+:Saran_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alli_Arjuna ;
+    :temSexo "Unknown" .
+
+:Alli_Ramachari_Illi_Brahmachari rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alli Ramachari Illi Brahmachari" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Kannada .
+
+:Jaggesh rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alli_Ramachari_Illi_Brahmachari ;
+    :temSexo "Unknown" .
+
+:Alligator_Shoes rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alligator Shoes" ;
+    :data "Unknown" ;
+    :duracao 5940.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Clay_Borris rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alligator_Shoes ;
+    :temSexo "Unknown" .
+
+:Allow_Me,_Daddy! rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allow Me, Daddy!" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Italian_language .
+
+:Mario_Bonnard rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allow_Me,_Daddy! ;
+    :temSexo "Unknown" .
+
+:Allrakäraste_syster_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allrakäraste syster (film)" ;
+    :data "Unknown" ;
+    :duracao 1740.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Göran_Carmback rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Allrakäraste_syster_(film) ;
+    :temSexo "Unknown" .
+
+:Allswell rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allswell" ;
+    :data "2022-06-13" ;
+    :duracao 5340.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Elizabeth_Rodriguez rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Allswell ;
+    :temSexo "Unknown" .
+
+:Alltag rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alltag" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alluda_Majaka rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alluda Majaka" ;
+    :data "1995-02-25" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:Brahmanandam rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alluda_Majaka ;
+    :temSexo "Unknown" .
+
+:E._V._V._Satyanarayana rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alluda_Majaka ;
+    :temSexo "Unknown" .
+
+:Alludu_Diddina_Kapuram rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alludu Diddina Kapuram" ;
+    :data "1991-08-14" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:B._Saroja_Devi rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alludu_Diddina_Kapuram ;
+    :temSexo "Unknown" .
+
+:Krishna_Ghattamaneni rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alludu_Diddina_Kapuram ;
+    :temSexo "Unknown" .
+
+:Alludugaru rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alludugaru" ;
+    :data "1990-09-28" ;
+    :duracao 8640.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Telugu_language .
+
+:Mohan_Babu rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alludugaru ;
+    :temSexo "Unknown" .
+
+:Allá_en_el_trapiche rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Allá en el trapiche" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alma_Corsária rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alma Corsária" ;
+    :data "Unknown" ;
+    :duracao 6720.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Brazil ;
+    :temLingua :Portuguese_language .
+
+:Carlos_Reichenbach rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alma_Corsária ;
+    :temSexo "Unknown" .
+
+:Alma_Mater_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alma Mater (film)" ;
+    :data "Unknown" ;
+    :duracao 6000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alma_en_pena rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alma en pena" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Julio_Irigoyen rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alma_en_pena ;
+    :temSexo "Unknown" .
+
+:Alma_mía rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alma mía" ;
+    :data "1999-05-13" ;
+    :duracao 6300.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Argentina ;
+    :temLingua :Unknown .
+
+:Araceli_González rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alma_mía ;
+    :temSexo "Unknown" .
+
+:Daniel_Barone rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alma_mía ;
+    :temSexo "Unknown" .
+
+:Almanzor's_Rings rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Almanzor's Rings" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Soviet_Union ;
+    :temLingua :Unknown .
+
+:Valentina_Talyzina rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Almanzor's_Rings ;
+    :temSexo "Unknown" .
+
+:Almost_Angels rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Almost Angels" ;
+    :data "1962-09-26" ;
+    :duracao 5580.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Steve_Previn rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Almost_Angels ;
+    :temSexo "Unknown" .
+
+:Almost_Human_(1974_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Almost Human (1974 film)" ;
+    :data "1974-08-08" ;
+    :duracao 6000.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Tomas_Milian rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Almost_Human_(1974_film) ;
+    :temSexo "Unknown" .
+
+:Umberto_Lenzi rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Almost_Human_(1974_film) ;
+    :temSexo "Unknown" .
+
+:Almost_a_Divorce rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Almost a Divorce" ;
+    :data "1931-08-21" ;
+    :duracao 4500.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Nelson_Keys rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Almost_a_Divorce ;
+    :temSexo "Unknown" .
+
+:Jack_Raymond rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Almost_a_Divorce ;
+    :temSexo "Unknown" .
+
+:Almost_a_Honeymoon_(1938_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Almost a Honeymoon (1938 film)" ;
+    :data "1938-04-21" ;
+    :duracao 4800.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Frederick_Burtwell rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Almost_a_Honeymoon_(1938_film) ;
+    :temSexo "Unknown" .
+
+:Norman_Lee rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Almost_a_Honeymoon_(1938_film) ;
+    :temSexo "Unknown" .
+
+:Aloe_Vera_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Aloe Vera (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Peter_Sedufia rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Aloe_Vera_(film) ;
+    :temSexo "Unknown" .
+
+:Alone_(1931_French_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone (1931 French film)" ;
+    :data "1931-02-13" ;
+    :duracao 4740.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Ginette_Maddie rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_(1931_French_film) ;
+    :temSexo "Unknown" .
+
+:Henri_Diamant-Berger rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alone_(1931_French_film) ;
+    :temSexo "Unknown" .
+
+:Alone_(2001_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone (2001 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Alone_(2015_Kannada_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone (2015 Kannada film)" ;
+    :data "2015-11-27" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Nikesha_Patel rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_(2015_Kannada_film) ;
+    :temSexo "Unknown" .
+
+:Alone_(2022_film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone (2022 film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Malayalam .
+
+:Mohanlal rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_(2022_film) ;
+    :temSexo "Unknown" .
+
+:Shaji_Kailas rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alone_(2022_film) ;
+    :temSexo "Unknown" .
+
+:Alone_in_Paris rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone in Paris" ;
+    :data "1951-11-28" ;
+    :duracao 5700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :France ;
+    :temLingua :French_language .
+
+:Magali_Noël rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_in_Paris ;
+    :temSexo "Unknown" .
+
+:Hervé_Bromberger rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alone_in_Paris ;
+    :temSexo "Unknown" .
+
+:Alone_in_the_Night_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone in the Night (film)" ;
+    :data "1945-11-21" ;
+    :duracao 5700.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Jacques_Pills rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_in_the_Night_(film) ;
+    :temSexo "Unknown" .
+
+:Christian_Stengel rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alone_in_the_Night_(film) ;
+    :temSexo "Unknown" .
+
+:Alone_in_the_World_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Alone in the World (film)" ;
+    :data "1952-07-11" ;
+    :duracao 4980.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :French_language .
+
+:Madeleine_Robinson rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Alone_in_the_World_(film) ;
+    :temSexo "Unknown" .
+
+:René_Chanas rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Alone_in_the_World_(film) ;
+    :temSexo "Unknown" .
+
+:Along_the_Navajo_Trail_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Along the Navajo Trail (film)" ;
+    :data "1945-09-15" ;
+    :duracao 3960.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Roy_Rogers rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Along_the_Navajo_Trail_(film) ;
+    :temSexo "Unknown" .
+
+:Frank_McDonald_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Along_the_Navajo_Trail_(film) ;
+    :temSexo "Unknown" .
+
+:Along_the_Way rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Along the Way" ;
+    :data "1990-08-25" ;
+    :duracao 5400.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Brett_Gurewitz rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Along_the_Way ;
+    :temSexo "Unknown" .
+
+:Ambush_in_Leopard_Street rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ambush in Leopard Street" ;
+    :data "Unknown" ;
+    :duracao 4320.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Bruce_Seton rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ambush_in_Leopard_Street ;
+    :temSexo "Unknown" .
+
+:Ameer_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ameer (film)" ;
+    :data "Unknown" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Geeta_Bali rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ameer_(film) ;
+    :temSexo "Unknown" .
+
+:Ameer_Aadmi_Gharib_Aadmi rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ameer Aadmi Gharib Aadmi" ;
+    :data "1985-05-24" ;
+    :duracao Unknown ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Kader_Khan rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ameer_Aadmi_Gharib_Aadmi ;
+    :temSexo "Unknown" .
+
+:Amjad_Khan_(actor) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ameer_Aadmi_Gharib_Aadmi ;
+    :temSexo "Unknown" .
+
+:Ameerin_Aadhi-Bhagavan rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Ameerin Aadhi-Bhagavan" ;
+    :data "2013-02-22" ;
+    :duracao 9420.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Tamil_language .
+
+:Sudha_Chandran rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Ameerin_Aadhi-Bhagavan ;
+    :temSexo "Unknown" .
+
+:Ameer_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Ameerin_Aadhi-Bhagavan ;
+    :temSexo "Unknown" .
+
+:Amelie_or_The_Time_to_Love rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "Amelie or The Time to Love" ;
+    :data "1963-09-02" ;
+    :duracao 6600.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Marie-José_Nat rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :Amelie_or_The_Time_to_Love ;
+    :temSexo "Unknown" .
+
+:Michel_Drach rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :Amelie_or_The_Time_to_Love ;
+    :temSexo "Unknown" .
+
+:America_Abbayi rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "America Abbayi" ;
+    :data "1987-01-01" ;
+    :duracao 7577.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Gummadi_Venkateswara_Rao rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :America_Abbayi ;
+    :temSexo "Unknown" .
+
+:Singeetam_Srinivasa_Rao rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :America_Abbayi ;
+    :temSexo "Unknown" .
+
+:America_Brown_(film) rdf:type owl:NamedIndividual , :Filme ;
+    :titulo "America Brown (film)" ;
+    :data "2005-10-28" ;
+    :duracao 5220.0 ;
+    :temGenero :Unknown ;
+    :temPaisOrigem :Unknown ;
+    :temLingua :Unknown .
+
+:Hill_Harper rdf:type owl:NamedIndividual , :Pessoa ;
+    :atuou :America_Brown_(film) ;
+    :temSexo "Unknown" .
+
+:Paul_Black_(director) rdf:type owl:NamedIndividual , :Pessoa ;
+    :realizou :America_Brown_(film) ;
+    :temSexo "Unknown" .
+
