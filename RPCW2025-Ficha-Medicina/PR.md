@@ -1,7 +1,7 @@
 # RPCW2025-Ficha-Medicina
 
 ## Exercícios que faltam fazer:
-    12, 13, 14, 15
+    2.12, 2.13, 2.14, 2.15
 
 ## Estrutura do Repositório
 
