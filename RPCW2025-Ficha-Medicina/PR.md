@@ -1,28 +1,25 @@
 # RPCW2025-Ficha-Medicina
 
-## Exercícios que faltam fazer:
-    2.12, 2.13, 2.14, 2.15
-
 ## Estrutura do Repositório
 
 - **ex1/**
-  - `historia.ttl`: Ontologia em Turtle com a representação dos conceitos de doenças, sintomas, tratamentos e pacientes.
-  - `queries.txt`: Consultas SPARQL para extrair informações da ontologia (Ex1).
+  - `historia.ttl`: Ontologia sobre a historia definida na ficha.
+  - `queries.txt`: SPARQL queries para extrair informações da ontologia (Ex1).
 - **ex2/**
-  - `povoar ontologia.py`: Script Python que gera as instâncias a partir dos dados em CSV e JSON.
+  - `povoar ontologia.py`: Script Python que gera novas instâncias a partir dos datasets.
   - **datasets/**
     - `Disease_Description.csv`
     - `Disease_Treatment.csv`
     - `Disease_Syntoms.csv`
     - `doentes.json`
-  - `medical.ttl`: Arquivo base com a ontologia médica.
-  - `med_doencas.ttl`: Arquivo de saída com mais instâncias de doenças (gerado pelo script).
-  - `med_tratamentos.ttl`: Arquivo de saída com mais instâncias de tratamentos (gerado pelo script).
-  - `med_doentes.ttl`: Arquivo de saída com mais instâncias de pacientes (gerado pelo script).
+  - `medical.ttl`: Ontologia base com a ontologia médica.
+  - `med_doencas.ttl`: Ontologia atualizada com mais instâncias de doenças.
+  - `med_tratamentos.ttl`: Ontologia atualizada com mais instâncias de tratamentos.
+  - `med_doentes.ttl`: Ontologia atualizada com mais instâncias de pacientes.
   - `queries2.txt`: SPARQL queries para extrair informações da ontologia (Ex2).
 
 ## povoar_ontologia.py
 
-O script `povoar_ontologia.py` processa conjuntos de dados (CSV e JSON) para gerar novas instâncias de doenças, sintomas, tratamentos e pacientes no formato .ttl. O script lê os ficheiros de entrada, transforma os dados e acrescenta novas instâncias ao ficheiro base da ontologia.
+O script `povoar_ontologia.py` processa conjuntos de dados (CSV e JSON) para gerar novas instâncias de doenças, sintomas, tratamentos e pacientes no formato .ttl. O script lê os ficheiros .ttl (ontologias), transforma os dados e acrescenta novas instâncias sobre o ficheiro base da ontologia.
 
-Notavelmente, caracteres como espaços e parêntesis em nomes são substituídos por underscores (por exemplo, substituindo "(" e ")" por "_") para evitar problemas ao carregar a ontologia no Protegé.
+Notavelmente, caracteres como espaços e parêntesis em nomes são substituídos por underscores para evitar problemas ao carregar a ontologia para o Protegé.
