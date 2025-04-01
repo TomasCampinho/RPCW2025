@@ -1,0 +1,39 @@
+# Quantas classes estão definidas na Ontologia?
+
+SELECT (COUNT(?class) AS ?numClasses)
+WHERE {
+  ?class a owl:Class .
+}
+
+# Quantas Object Properties estão definidas na Ontologia?
+
+SELECT (COUNT(?property) AS ?numObjectProperties)
+WHERE {
+  ?property a owl:ObjectProperty .
+}
+
+# Quantos indivíduos existem na tua ontologia?
+
+SELECT (COUNT(?individual) AS ?numIndividuals)
+WHERE {
+  ?individual a owl:NamedIndividual .
+}
+
+# Quem planta tomates?
+
+PREFIX : <http://www.semanticweb.org/tomas/ontologies/2025/3/historia/>
+
+SELECT ?person
+WHERE {
+  ?person :cultiva :tomate .
+}
+
+# Quem contrata trabalhadores temporários?
+
+PREFIX : <http://www.semanticweb.org/tomas/ontologies/2025/3/historia/>
+
+SELECT DISTINCT ?person
+WHERE {
+  ?person :contrata ?trabalhador .
+  ?trabalhador a :Trabalhador .
+}

@@ -1,0 +1,40 @@
+# Quantas doenças estão presentes na ontologia?
+
+PREFIX : <http://www.example.org/disease-ontology#>
+
+SELECT (COUNT(?disease) AS ?numDiseases)
+WHERE {
+  ?disease a :Disease .
+}
+
+# Que doenças estão associadas ao sintoma "yellowish_skin"?
+
+PREFIX : <http://www.example.org/disease-ontology#>
+
+SELECT ?disease
+WHERE {
+  ?disease a :Disease ;
+           :hasSymptom :yellowish_skin .
+}
+
+# Que doenças estão associadas ao tratamento "exercise"?
+
+PREFIX : <http://www.example.org/disease-ontology#>
+
+SELECT ?disease
+WHERE {
+  ?disease a :Disease ;
+           :hasTreatment ?treatment .
+  VALUES ?treatment { :exercise :Exercise }
+}
+
+# Produz uma lista ordenada alfabeticamente com o nome dos doentes.
+
+PREFIX : <http://www.example.org/disease-ontology#>
+
+SELECT ?patientName
+WHERE {
+  ?patient a :Patient ;
+           :name ?patientName .
+}
+ORDER BY ?patientName

@@ -1,0 +1,548 @@
+@prefix : <http://www.semanticweb.org/tomas/ontologies/2025/3/historia/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/tomas/ontologies/2025/3/historia/> .
+
+<http://www.semanticweb.org/tomas/ontologies/2025/3/historia> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/tem
+:tem rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/ajuda
+:ajuda rdf:type owl:ObjectProperty ;
+       owl:inverseOf :éAjudadoPor ;
+       rdfs:domain :Pessoa ;
+       rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/alimenta
+:alimenta rdf:type owl:ObjectProperty ;
+          owl:inverseOf :éAlimentadoPor ;
+          rdfs:domain :Pessoa ;
+          rdfs:range :Animal .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/contrata
+:contrata rdf:type owl:ObjectProperty ;
+          owl:inverseOf :éContratadoPor ;
+          rdfs:domain :Pessoa ;
+          rdfs:range :Trabalhador .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/cria
+:cria rdf:type owl:ObjectProperty ;
+      owl:inverseOf :éCriadoPor ;
+      rdfs:domain :Pessoa ;
+      rdfs:range :Animal .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/cultiva
+:cultiva rdf:type owl:ObjectProperty ;
+         owl:inverseOf :éCultivadoPor ;
+         rdfs:domain :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/fazGeleia
+:fazGeleia rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éFeitoDe ;
+           rdfs:domain :Pessoa ;
+           rdfs:range :Produto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/possui
+:possui rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éPossuídoPor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Objeto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/protege
+:protege rdf:type owl:ObjectProperty ;
+         owl:inverseOf :éProtegidoPor ;
+         rdfs:domain :Animal ;
+         rdfs:range :Localidade .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/recebeRefeição
+:recebeRefeição rdf:type owl:ObjectProperty ;
+                owl:inverseOf :éRecebidoPor ;
+                rdfs:domain :Trabalhador ;
+                rdfs:range :Objeto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/trocaCom
+:trocaCom rdf:type owl:ObjectProperty ;
+          owl:inverseOf :éTrocadoCom ;
+          rdfs:domain :Pessoa ;
+          rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/vende
+:vende rdf:type owl:ObjectProperty ;
+       owl:inverseOf :éVendidoPor ;
+       rdfs:domain :Pessoa ;
+       rdfs:range :Produto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/vendeNaFeira
+:vendeNaFeira rdf:type owl:ObjectProperty ;
+              owl:inverseOf :éVendidoNa ;
+              rdfs:domain :Pessoa ;
+              rdfs:range :Localidade .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/viveEm
+:viveEm rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éVividoPor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Localidade .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éAjudadoPor
+:éAjudadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éAlimentadoPor
+:éAlimentadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éContratadoPor
+:éContratadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éCriadoPor
+:éCriadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éCultivadoPor
+:éCultivadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éParceiroDe
+:éParceiroDe rdf:type owl:ObjectProperty ;
+             owl:inverseOf :éParceiroDe ;
+             rdfs:domain :Pessoa ;
+             rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éFeitoDe
+:éFeitoDe rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éFilho
+:éFilho rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éProgenitor ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty :éFilho ;
+                      owl:someValuesFrom :Pessoa
+                    ] .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éPossuídoPor
+:éPossuídoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éProgenitor
+:éProgenitor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éProtegidoPor
+:éProtegidoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éRecebidoPor
+:éRecebidoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éTrocadoCom
+:éTrocadoCom rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éVendidoNa
+:éVendidoNa rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éVendidoPor
+:éVendidoPor rdf:type owl:ObjectProperty ;
+             rdfs:domain :Produto ;
+             rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éVividoPor
+:éVividoPor rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/temNome
+:temNome rdf:type owl:DatatypeProperty ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :Pessoa
+                                     :Produto
+                                   )
+                     ] ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/éPagoPorHora
+:éPagoPorHora rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Trabalhador ;
+              rdfs:range xsd:decimal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Agricultor
+:Agricultor rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :cultiva ;
+                                  owl:someValuesFrom :Produto
+                                ] ;
+            rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Animal
+:Animal rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Cao
+:Cao rdf:type owl:Class ;
+     rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Fruta
+:Fruta rdf:type owl:Class ;
+       rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Geleia
+:Geleia rdf:type owl:Class ;
+        rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Localidade
+:Localidade rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Objeto
+:Objeto rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Produto
+:Produto rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Trabalhador
+:Trabalhador rdf:type owl:Class ;
+             rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Vegetal
+:Vegetal rdf:type owl:Class ;
+         rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Vila
+:Vila rdf:type owl:Class ;
+      rdfs:subClassOf :Localidade .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/fazenda
+:fazenda rdf:type owl:Class ;
+         rdfs:subClassOf :Localidade .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Ana
+:Ana rdf:type owl:NamedIndividual ,
+              :Pessoa ;
+     :ajuda :Maria ;
+     :fazGeleia :banana ,
+                :laranja ,
+                :maçã ;
+     :éFilho :João ;
+     :temNome "Ana" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Carlos
+:Carlos rdf:type owl:NamedIndividual ,
+                 :Pessoa ;
+        :cultiva :alface ,
+                 :cenoura ,
+                 :tomate ;
+        :vende :alface ,
+               :cenoura ,
+               :tomate ;
+        :viveEm :SãoJosé ;
+        :temNome "Carlos" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/João
+:João rdf:type owl:NamedIndividual ,
+               :Pessoa ;
+      :contrata :trabalhador1 ;
+      :contrata :trabalhador2 ;
+      :alimenta :galinha ,
+                :porco ,
+                :vaca ;
+      :cria :Rex ,
+            :galinha ,
+            :porco ,
+            :vaca ;
+      :cultiva :banana ,
+               :laranja ,
+               :maçã ;
+      :possui :trator ;
+      :trocaCom :Carlos ;
+      :vende :banana ,
+             :laranja ,
+             :maçã ;
+      :vendeNaFeira :SãoJosé ;
+      :viveEm :SãoJosé ;
+      :éParceiroDe :Maria ;
+      :temNome "João" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Maria
+:Maria rdf:type owl:NamedIndividual ,
+                :Pessoa ;
+       :ajuda :João ;
+       :fazGeleia :banana ,
+                  :laranja ,
+                  :maçã ;
+       :vende :geleiaDeBanana ,
+              :geleiaDeLaranja ,
+              :geleiaDeMaçã ;
+       :vendeNaFeira :SãoJosé ;
+       :éParceiroDe :João ;
+       :temNome "Maria" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Pedro
+:Pedro rdf:type owl:NamedIndividual ,
+                :Pessoa ;
+       :ajuda :João ;
+       :alimenta :galinha ,
+                 :porco ,
+                 :vaca ;
+       :éFilho :João ;
+       :temNome "Pedro" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/Rex
+:Rex rdf:type owl:NamedIndividual ,
+              :Cao ;
+     :protege :fazendaJoao ;
+     :temNome "Rex" ;
+     :tem :João .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/SãoJosé
+:SãoJosé rdf:type owl:NamedIndividual ,
+                  :Vila ;
+         :temNome "São José" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/alface
+:alface rdf:type owl:NamedIndividual ,
+                 :Produto ,
+                 :Vegetal ;
+        :éVendidoPor :Carlos ;
+        :temNome "alface" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/banana
+:banana rdf:type owl:NamedIndividual ,
+                 :Fruta ,
+                 :Produto ;
+        :éVendidoPor :João ;
+        :temNome "banana" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/cenoura
+:cenoura rdf:type owl:NamedIndividual ,
+                  :Produto ,
+                  :Vegetal ;
+         :éVendidoPor :Carlos ;
+         :temNome "cenoura" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/fazendaCarlos
+:fazendaCarlos rdf:type owl:NamedIndividual ,
+                        :fazenda ;
+               :temNome "fazenda de Sr. Carlos" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/fazendaJoao
+:fazendaJoao rdf:type owl:NamedIndividual ,
+                      :fazenda ;
+             :temNome "fazenda de Sr. João" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/galinha
+:galinha rdf:type owl:NamedIndividual ,
+                  :Animal ;
+         :temNome "galinha" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/geleiaDeBanana
+:geleiaDeBanana rdf:type owl:NamedIndividual ,
+                         :Geleia ;
+                :éVendidoPor :Maria ;
+                :temNome "geleia de banana" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/geleiaDeLaranja
+:geleiaDeLaranja rdf:type owl:NamedIndividual ,
+                          :Geleia ;
+                 :éVendidoPor :Maria ;
+                 :temNome "geleia de laranja" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/geleiaDeMaçã
+:geleiaDeMaçã rdf:type owl:NamedIndividual ,
+                       :Geleia ;
+              :éVendidoPor :Maria ;
+              :temNome "geleia de maçã" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/laranja
+:laranja rdf:type owl:NamedIndividual ,
+                  :Fruta ,
+                  :Produto ;
+         :éVendidoPor :João ;
+         :temNome "laranja" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/maçã
+:maçã rdf:type owl:NamedIndividual ,
+               :Fruta ,
+               :Produto ;
+      :éVendidoPor :João ;
+      :temNome "maçã" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/porco
+:porco rdf:type owl:NamedIndividual ,
+                :Animal ;
+       :temNome "porco" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/refeição
+:refeição rdf:type owl:NamedIndividual ,
+                   :Objeto ;
+          :temNome "refeição" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/tomate
+:tomate rdf:type owl:NamedIndividual ,
+                 :Produto ,
+                 :Vegetal ;
+        :éVendidoPor :Carlos ;
+        :temNome "tomate" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/trabalhador1
+:trabalhador1 rdf:type owl:NamedIndividual ,
+                       :Trabalhador ,
+                       :Pessoa ;
+              :recebeRefeição :refeição ;
+              :éContratadoPor :João ;
+              :temNome "Trabalhador Temporário 1" ;
+              :éPagoPorHora 10.0 .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/trabalhador2
+:trabalhador2 rdf:type owl:NamedIndividual ,
+                       :Trabalhador ,
+                       :Pessoa ;
+              :recebeRefeição :refeição ;
+              :éContratadoPor :João ;
+              :temNome "Trabalhador Temporário 2" ;
+              :éPagoPorHora 10.0 .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/trator
+:trator rdf:type owl:NamedIndividual ,
+                 :Objeto ;
+        :temNome "trator" .
+
+
+###  http://www.semanticweb.org/tomas/ontologies/2025/3/historia/vaca
+:vaca rdf:type owl:NamedIndividual ,
+               :Animal ;
+      :temNome "vaca" .
+
+
+#################################################################
+#    Inferred Triples
+#################################################################
+
+### Inferred inverse relationships
+:Maria :éAjudadoPor :Ana .
+:João :éAjudadoPor :Maria .
+:João :éAjudadoPor :Pedro .
+:galinha :éAlimentadoPor :João .
+:galinha :éAlimentadoPor :Pedro .
+:porco :éAlimentadoPor :João .
+:porco :éAlimentadoPor :Pedro .
+:vaca :éAlimentadoPor :João .
+:vaca :éAlimentadoPor :Pedro .
+:trabalhador1 :éContratadoPor :João .
+:trabalhador2 :éContratadoPor :João .
+:Rex :éCriadoPor :João .
+:galinha :éCriadoPor :João .
+:porco :éCriadoPor :João .
+:vaca :éCriadoPor :João .
+:banana :éCultivadoPor :João .
+:laranja :éCultivadoPor :João .
+:maçã :éCultivadoPor :João .
+:alface :éCultivadoPor :Carlos .
+:cenoura :éCultivadoPor :Carlos .
+:tomate :éCultivadoPor :Carlos .
+:banana :éFeitoDe :Ana .
+:laranja :éFeitoDe :Ana .
+:maçã :éFeitoDe :Ana .
+:banana :éFeitoDe :Maria .
+:laranja :éFeitoDe :Maria .
+:maçã :éFeitoDe :Maria .
+:João :éProgenitor :Ana .
+:João :éProgenitor :Pedro .
+:trator :éPossuídoPor :João .
+:fazendaJoao :éProtegidoPor :Rex .
+:refeição :éRecebidoPor :trabalhador1 .
+:refeição :éRecebidoPor :trabalhador2 .
+:Carlos :éTrocadoCom :João .
+:SãoJosé :éVendidoNa :João .
+:SãoJosé :éVendidoNa :Maria .
+:SãoJosé :éVividoPor :João .
+:SãoJosé :éVividoPor :Carlos .
+
+### Inferred class memberships
+:João rdf:type :Agricultor .
+:Carlos rdf:type :Agricultor .
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
