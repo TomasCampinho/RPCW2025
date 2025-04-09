@@ -21,7 +21,7 @@ def load_symptoms():
         for row in reader:
             disease_name = row[0].strip().replace(" ", "_").replace("(", "_").replace(")", "_")
             symptoms_list = [symptom.strip().replace(" ", "_").replace("(", "_").replace(")", "_") 
-                             for symptom in row[1].split(",")]
+                             for symptom in row[1:] if symptom.strip()]
 
             for symptom in symptoms_list:
                 diseases[disease_name].add(symptom)
